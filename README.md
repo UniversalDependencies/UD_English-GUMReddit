@@ -2,13 +2,11 @@
 
 Universal Dependencies syntax annotations from the Reddit portion of the GUM corpus (https://corpling.uis.georgetown.edu/gum/) 
 
+# Introduction
+
 **This repository only contains annotations, without the underlying textual data from Reddit**
 
-In order to obtain the underlying text, you will need to use the script `get_text.py`, and either install and set up credentials to use praw/bigquery or use a proxy server to obtain the data from Reddit dumps. For more information on the underlying Reddit text see [this page](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md). 
-
-For Universal Dependencies annotations of other genres from GUM, see https://github.com/UniversalDependencies/UD_English-GUM
-
-# Introduction
+In order to obtain the underlying text, you will need to use the script `get_text.py`, and either install and set up credentials to use praw/bigquery or use a proxy server to obtain the data from Reddit dumps. For more information on the underlying Reddit text see [this page](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md). For Universal Dependencies annotations of other genres from GUM, see https://github.com/UniversalDependencies/UD_English-GUM
 
 GUM, the Georgetown University Multilayer corpus, is an open source collection of richly annotated web texts from multiple text types. The corpus is collected and expanded by students as part of the curriculum in the course LING-367 "Computational Corpus Linguistics" at Georgetown University. The selection of text types is meant to represent different communicative purposes, while coming from sources that are readily and openly available (usually Creative Commons licenses), so that new texts can be annotated and published with ease.
 
