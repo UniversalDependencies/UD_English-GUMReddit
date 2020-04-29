@@ -2,9 +2,9 @@
 
 Universal Dependencies syntax annotations from the Reddit portion of the GUM corpus (https://corpling.uis.georgetown.edu/gum/) 
 
-**This repository only contains annotations, without the underlying textual data from Reddit - please see the GUM corpus website and main repository for details on licensing and obtaining the text**
+**This repository only contains annotations, without the underlying textual data from Reddit**
 
-For more information on retrieving underlying Reddit text see [this page](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md). You will need to install and set up credentials to use praw/bigquery or use a proxy server to obtain textual data from Reddit dumps, by running the script `get_text.py`.
+In order to obtain the underlying text, you will need to use the script `get_text.py`, and either install and set up credentials to use praw/bigquery or use a proxy server to obtain the data from Reddit dumps. For more information on the underlying Reddit text see [this page](https://github.com/amir-zeldes/gum/blob/master/README_reddit.md). 
 
 For Universal Dependencies annotations of other genres from GUM, see https://github.com/UniversalDependencies/UD_English-GUM
 
@@ -30,7 +30,20 @@ Adrienne Isaac, Akitaka Yamada, Amani Aloufi, Amelia Becker, Andrea Price, Andre
 
 ## References
 
-As a scholarly citation for the corpus in articles, please use this paper:
+To cite the Reddit subset of GUM in particular, please use this citation:
+
+* Behzad, Shabnam and Zeldes, Amir (2020) "A Cross-Genre Ensemble Approach to Robust Reddit Part of Speech Tagging". In: Proceedings of the 12th Web as Corpus Workshop (WAC-XII).
+
+```
+@InProceedings{BehzadZeldes2020,
+  author    = {Shabnam Behzad and Amir Zeldes},
+  title     = {A Cross-Genre Ensemble Approach to Robust {R}eddit Part of Speech Tagging},
+  booktitle   = {Proceedings of the 12th Web as Corpus Workshop (WAC-XII)},
+  year      = {2020},
+}
+```
+
+As a scholarly citation for the GUM corpus as a whole, please use this article (note that this paper predates the inclusion of Reddit data in GUM):
 
 * Zeldes, Amir (2017) "The GUM Corpus: Creating Multilayer Resources in the Classroom". Language Resources and Evaluation 51(3), 581–612.
 
@@ -56,7 +69,7 @@ As a scholarly citation for the corpus in articles, please use this paper:
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
 Data available since: UD v2.6
-License: CC BY-SA 4.0
+License: CC BY 4.0
 Includes text: no
 Genre: blog social
 Lemmas: manual native
