@@ -5,7 +5,7 @@
 1	_	_	NOUN	NN	Number=Sing	2	compound	_	Entity=(person-1(event-2)|Lem=*LOWER*|Len=6
 2	_	_	NOUN	NNS	Number=Plur	6	dislocated	_	Entity=person-1)|Lem=survivor|Len=9|SpaceAfter=No
 3	_	_	PUNCT	:	_	2	punct	_	Lem=_|Len=1
-4	_	_	SCONJ	WRB	PronType=Int	6	mark	_	Lem=_|Len=3
+4	_	_	ADV	WRB	PronType=Int	6	advmod	_	Lem=_|Len=3
 5	_	_	PUNCT	``	_	6	punct	_	Lem=''|Len=1|SpaceAfter=No
 6	_	_	ADJ	JJ	Degree=Pos	0	root	_	Lem=_|Len=5|SpaceAfter=No
 7	_	_	PUNCT	''	_	6	punct	_	Lem=''|Len=1
@@ -46,7 +46,7 @@
 # text = _ _ _ _ _ _ _ ___ _ _ _ _ _ __
 # s_type=wh
 # speaker=GUM_reddit_stroke_spk_A
-1	_	_	SCONJ	WRB	PronType=Int	2	mark	_	Lem=*LOWER*|Len=3
+1	_	_	ADV	WRB	PronType=Int	2	advmod	_	Lem=*LOWER*|Len=3
 2	_	_	ADV	RB	_	5	dep	_	Lem=_|Len=4
 3	_	_	AUX	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	5	aux	_	Lem=do|Len=3
 4	_	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	Entity=(person-1)|Lem=_|Len=3
@@ -57,7 +57,7 @@
 9	_	_	NOUN	NN	Number=Sing	7	appos	_	Entity=(place-7)|Lem=_|Len=8|SpaceAfter=No
 10	_	_	PUNCT	-RRB-	_	9	punct	_	Lem=_|Len=1
 11	_	_	CCONJ	CC	_	13	cc	_	Lem=_|Len=3
-12	_	_	SCONJ	WRB	PronType=Int	13	mark	_	Lem=_|Len=3
+12	_	_	ADV	WRB	PronType=Int	13	advmod	_	Lem=_|Len=3
 13	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	_	Lem=be|Len=3
 14	_	_	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	16	nmod:poss	_	Entity=(abstract-8(person-1)|Lem=_|Len=4
 15	_	_	ADJ	JJ	Degree=Pos	16	amod	_	Lem=_|Len=8
@@ -303,7 +303,7 @@
 # text = _ _ _ _ _ _ _ _ _ __ _ _ _ _ __
 # s_type=decl
 # speaker=GUM_reddit_stroke_spk_C
-1	_	_	SCONJ	VBN	Tense=Past|VerbForm=Part	10	advcl	_	Lem=compare|Len=8
+1	_	_	VERB	VBN	Tense=Past|VerbForm=Part	10	advcl	_	Lem=compare|Len=8
 2	_	_	ADP	IN	_	3	case	_	Lem=_|Len=2
 3	_	_	ADJ	JJ	Degree=Pos	1	obl	_	Entity=(person-27|Lem=_|Len=4
 4	_	_	ADV	RB	PronType=Dem	3	advmod	_	Entity=(place-28)person-27)|Lem=_|Len=4

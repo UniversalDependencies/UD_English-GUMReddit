@@ -187,7 +187,7 @@
 18	_	_	VERB	VBN	Tense=Past|VerbForm=Part	17	acl	_	Lem=interrupt|Len=11
 19	_	_	ADP	IN	_	20	case	_	Lem=_|Len=3
 20	_	_	PRON	DT	Number=Sing|PronType=Dem	18	obl	_	Entity=(abstract-25)|Lem=_|Len=4
-21	_	_	PUNCT	:	_	22	punct	_	Lem=_|Len=1
+21	_	_	PUNCT	:	_	27	punct	_	Lem=_|Len=1
 22	_	_	CCONJ	CC	_	27	cc	_	Lem=_|Len=3
 23	_	_	ADV	RB	_	24	advmod	_	Lem=_|Len=6
 24	_	_	ADJ	JJ	Degree=Pos	27	advcl	_	Lem=_|Len=7|SpaceAfter=No
@@ -326,7 +326,7 @@
 # text = __ _ _ _ _ _ _ _ _ _ __
 # s_type=decl
 # speaker=GUM_reddit_callout_spk_A
-1	_	_	INTJ	UH	_	5	discourse	_	Lem=_|Len=4|SpaceAfter=No
+1	_	_	INTJ	UH	_	5	discourse	_	Lem=*LOWER*|Len=4|SpaceAfter=No
 2	_	_	PUNCT	,	_	1	punct	_	Lem=_|Len=1
 3	_	_	DET	DT	Definite=Def|PronType=Art	4	det	_	Entity=(abstract-35|Lem=_|Len=3
 4	_	_	NOUN	NNS	Number=Plur	5	nsubj	_	Entity=abstract-35)|Lem=rate|Len=5
@@ -412,7 +412,7 @@
 9	_	_	PUNCT	.	_	2	punct	_	Lem=_|Len=1
 
 # sent_id = GUM_reddit_callout-15
-# text = _ _ _ _ _ _ _ ___ _ _ ___ _ _ _ _ _ _ __ ___
+# text = _ _ _ _ _ _ _ ___ _ _ _ __ _ _ _ _ _ _ __ ___
 # s_type=decl
 # speaker=GUM_reddit_callout_spk_D
 1	_	_	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	_	Entity=(organization-54(person-55)|Lem=*LOWER*|Len=3
@@ -427,7 +427,7 @@
 10	_	_	CCONJ	CC	_	11	cc	_	Lem=_|Len=3
 11	_	_	VERB	VBD	Mood=Ind|Tense=Past|VerbForm=Fin	3	conj	_	Lem=lose|Len=4
 12	_	_	NUM	CD	NumType=Card	15	nummod	_	Entity=(quantity-58|Lem=_|Len=1
-13	_	_	ADP	IN	_	14	case	_	Lem=_|Len=1|SpaceAfter=No
+13	_	_	ADP	IN	_	14	case	_	Lem=_|Len=1
 14	_	_	NUM	CD	NumType=Card	12	nmod	_	Lem=_|Len=1|SpaceAfter=No
 15	_	_	SYM	NN	Number=Sing	11	obj	_	Lem=_|Len=1
 16	_	_	ADP	IN	_	18	case	_	Lem=_|Len=2
@@ -481,7 +481,7 @@
 # text = __ __ _ _ _ _ _ _ _ _ _ __
 # s_type=decl
 # speaker=GUM_reddit_callout_spk_E
-1	_	_	INTJ	UH	_	6	discourse	_	Lem=_|Len=3|SpaceAfter=No
+1	_	_	INTJ	UH	_	6	discourse	_	Lem=*LOWER*|Len=3|SpaceAfter=No
 2	_	_	PUNCT	,	_	1	punct	_	Lem=_|Len=1
 3	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	6	nsubj	_	Entity=(abstract-63)|Lem=_|Len=2|SpaceAfter=No
 4	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	Lem=be|Len=2
@@ -1016,7 +1016,7 @@
 # text = _ __ _ _ _ _ __
 # s_type=wh
 # speaker=GUM_reddit_callout_spk_G
-1	_	_	SCONJ	WRB	PronType=Int	5	mark	_	Lem=_|Len=3|Typo=Yes
+1	_	_	ADV	WRB	PronType=Int	5	advmod	_	Lem=_|Len=3|Typo=Yes
 2	_	_	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	5	aux	_	Lem=_|Len=2|SpaceAfter=No
 3	_	_	PART	RB	Polarity=Neg	5	advmod	_	Lem=not|Len=3
 4	_	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	5	nsubj	_	Entity=(person-53)|Lem=_|Len=3

@@ -67,7 +67,7 @@
 # text = _ _ _ _ _ ____
 # s_type=wh
 # speaker=GUM_reddit_ring_spk_B
-1	_	_	SCONJ	WRB	PronType=Int	4	mark	_	Lem=*LOWER*|Len=3
+1	_	_	ADV	WRB	PronType=Int	4	advmod	_	Lem=*LOWER*|Len=3
 2	_	_	AUX	VBP	Mood=Ind|Tense=Pres|VerbForm=Fin	4	aux:pass	_	Lem=be|Len=3
 3	_	_	PRON	PRP	Case=Nom|Person=2|PronType=Prs	4	nsubj:pass	_	Entity=(person-3)|Lem=_|Len=3
 4	_	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	_	Lem=concern|Len=9
@@ -266,7 +266,7 @@
 # text = __
 # s_type=intj
 # speaker=GUM_reddit_ring_spk_C
-1	_	_	INTJ	UH	Polarity=Neg	0	root	_	Lem=_|Len=2|SpaceAfter=No
+1	_	_	INTJ	UH	Polarity=Neg	0	root	_	Lem=*LOWER*|Len=2|SpaceAfter=No
 2	_	_	PUNCT	.	_	1	punct	_	Lem=_|Len=1
 
 # sent_id = GUM_reddit_ring-20
@@ -371,8 +371,8 @@
 # text = _ _ _ _ _ _ _ _ __
 # s_type=wh
 # speaker=GUM_reddit_ring_spk_C
-1	_	_	ADV	WRB	PronType=Int	2	mark	_	Entity=(time-34(time-35|Lem=*LOWER*|Len=3
-2	_	_	ADJ	JJ	Degree=Pos	3	amod	_	Lem=_|Len=4
+1	_	_	ADV	WRB	PronType=Int	2	advmod	_	Entity=(time-34(time-35|Lem=*LOWER*|Len=3
+2	_	_	ADJ	JJ	Degree=Pos	3	advmod	_	Lem=_|Len=4
 3	_	_	NOUN	NNS	Number=Plur	0	root	_	Lem=day|Len=4
 4	_	_	DET	DT	Definite=Ind|PronType=Art	5	det	_	Entity=(time-36|Lem=_|Len=1
 5	_	_	NOUN	NN	Number=Sing	3	nmod:npmod	_	Entity=time-35)time-36)|Lem=_|Len=4
