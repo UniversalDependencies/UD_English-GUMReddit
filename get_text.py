@@ -9,8 +9,8 @@ if not PY3:
 	reload(sys)
 	sys.setdefaultencoding('utf8')
 
-dev = ["GUM_reddit_macroeconomics","GUM_reddit_pandas","GUM_reddit_steak"]  # 2489 matches in 3 documents
-test = ["GUM_reddit_bobby","GUM_reddit_escape","GUM_reddit_monsters"]  # 2966 matches in 3 documents
+dev = ["GUM_reddit_macroeconomics","GUM_reddit_pandas"]  # 1747 matches in 2 documents
+test = ["GUM_reddit_escape","GUM_reddit_monsters"]  # 1840 matches in 2 documents
 train = []  # rest
 
 train_string = dev_string = test_string = ""
@@ -343,7 +343,7 @@ def get_no_space_strings(cache_dict, praw_cred=None, overwrite_cache=False):
 				plain = plain.replace("enjoy working out.","enjoy working out").replace("~~","")
 			elif "_social" in doc:
 				plain = plain.replace("the purpose","those purpose").replace("&#x200B;","")
-			no_space = re.sub(r"\s","",plain).replace("*","")
+			no_space = re.sub(r"\s","",plain).replace("*","").replace("&amp;","&")
 			no_space = re.sub(r'\[([^]]+)\]\([^)]+\)',r'\1',no_space)  # Remove Wiki style links: [text](URL)
 			if no_space_docs[doc] == "":
 				no_space_docs[doc] += re.sub(r"\s","",title).replace("*","")
