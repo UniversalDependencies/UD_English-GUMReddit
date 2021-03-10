@@ -496,7 +496,7 @@ if __name__ == "__main__":
 		for line in lines:
 			if "\t" in line:
 				fields = line.split("\t")
-				if "-" not in fields[0]:  # Token
+				if "-" not in fields[0] and "." not in fields[0]:  # Token, not ellipsis or supertoken
 					# Process MISC field
 					misc_annos = fields[-1].split("|")
 					out_misc = []

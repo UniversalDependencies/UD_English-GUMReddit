@@ -102,6 +102,9 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2020-03-10
+  * Added enhanced dependencies
+
 * 2020-01-20
   * Added Wikification annotations
   * Added bridging and split antecedent anaphora to MISC
