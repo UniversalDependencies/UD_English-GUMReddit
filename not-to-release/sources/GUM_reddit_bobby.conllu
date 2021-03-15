@@ -373,10 +373,10 @@
 47	_	_	DET	DT	_	50	det	50:det	Entity=(abstract-44(substance-45|Lem=_|Len=4
 48	_	_	ADJ	JJ	Degree=Pos	50	amod	50:amod	Lem=_|Len=6
 49	_	_	ADJ	JJ	Degree=Pos	50	amod	50:amod	Lem=_|Len=7
-50	_	_	NOUN	NN	Number=Sing	44	obj	44:obj|56:mark	Entity=substance-45)|Lem=_|Len=10
+50	_	_	NOUN	NN	Number=Sing	44	obj	44:obj|56:nsubj	Entity=substance-45)|Lem=_|Len=10
 51	_	_	CCONJ	CC	_	52	cc	52:cc	Lem=_|Len=2
 52	_	_	NOUN	NN	Number=Sing	50	conj	44:obj|50:conj:or	Entity=(abstract-46)abstract-44)|Lem=_|Len=9
-53	_	_	SCONJ	WDT	PronType=Rel	56	mark	50:ref	Lem=_|Len=4
+53	_	_	PRON	WDT	PronType=Rel	56	nsubj	50:ref	Lem=_|Len=4
 54	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	56	aux	56:aux	Lem=do|Len=4|SpaceAfter=No
 55	_	_	PART	RB	Polarity=Neg	56	advmod	56:advmod	Lem=not|Len=3
 56	_	_	VERB	VB	VerbForm=Inf	50	acl:relcl	50:acl:relcl	Lem=_|Len=6
@@ -1323,13 +1323,13 @@
 # speaker = GUM_reddit_bobby_spk_H
 # addressee = GUM_reddit_bobby_spk_A
 1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=restatement:135->132|Lem=*LOWER*|Len=3
-2	_	_	ADJ	JJS	Degree=Sup	0	root	0:root|9:mark	Lem=good|Len=4
-3	_	_	SCONJ	WDT	PronType=Rel	9	mark	2:ref	Lem=_|Len=4
+2	_	_	ADJ	JJS	Degree=Sup	0	root	0:root|9:obj	Lem=good|Len=4
+3	_	_	PRON	WDT	PronType=Rel	9	obj	2:ref	Lem=_|Len=4
 4	_	_	DET	DT	_	8	det	8:det	Entity=(person-116|Lem=_|Len=4
 5	_	_	PUNCT	``	_	6	punct	6:punct	Lem=''|Len=1|SpaceAfter=No
 6	_	_	ADJ	JJ	Degree=Pos	8	amod	8:amod	Lem=_|Len=7|SpaceAfter=No
 7	_	_	PUNCT	''	_	6	punct	6:punct	Lem=''|Len=1
-8	_	_	NOUN	NN	Number=Sing	9	nsubj	9:nsubj|11:nsubj:xsubj	Entity=person-116)|Lem=_|Len=4
+8	_	_	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=person-116)|Lem=_|Len=4
 9	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Lem=have|Len=3
 10	_	_	PART	TO	_	11	mark	11:mark	Lem=_|Len=2
 11	_	_	VERB	VB	VerbForm=Inf	9	xcomp	9:xcomp	Lem=_|Len=5
