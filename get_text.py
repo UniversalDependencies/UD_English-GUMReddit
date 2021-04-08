@@ -9,8 +9,8 @@ if not PY3:
 	reload(sys)
 	sys.setdefaultencoding('utf8')
 
-dev = ["GUM_reddit_macroeconomics","GUM_reddit_pandas"]  # 1747 matches in 2 documents
-test = ["GUM_reddit_escape","GUM_reddit_monsters"]  # 1840 matches in 2 documents
+dev = ["GUM_reddit_macroeconomics","GUM_reddit_pandas"]  # 1747 tokens in 2 documents
+test = ["GUM_reddit_escape","GUM_reddit_monsters"]  # 1840 tokens in 2 documents
 train = []  # rest
 
 train_string = dev_string = test_string = ""
@@ -325,12 +325,15 @@ def get_no_space_strings(cache_dict, praw_cred=None, overwrite_cache=False):
 				plain = plain.replace("- Society already accommodates","Society already accommodates")
 				plain = plain.replace("- Society recognizes disabilities","Society recognizes disabilities")
 				plain = plain.replace("- It’s a waste of time","It’s a waste of time")
+				plain = plain.replace("PB&amp;J","PB&J")
 			elif "_monsters" in doc:
 				plain = plain.replace("1. He refers to","a. He refers to")
 				plain = plain.replace("2. Using these","b. Using these")
 				plain = plain.replace("3. And he has","c. And he has")
 				plain = plain.replace("&#x200B; &#x200B;","")
 				plain = re.sub(r' [0-9]+\. ',' ',plain)
+			elif "_ring" in doc:
+				plain = plain.replace("&gt;",">")
 			elif "_escape" in doc:
 				plain = plain.replace("*1 year later*","1 year later")
 			elif "_racial" in doc:
@@ -338,12 +341,16 @@ def get_no_space_strings(cache_dict, praw_cred=None, overwrite_cache=False):
 			elif "_callout" in doc:
 				plain = plain.replace("_it","it").replace("well?_","well?").replace(">certain","certain")
 			elif "_conspiracy" in doc:
-				plain = plain.replace(">","")
+				plain = plain.replace(">", "")
+			elif "_stroke" in doc:
+				plain = plain.replace("&amp;", "&")
+			elif "_bobby" in doc:
+				plain = plain.replace("&amp;", "&")
 			elif "_introvert" in doc:
 				plain = plain.replace("enjoy working out.","enjoy working out").replace("~~","")
 			elif "_social" in doc:
 				plain = plain.replace("the purpose","those purpose").replace("&#x200B;","")
-			no_space = re.sub(r"\s","",plain).replace("*","").replace("&amp;","&")
+			no_space = re.sub(r"\s","",plain).replace("*","")
 			no_space = re.sub(r'\[([^]]+)\]\([^)]+\)',r'\1',no_space)  # Remove Wiki style links: [text](URL)
 			if no_space_docs[doc] == "":
 				no_space_docs[doc] += re.sub(r"\s","",title).replace("*","")
@@ -483,7 +490,7 @@ if __name__ == "__main__":
 		if doc not in docs2chars:
 			sys.stderr.write("ERR: Could not find text data for document " + doc + "! Skipping...\n")
 			continue
-		if doc not in dev and not doc not in test:
+		if doc not in dev and doc not in test:
 			train.append(doc)
 
 		text = docs2chars[doc]
@@ -496,7 +503,7 @@ if __name__ == "__main__":
 		for line in lines:
 			if "\t" in line:
 				fields = line.split("\t")
-				if "-" not in fields[0] and "." not in fields[0]:  # Token, not ellipsis or supertoken
+				if "-" not in fields[0]:  # Token
 					# Process MISC field
 					misc_annos = fields[-1].split("|")
 					out_misc = []
