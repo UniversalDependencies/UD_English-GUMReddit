@@ -500,10 +500,13 @@ if __name__ == "__main__":
 		sents = []
 		sent = ""
 		word_len = 0
+		skip = 0
+		no_space_next = False
+		skip_space = False
 		for line in lines:
 			if "\t" in line:
 				fields = line.split("\t")
-				if "-" not in fields[0]:  # Token
+				if "-" not in fields[0] and "." not in fields[0]:  # Token
 					# Process MISC field
 					misc_annos = fields[-1].split("|")
 					out_misc = []
@@ -536,9 +539,24 @@ if __name__ == "__main__":
 						sents.append(sent.strip())
 						sent = ""
 					sent += word
-					if "SpaceAfter=No" not in fields[-1]:
+					if skip > 0:
+						skip -= 1
+						if skip == 0 and no_space_next:
+							skip_space = True
+					else:
+						skip_space = False
+					if "SpaceAfter=No" not in fields[-1] and not skip_space and skip == 0:
 						sent += " "
+						no_space_next = False
+						skip_space = False
 					line = "\t".join(fields)
+				elif "-" in fields[0]:
+					word_len = len(fields[1])
+					fields[1] = text[:word_len]
+					line = "\t".join(fields)
+					skip = 2
+					if "SpaceAfter=No" in fields[-1]:
+						no_space_next = True
 
 			output.append(line)
 

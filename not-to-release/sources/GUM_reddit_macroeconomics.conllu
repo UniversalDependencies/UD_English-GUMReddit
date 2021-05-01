@@ -1,13 +1,22 @@
 # newdoc id = GUM_reddit_macroeconomics
+# global.Entity = entity-GRP-identity
+# meta::dateCollected = 2017-09-13
+# meta::dateCreated = 2017-09-12
+# meta::dateModified = 2017-09-12
+# meta::sourceURL = https://www.reddit.com/r/explainlikeimfive/comments/6zm74h/eli5_if_every_major_country_is_in_billions_if_not/
+# meta::speakerCount = 2
+# meta::title = ELI5: If every major country is in billions (if not trillions) of debt, where are they borrowing from?
 # sent_id = GUM_reddit_macroeconomics-1
-# text = __
 # s_type = frag
+# speaker = GUM_reddit_macroeconomics_spk_A
+# text = __
 1	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	0	root	0:root	Discourse=preparation:1->5|Entity=(abstract-1)|Lem=_|Len=4|SpaceAfter=No
 2	_	_	PUNCT	:	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-2
-# text = _ _ _ _ _ _ _ __ _ __ _ __ _ _ _ _ __
 # s_type = wh
+# speaker = GUM_reddit_macroeconomics_spk_A
+# text = _ _ _ _ _ _ _ __ _ __ _ __ _ _ _ _ __
 1	_	_	SCONJ	IN	_	7	mark	7:mark	Discourse=background:2->5|Entity=(abstract-2|Lem=*LOWER*|Len=2
 2	_	_	DET	DT	_	4	det	4:det	Entity=(place-3|Lem=_|Len=5
 3	_	_	ADJ	JJ	Degree=Pos	4	amod	4:amod	Lem=_|Len=5
@@ -31,39 +40,42 @@
 21	_	_	PUNCT	.	_	19	punct	19:punct	Entity=abstract-2)|Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-3
-# text = _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=ROOT:6|Entity=(person-5)|Lem=*LOWER*|Len=3
 2	_	_	AUX	MD	VerbForm=Fin	3	aux	3:aux	Lem=_|Len=3
 3	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=6
 4	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=4
 5	_	_	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(person-6(person-5)|Lem=_|Len=4
 6	_	_	ADJ	JJ	Degree=Pos	7	amod	7:amod	Lem=_|Len=3
-7	_	_	NOUN	NNS	Number=Plur	3	obl	3:obl:from	Entity=person-6)|Lem=_|Len=6|SpaceAfter=No
+7	_	_	NOUN	NNS	Number=Plur	3	obl	3:obl:from	Entity=person-6)|Lem=person|Len=6|SpaceAfter=No
 8	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-4
-# text = _ _ _ _ _ _ _ _ __ _ _ __ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ___
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ __ _ _ __ _ _ ___ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ___
 1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:7->6|Entity=(object-7|Lem=*LOWER*|Len=3
 2	_	_	NOUN	NN	Number=Sing	15	nsubj	5:nsubj:pass|15:nsubj	Lem=_|Len=5
 3	_	_	PRON	WDT	PronType=Rel	5	nsubj:pass	2:ref	Discourse=elaboration:8->7|Lem=_|Len=4
 4	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux:pass	5:aux:pass	Lem=be|Len=2
 5	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	2	acl:relcl	2:acl:relcl	Entity=object-7)|Lem=print|Len=7
 6	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	15:cop	Discourse=same-unit:9->7|Lem=be|Len=2
-7	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	8	amod	8:amod	Entity=(object-7(organization-8-Federal_Reserve|Lem=_|Len=7
+7	_	_	ADJ	NNP	Degree=Pos	8	amod	8:amod	Entity=(object-7(organization-8-Federal_Reserve|Lem=Federal|Len=7
 8	_	_	PROPN	NNP	Number=Sing	15	compound	15:compound	Entity=organization-8-Federal_Reserve)|Lem=Reserve|Len=7
 9	_	_	PUNCT	-LRB-	_	10	punct	10:punct	Discourse=concession:10->9|Lem=_|Len=1|SpaceAfter=No
-10	_	_	NOUN	NNS	Number=Plur	8	parataxis	8:parataxis	Lem=thank|Len=6
+10	_	_	NOUN	NNS	Number=Plur	8	parataxis	8:parataxis	Lem=_|Len=6
 11	_	_	ADP	IN	_	13	case	13:case	Lem=_|Len=3
 12	_	_	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(abstract-9|Lem=_|Len=3
 13	_	_	NOUN	NNS	Number=Plur	10	nmod	10:nmod:for	Entity=abstract-9)|Lem=correction|Len=11|SpaceAfter=No
 14	_	_	PUNCT	-RRB-	_	10	punct	10:punct	Lem=_|Len=1
 15	_	_	NOUN	NNS	Number=Plur	0	root	0:root	Discourse=same-unit:11->7|Entity=object-7)|Lem=note|Len=5
-16	_	_	PUNCT	:	_	21	punct	21:punct	Discourse=elaboration:12->7|Lem=_|Len=2
-17	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(object-7)|Lem=_|Len=2|SpaceAfter=No
+16	_	_	PUNCT	:	_	21	punct	21:punct	Discourse=elaboration:12->7|Lem=-|Len=2
+17-18	____	_	_	_	_	_	_	_	_
+17	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	nsubj	21:nsubj	Entity=(object-7)|Lem=_|Len=2
 18	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	cop	21:cop	Lem=be|Len=2
 19	_	_	ADV	RB	Degree=Pos	21	advmod	21:advmod	Lem=_|Len=11
 20	_	_	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(object-7|Lem=_|Len=1
@@ -88,7 +100,7 @@
 39	_	_	DET	DT	Definite=Def|PronType=Art	41	det	41:det	Entity=(abstract-13|Lem=_|Len=3
 40	_	_	NOUN	NN	Number=Sing	41	compound	41:compound	Entity=(abstract-14)|Lem=_|Len=4
 41	_	_	NOUN	NN	Number=Sing	38	obj	38:obj	Entity=abstract-13)|Lem=_|Len=6
-42	_	_	PUNCT	:	_	48	punct	48:punct	Discourse=cause:14->13|Lem=_|Len=2
+42	_	_	PUNCT	:	_	48	punct	48:punct	Discourse=cause:14->13|Lem=-|Len=2
 43	_	_	DET	DT	Definite=Def|PronType=Art	44	det	44:det	Entity=(abstract-15|Lem=_|Len=3
 44	_	_	NOUN	NN	Number=Sing	48	nsubj	48:nsubj	Lem=_|Len=4
 45	_	_	ADP	IN	_	46	case	46:case	Lem=_|Len=2
@@ -102,9 +114,10 @@
 53	_	_	PUNCT	.	_	15	punct	15:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-5
-# text = _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	WRB	PronType=Int	3	mark	3:mark	Discourse=condition:15->16|Entity=(event-17|Lem=*LOWER*|Len=4
 2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-5)|Lem=_|Len=3
 3	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	Lem=_|Len=5
@@ -127,15 +140,16 @@
 20	_	_	PUNCT	.	_	9	punct	9:punct	Entity=event-17)|Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-6
-# text = _ _ _ _ _ _ _ _ _ _ _ __ _ __ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ __ ___
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ __ _ __ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ __ ___
 1	_	_	PRON	DT	Number=Sing|PronType=Dem	2	nsubj	2:nsubj	Discourse=elaboration:18->16|Entity=(event-17)|Lem=*LOWER*|Len=4
 2	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=mean|Len=5
 3	_	_	SCONJ	IN	_	31	mark	31:mark	Lem=_|Len=4
 4	_	_	SCONJ	IN	_	7	mark	7:mark	Discourse=condition:19->22|Entity=(event-22|Lem=_|Len=2
 5	_	_	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Bridge=place-3<organization-23|Entity=(organization-23|Lem=_|Len=3
-6	_	_	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|9:nsubj:xsubj	Entity=organization-23)|Lem=_|Len=4
+6	_	_	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|9:nsubj:xsubj	Entity=organization-23)|Lem=government|Len=4
 7	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	31	advcl	31:advcl:if	Lem=decide|Len=7
 8	_	_	PART	TO	_	9	mark	9:mark	Lem=_|Len=2
 9	_	_	VERB	VB	VerbForm=Inf	7	xcomp	7:xcomp	Lem=_|Len=5
@@ -165,32 +179,33 @@
 33	_	_	ADV	RB	Degree=Pos	31	advmod	31:advmod	Lem=_|Len=4
 34	_	_	PUNCT	-LRB-	_	35	punct	35:punct	Discourse=evaluation:23->18|Lem=_|Len=1|SpaceAfter=No
 35	_	_	ADV	RB	Degree=Pos	31	advmod	31:advmod	Lem=_|Len=8
-36	_	_	PUNCT	:	_	35	punct	35:punct	Lem=_|Len=3|SpaceAfter=No
+36	_	_	PUNCT	:	_	35	punct	35:punct	Lem=…|Len=3|SpaceAfter=No
 37	_	_	PUNCT	-RRB-	_	35	punct	35:punct	Entity=event-22)|Lem=_|Len=1|SpaceAfter=No
 38	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-7
-# text = _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
-1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj:pass	3:nsubj:pass	Discourse=evaluation:24->16|Entity=(event-22)|Lem=*LOWER*|Len=4
-2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux:pass	3:aux:pass	Lem=be|Len=2
-3	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Lem=relate|Len=7
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __
+1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evaluation:24->16|Entity=(event-22)|Lem=*LOWER*|Len=4
+2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Lem=be|Len=2
+3	_	_	ADJ	JJ	Degree=Pos	0	root	0:root	Lem=_|Len=7
 4	_	_	SCONJ	IN	_	6	mark	6:mark	Discourse=cause:25->24|Lem=_|Len=7
-5	_	_	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=(event-28(person-29)|Lem=_|Len=6
+5	_	_	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Entity=(event-28(person-29)|Lem=person|Len=6
 6	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:because	Lem=_|Len=3
 7	_	_	NOUN	NN	Number=Sing	6	obj	6:obj|9:nsubj:xsubj	Entity=(abstract-12)|Lem=_|Len=5
 8	_	_	PART	TO	_	9	mark	9:mark	Discourse=purpose:26->25|Lem=_|Len=2
 9	_	_	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	Lem=_|Len=3
 10	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	11	compound	11:compound	Entity=(abstract-30(place-31-United_States)|Lem=_|Len=2
 11	_	_	NOUN	NN	Number=Sing	9	obj	9:obj	Entity=abstract-30)|Lem=_|Len=4
-12	_	_	PUNCT	:	_	15	punct	15:punct	Discourse=elaboration:27->25|Lem=_|Len=2
+12	_	_	PUNCT	:	_	15	punct	15:punct	Discourse=elaboration:27->25|Lem=-|Len=2
 13	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	15	nsubj	15:nsubj	Entity=(person-32)|Lem=_|Len=2|SpaceAfter=No
 14	_	_	AUX	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	15	aux	15:aux	Lem=be|Len=3
 15	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	6	parataxis	6:parataxis	Lem=loan|Len=7
 16	_	_	DET	DT	Definite=Def|PronType=Art	18	det	18:det	Entity=(organization-23|Lem=_|Len=3
 17	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	18	compound	18:compound	Entity=(place-31-United_States)|Lem=_|Len=2
-18	_	_	NOUN	NN	Number=Sing	15	iobj	15:iobj	Entity=organization-23)|Lem=_|Len=4
+18	_	_	NOUN	NN	Number=Sing	15	iobj	15:iobj	Entity=organization-23)|Lem=government|Len=4
 19	_	_	DET	DT	Definite=Def|PronType=Art	21	det	21:det	Bridge=abstract-12<abstract-33|Entity=(abstract-33|Lem=_|Len=3
 20	_	_	ADJ	JJ	Degree=Pos	21	amod	21:amod	Lem=_|Len=4
 21	_	_	NOUN	NN	Number=Sing	15	obj	15:obj	Lem=_|Len=5
@@ -199,9 +214,10 @@
 24	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-8
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __ _
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __ _
 1	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=evaluation:29->16|Entity=(abstract-34|Lem=*LOWER*|Len=3
 2	_	_	ADJ	JJ	Degree=Pos	3	amod	3:amod	Lem=_|Len=4
 3	_	_	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Lem=_|Len=6
@@ -213,7 +229,7 @@
 9	_	_	ADJ	JJ	Degree=Pos	8	amod	8:amod	Entity=abstract-34)abstract-35)|Lem=_|Len=9
 10	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=same-unit:31->29|Lem=be|Len=2
 11	_	_	SCONJ	IN	_	17	mark	17:mark	Lem=_|Len=7
-12	_	_	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=(person-36|Lem=_|Len=6
+12	_	_	NOUN	NNS	Number=Plur	17	nsubj	17:nsubj	Entity=(person-36|Lem=person|Len=6
 13	_	_	ADV	RB	Degree=Pos	16	advmod	16:advmod	Lem=_|Len=3
 14	_	_	ADP	IN	_	16	case	16:case	Lem=_|Len=4
 15	_	_	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(place-37|Lem=_|Len=3
@@ -234,9 +250,10 @@
 30	_	_	X	FW	Abbr=Yes	25	conj	23:obj|25:conj	Lem=_|Len=4
 
 # sent_id = GUM_reddit_macroeconomics-9
-# text = _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:33->34|Lem=*LOWER*|Len=2
 2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-5)|Lem=_|Len=3
 3	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:if	Lem=_|Len=3
@@ -262,9 +279,10 @@
 23	_	_	PUNCT	.	_	12	punct	12:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-10
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = imp
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	ADV	RB	_	2	advmod	2:advmod	Discourse=contrast:36->34|Lem=*LOWER*|Len=3
 2	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Lem=_|Len=7
 3	_	_	SCONJ	IN	_	8	mark	8:mark	Discourse=condition:37->38|Lem=_|Len=2
@@ -285,14 +303,16 @@
 18	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-11
-# text = _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ ___ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP$	Person=2|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Discourse=same-unit:38->36|Entity=(object-41(person-5)|Lem=*LOWER*|Len=4
 2	_	_	PROPN	NNP	Number=Sing	4	compound	4:compound	Entity=(person-42-Sammy_Sosa|Lem=_|Len=5
 3	_	_	PROPN	NNP	Number=Sing	2	flat	2:flat	Entity=person-42-Sammy_Sosa)|Lem=_|Len=4
 4	_	_	NOUN	NN	Number=Sing	7	nsubj	7:nsubj|8:nsubj:xsubj	Entity=object-41)|Lem=_|Len=4
-5	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	Lem=be|Len=2|SpaceAfter=No
+5-6	_____	_	_	_	_	_	_	_	_
+5	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	7:cop	Lem=be|Len=2
 6	_	_	PART	RB	Polarity=Neg	7	advmod	7:advmod	Lem=not|Len=3
 7	_	_	ADJ	JJ	Degree=Pos	0	root	0:root	Lem=_|Len=5
 8	_	_	NOUN	NN	Number=Sing	7	xcomp	7:xcomp	Lem=_|Len=8
@@ -312,9 +332,10 @@
 22	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-12
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = imp
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	ADV	RB	_	2	advmod	2:advmod	Discourse=contrast:41->34|Lem=*LOWER*|Len=3
 2	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Lem=_|Len=7
 3	_	_	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:42->43|Entity=(event-49|Lem=_|Len=2
@@ -324,7 +345,7 @@
 7	_	_	NUM	CD	NumForm=Digit|NumType=Card	5	obj	5:obj	Entity=object-50)|Lem=_|Len=1
 8	_	_	ADP	IN	_	9	case	9:case	Lem=_|Len=2
 9	_	_	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=(person-48)|Lem=_|Len=8
-10	_	_	PUNCT	:	_	13	punct	13:punct	Discourse=same-unit:43->41|Lem=_|Len=2
+10	_	_	PUNCT	:	_	13	punct	13:punct	Discourse=same-unit:43->41|Lem=-|Len=2
 11	_	_	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Bridge=object-47<abstract-51|Entity=(abstract-51|Lem=_|Len=3
 12	_	_	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=abstract-51)|Lem=_|Len=5
 13	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	2:parataxis	Lem=crash|Len=7
@@ -341,10 +362,12 @@
 24	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-13
-# text = __ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
-1	_	_	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=preparation:45->51|Entity=(event-49)|Lem=*LOWER*|Len=4|SpaceAfter=No
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = ___ _ _ _ __
+1-2	______	_	_	_	_	_	_	_	_
+1	_	_	PRON	DT	Number=Sing|PronType=Dem	5	nsubj	5:nsubj	Discourse=preparation:45->51|Entity=(event-49)|Lem=*LOWER*|Len=4
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Lem=be|Len=2
 3	_	_	DET	DT	Definite=Def|PronType=Art	5	det	5:det	Entity=(event-49|Lem=_|Len=3
 4	_	_	ADJ	JJ	Degree=Pos	5	amod	5:amod	Lem=_|Len=4
@@ -354,11 +377,13 @@
 8	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-14
-# text = _ __ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ ___ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj|5:nsubj:xsubj	Discourse=background:46->51|Entity=(person-53)|Lem=*LOWER*|Len=3
-2	_	_	AUX	MD	VerbForm=Fin	4	aux	4:aux	Lem=can|Len=2|SpaceAfter=No
+2-3	_____	_	_	_	_	_	_	_	_
+2	_	_	AUX	MD	VerbForm=Fin	4	aux	4:aux	Lem=can|Len=2
 3	_	_	PART	RB	Polarity=Neg	4	advmod	4:advmod	Lem=not|Len=3
 4	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=4
 5	_	_	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	Lem=print|Len=8
@@ -375,12 +400,13 @@
 16	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-15
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = q
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ___ __ __
 1	_	_	CCONJ	CC	_	11	cc	11:cc	Discourse=antithesis:48->46|Lem=*LOWER*|Len=3
 2	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(organization-23|Lem=_|Len=3
-3	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|5:nsubj:xsubj	Entity=organization-23)|Lem=_|Len=5
+3	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|5:nsubj:xsubj	Entity=organization-23)|Lem=government|Len=5
 4	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=keep|Len=5
 5	_	_	VERB	VBG	VerbForm=Ger	4	xcomp	4:xcomp	Lem=issue|Len=7
 6	_	_	ADJ	JJR	Degree=Cmp	7	amod	7:amod	Entity=(abstract-56|Lem=_|Len=4
@@ -393,7 +419,8 @@
 13	_	_	SYM	SYM	_	11	obl	11:obl:at	Entity=(object-57|Lem=_|Len=1
 14	_	_	NUM	CD	NumForm=Digit|NumType=Card	13	nummod	13:nummod	Entity=object-57)|Lem=_|Len=2
 15	_	_	SCONJ	IN	_	18	mark	18:mark	Lem=_|Len=4
-16	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(object-57)|Lem=_|Len=2|SpaceAfter=No
+16-17	____	_	_	_	_	_	_	_	_
+16	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj	Entity=(object-57)|Lem=_|Len=2
 17	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	Lem=be|Len=2
 18	_	_	SYM	SYM	_	11	advcl	11:advcl:like	Entity=(object-57|Lem=_|Len=1
 19	_	_	NUM	CD	NumForm=Digit|NumType=Card	18	nummod	18:nummod	Entity=object-57)|Lem=_|Len=2|SpaceAfter=No
@@ -402,9 +429,10 @@
 22	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-16
-# text = __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	ADV	RB	Degree=Pos	5	advmod	5:advmod	Discourse=elaboration:51->16|Lem=*LOWER*|Len=10|SpaceAfter=No
 2	_	_	PUNCT	,	_	1	punct	1:punct	Lem=_|Len=1
 3	_	_	PRON	EX	_	5	expl	5:expl	Lem=_|Len=5
@@ -429,9 +457,10 @@
 22	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-17
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=evidence:54->51|Entity=(time-58)|Lem=*LOWER*|Len=4
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Lem=be|Len=2
 3	_	_	PRON	WP	PronType=Rel	0	root	0:root	Lem=_|Len=4
@@ -453,9 +482,10 @@
 19	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-18
-# text = _ _ _ _ _ __ _ _ _ _ _ __ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ __ _ _ _ _ _ __ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Bridge=place-60-Zimbabwe<person-63|Discourse=cause:56->59|Entity=(person-63)|Lem=*LOWER*|Len=4
 2	_	_	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=print|Len=7
 3	_	_	ADV	RB	_	4	advmod	4:advmod	Entity=(object-64|Lem=_|Len=2
@@ -468,7 +498,7 @@
 10	_	_	NOUN	NN	Number=Sing	2	obl	2:obl:without	Lem=_|Len=7
 11	_	_	ADP	IN	_	13	case	13:case	Lem=_|Len=2
 12	_	_	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Bridge=place-60-Zimbabwe<organization-66|Entity=(organization-66|Lem=_|Len=3
-13	_	_	NOUN	NN	Number=Sing	10	nmod	10:nmod:by	Entity=abstract-65)organization-66)|Lem=_|Len=5|SpaceAfter=No
+13	_	_	NOUN	NN	Number=Sing	10	nmod	10:nmod:by	Entity=abstract-65)organization-66)|Lem=government|Len=5|SpaceAfter=No
 14	_	_	PUNCT	-RRB-	_	10	punct	10:punct	Lem=_|Len=1
 15	_	_	SCONJ	IN	_	18	mark	18:mark	Discourse=result:58->56|Lem=_|Len=4
 16	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	18	nsubj	18:nsubj|19:nsubj:xsubj	Entity=(object-64)|Lem=_|Len=2
@@ -478,9 +508,10 @@
 20	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-19
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	ADV	RB	_	3	advmod	3:advmod	Discourse=elaboration:59->54|Lem=*LOWER*|Len=2
 2	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj|6:nsubj:xsubj	Entity=(person-63)|Lem=_|Len=4
 3	_	_	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=start|Len=7
@@ -502,12 +533,13 @@
 19	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-20
-# text = _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	IN	_	5	mark	5:mark	Discourse=cause:61->62|Lem=*LOWER*|Len=7
 2	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Entity=(event-71(organization-23|Lem=_|Len=3
-3	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=organization-23)|Lem=_|Len=5
+3	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=organization-23)|Lem=government|Len=5
 4	_	_	ADV	RB	Degree=Pos	5	advmod	5:advmod	Lem=_|Len=13
 5	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	advcl	11:advcl:because	Lem=owe|Len=4
 6	_	_	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(person-72(organization-23)|Lem=_|Len=3
@@ -525,9 +557,10 @@
 18	_	_	PUNCT	.	_	11	punct	11:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-21
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|11:nsubj	Discourse=concession:63->65|Entity=(person-74)|Lem=*LOWER*|Len=3
 2	_	_	AUX	MD	VerbForm=Fin	6	aux	6:aux|11:aux	Lem=_|Len=5
 3	_	_	PART	RB	Polarity=Neg	6	advmod	6:advmod	Lem=_|Len=3
@@ -558,9 +591,10 @@
 28	_	_	PUNCT	.	_	6	punct	6:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-22
-# text = _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:67->68|Lem=*LOWER*|Len=2
 2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Entity=(person-74)|Lem=_|Len=3
 3	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:if	Lem=_|Len=4
@@ -587,9 +621,10 @@
 24	_	_	PUNCT	.	_	9	punct	9:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-23
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:71->65|Entity=(abstract-82|Lem=*LOWER*|Len=3
 2	_	_	ADJ	JJ	Degree=Pos	3	amod	3:amod	Lem=_|Len=4
 3	_	_	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Lem=_|Len=6
@@ -600,20 +635,21 @@
 8	_	_	SCONJ	IN	_	12	mark	12:mark	Discourse=cause:74->71|Entity=(abstract-82|Lem=_|Len=7
 9	_	_	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Discourse=attribution:75->76|Entity=(organization-23|Lem=_|Len=3
 10	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	11	compound	11:compound	Entity=(place-31-United_States)|Lem=_|Len=2
-11	_	_	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=organization-23)|Lem=_|Len=5
+11	_	_	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=organization-23)|Lem=government|Len=5
 12	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	ccomp	7:ccomp	Lem=say|Len=4
 13	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	14	nsubj	14:nsubj	Discourse=same-unit:76->74|Entity=(object-73)|Lem=_|Len=2
 14	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	ccomp	12:ccomp	Entity=abstract-82)|Lem=do|Len=4|SpaceAfter=No
 15	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-24
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = multiple
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=elaboration:77->71|Entity=(person-74)|Lem=*LOWER*|Len=3
 2	_	_	AUX	MD	VerbForm=Fin	3	aux	3:aux	Lem=_|Len=3
 3	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=3
-4	_	_	ADJ	JJ	Degree=Pos|Typo=Yes	5	amod	5:amod	Entity=(abstract-83|Lem=_|Len=13
+4	_	_	ADJ	JJ	Degree=Pos|Typo=Yes	5	amod	5:amod	Entity=(abstract-83|Lem=government-related|Len=13
 5	_	_	NOUN	NNS	Number=Plur	3	obj	3:obj	Lem=fee|Len=4
 6	_	_	CCONJ	CC	_	7	cc	7:cc	Lem=_|Len=3
 7	_	_	NOUN	NNS	Number=Plur	5	conj	3:obj|5:conj:and	Entity=abstract-83)|Lem=bill|Len=5
@@ -625,27 +661,28 @@
 13	_	_	CCONJ	CC	_	21	cc	21:cc	Discourse=joint:79->77|Lem=_|Len=3
 14	_	_	SCONJ	IN	_	18	mark	18:mark	Discourse=cause:80->81|Lem=_|Len=7
 15	_	_	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Entity=(organization-23|Lem=_|Len=3
-16	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=organization-23)|Lem=_|Len=5
+16	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=organization-23)|Lem=government|Len=5
 17	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	18:cop	Lem=be|Len=2
 18	_	_	ADJ	JJ	Degree=Pos	21	advcl	21:advcl:because	Lem=_|Len=12|SpaceAfter=No
 19	_	_	PUNCT	,	_	18	punct	18:punct	Lem=_|Len=1
-20	_	_	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	Discourse=same-unit:81->79|Entity=(person-72)|Lem=_|Len=6
+20	_	_	NOUN	NNS	Number=Plur	21	nsubj	21:nsubj	Discourse=same-unit:81->79|Entity=(person-72)|Lem=person|Len=6
 21	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	conj	3:conj:and	Lem=_|Len=6
 22	_	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	21	obj	21:obj	Entity=(abstract-84)|Lem=_|Len=2|SpaceAfter=No
 23	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-25
-# text = _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ __ __ _ _ _ _ ___
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ __ __ _ _ _ _ ___
 1	_	_	SCONJ	IN	_	5	mark	5:mark	Discourse=condition:82->83|Lem=*LOWER*|Len=2
 2	_	_	PRON	PRP$	Number=Plur|Person=1|Poss=Yes|PronType=Prs	3	nmod:poss	3:nmod:poss	Entity=(organization-23(person-74)|Lem=_|Len=3
-3	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=organization-23)|Lem=_|Len=5
+3	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=organization-23)|Lem=government|Len=5
 4	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	Lem=be|Len=3
 5	_	_	ADJ	JJ	Degree=Pos|Polarity=Neg	10	advcl	10:advcl:if	Lem=_|Len=8|SpaceAfter=No
 6	_	_	PUNCT	,	_	5	punct	5:punct	Lem=_|Len=1
 7	_	_	DET	DT	Polarity=Neg	8	det	8:det	Discourse=contrast:83->71|Entity=(person-85|Lem=_|Len=2
-8	_	_	NUM	CD	NumForm=Word|NumType=Card	10	nsubj	10:nsubj	Entity=person-85)|Lem=_|Len=3
+8	_	_	NOUN	NN	Number=Sing	10	nsubj	10:nsubj	Entity=person-85)|Lem=_|Len=3
 9	_	_	AUX	MD	VerbForm=Fin	10	aux	10:aux	Lem=_|Len=5
 10	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=5
 11	_	_	DET	DT	Definite=Def|PronType=Art	12	det	12:det	Entity=(object-86|Lem=_|Len=3
@@ -657,7 +694,7 @@
 17	_	_	NOUN	NN	Number=Sing	14	obl	14:obl:for	Entity=(abstract-87)|Lem=_|Len=6
 18	_	_	SCONJ	IN	_	23	mark	23:mark	Discourse=cause:86->83|Lem=_|Len=7
 19	_	_	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(organization-23|Lem=_|Len=3
-20	_	_	NOUN	NN	Number=Sing	23	nsubj	23:nsubj|26:nsubj	Entity=organization-23)|Lem=_|Len=5
+20	_	_	NOUN	NN	Number=Sing	23	nsubj	23:nsubj|26:nsubj	Entity=organization-23)|Lem=government|Len=5
 21	_	_	AUX	MD	VerbForm=Fin	23	aux	23:aux|26:aux	Lem=_|Len=5
 22	_	_	ADV	RB	_	23	advmod	23:advmod	Lem=_|Len=4
 23	_	_	VERB	VB	VerbForm=Inf	10	advcl	10:advcl:because	Lem=_|Len=4
@@ -678,9 +715,10 @@
 38	_	_	PUNCT	.	_	10	punct	10:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-26
-# text = _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = wh
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ __
 1	_	_	INTJ	UH	_	6	discourse	6:discourse	Discourse=question:90->92|Lem=*LOWER*|Len=4
 2	_	_	PRON	WP	PronType=Int	6	obj	6:obj	Lem=_|Len=4
 3	_	_	AUX	MD	VerbForm=Fin	6	aux	6:aux	Lem=_|Len=5
@@ -691,22 +729,24 @@
 8	_	_	PUNCT	.	_	6	punct	6:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-27
-# text = _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = wh
-# speaker = GUM_reddit_macroeconomics_spk_A
-1	_	_	ADP	IN	_	2	case	2:case	Discourse=joint:91->90|Lem=_|Len=2
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ __
+1	_	_	ADP	IN	_	2	case	2:case	Discourse=joint:91->90|Lem=*LOWER*|Len=2
 2	_	_	PRON	WP	PronType=Int	5	obl	5:obl:to	Lem=who|Len=4
 3	_	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	Lem=be|Len=3
 4	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	5:nsubj	Entity=(organization-23)|Lem=_|Len=4
 5	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Lem=pay|Len=6
 6	_	_	ADP	RP	_	5	compound:prt	5:compound:prt	Lem=_|Len=4
-7	_	_	PART	TO	_	5	obl	5:obl	Lem=_|Len=2|SpaceAfter=No
+7	_	_	ADP	IN	Typo=Yes	5	obl	5:obl	Lem=_|Len=2|SpaceAfter=No
 8	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-28
-# text = _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj|5:nsubj:xsubj	Discourse=concession:92->93|Entity=(substance-88)|Lem=*LOWER*|Len=2
 2	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=use|Len=4
 3	_	_	PART	TO	_	5	mark	5:mark	Lem=_|Len=2
@@ -715,9 +755,10 @@
 6	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-29
-# text = _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	CCONJ	CC	_	22	cc	22:cc	Discourse=antithesis:93->98|Lem=*LOWER*|Len=3
 2	_	_	SCONJ	IN	_	4	mark	4:mark	Discourse=circumstance:94->95|Lem=_|Len=2
 3	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-74)|Lem=_|Len=2
@@ -747,9 +788,10 @@
 27	_	_	PUNCT	.	_	10	punct	10:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-30
-# text = __ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = other
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Discourse=background:98->122|Lem=*LOWER*|Len=5|SpaceAfter=No
 2	_	_	PUNCT	,	_	4	punct	4:punct	Lem=_|Len=1
 3	_	_	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(abstract-16|Lem=_|Len=4
@@ -765,17 +807,18 @@
 13	_	_	ADP	IN	_	14	case	14:case	Discourse=antithesis:100->99|Lem=_|Len=6
 14	_	_	PRON	WP	PronType=Rel	12	nmod	7:ref	Lem=_|Len=4
 15	_	_	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Discourse=attribution:101->102|Entity=(organization-23|Lem=_|Len=3
-16	_	_	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=organization-23)|Lem=_|Len=5
+16	_	_	NOUN	NN	Number=Sing	17	nsubj	17:nsubj	Entity=organization-23)|Lem=government|Len=5
 17	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	acl:relcl	14:acl:relcl	Lem=say|Len=4
 18	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	19	nsubj	19:nsubj	Discourse=same-unit:102->100|Entity=(abstract-16)|Lem=_|Len=2
 19	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	ccomp	17:ccomp	Entity=abstract-16)abstract-91)|Lem=mean|Len=5|SpaceAfter=No
 20	_	_	PUNCT	.	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-31
-# text = _ _ _ _ _ _ _ _ _ _ ___ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
-1	_	_	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj|10:nsubj:xsubj	Discourse=cause:103->110|Entity=(person-92)|Lem=*LOWER*|Len=6
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ ___ _ __
+1	_	_	NOUN	NNS	Number=Plur	2	nsubj	2:nsubj|4:nsubj:xsubj|10:nsubj:xsubj	Discourse=cause:103->110|Entity=(person-92)|Lem=person|Len=6
 2	_	_	VERB	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=use|Len=4
 3	_	_	PART	TO	_	4	mark	4:mark	Lem=_|Len=2
 4	_	_	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Lem=_|Len=2
@@ -793,9 +836,10 @@
 16	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-32
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=elaboration:104->103|Entity=(organization-93|Lem=*LOWER*|Len=3
 2	_	_	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|9:nsubj	Entity=organization-93)|Lem=bank|Len=5
 3	_	_	AUX	MD	VerbForm=Fin	5	aux	5:aux|9:aux	Lem=_|Len=5
@@ -822,9 +866,10 @@
 24	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-33
-# text = _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	IN	_	3	mark	3:mark	Discourse=condition:108->109|Entity=(event-100|Lem=*LOWER*|Len=2
 2	_	_	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(person-101)|Lem=*LOWER*|Len=6
 3	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	12	advcl	12:advcl:if	Lem=bring|Len=7
@@ -845,10 +890,12 @@
 18	_	_	PUNCT	.	_	12	punct	12:punct	Entity=event-100)|Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-34
-# text = __ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
-1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=result:110->119|Entity=(event-100)|Lem=*LOWER*|Len=4|SpaceAfter=No
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = ___ _ _ __
+1-2	______	_	_	_	_	_	_	_	_
+1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=result:110->119|Entity=(event-100)|Lem=*LOWER*|Len=4
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Lem=be|Len=2
 3	_	_	PRON	WP	PronType=Rel	0	root	0:root	Lem=_|Len=4
 4	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	acl:relcl	3:acl:relcl	Lem=give|Len=4
@@ -857,16 +904,18 @@
 7	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-35
-# text = _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ___ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ ___ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ___ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj	Discourse=attribution:111->112|Entity=(person-103)|Lem=*LOWER*|Len=3
 2	_	_	AUX	MD	VerbForm=Fin	3	aux	3:aux	Lem=_|Len=5
 3	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=3
 4	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	5	nsubj	5:nsubj	Discourse=circumstance:112->113|Entity=(person-103)|Lem=_|Len=3
 5	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Lem=_|Len=4
 6	_	_	DET	DT	Number=Sing|PronType=Dem	7	det	7:det	Entity=(object-104(person-105|Lem=_|Len=4
-7	_	_	NOUN	NN	Number=Sing	9	nmod:poss	9:nmod:poss	Lem=_|Len=6|SpaceAfter=No
+7-8	________	_	_	_	_	_	_	_	_
+7	_	_	NOUN	NN	Number=Sing	9	nmod:poss	9:nmod:poss	Lem=_|Len=6
 8	_	_	PART	POS	_	7	case	7:case	Entity=person-105)|Lem=_|Len=2
 9	_	_	NOUN	NNS	Number=Plur	5	obj	5:obj	Entity=object-104)|Lem=potato|Len=8
 10	_	_	CCONJ	CC	_	13	cc	13:cc	Discourse=evidence:113->110|Lem=_|Len=3
@@ -900,7 +949,7 @@
 38	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	32	advcl	32:advcl:like	Lem=do|Len=3
 39	_	_	ADP	IN	_	40	case	40:case	Lem=_|Len=6
 40	_	_	PRON	PRP	Case=Acc|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	obl	38:obl:before	Entity=(person-105)|Lem=he|Len=3
-41	_	_	PUNCT	:	_	43	punct	43:punct	Lem=_|Len=2
+41	_	_	PUNCT	:	_	43	punct	43:punct	Lem=-|Len=2
 42	_	_	PUNCT	``	_	43	punct	43:punct	Discourse=restatement:117->116|Lem=_|Len=1|SpaceAfter=No
 43	_	_	VERB	VB	Person=2|VerbForm=Inf	32	parataxis	32:parataxis	Lem=_|Len=5|SpaceAfter=No
 44	_	_	PUNCT	''	_	43	punct	43:punct	Lem=_|Len=1
@@ -914,16 +963,18 @@
 52	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-36
-# text = __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = wh
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __
 1	_	_	SCONJ	WRB	PronType=Int	0	root	0:root	Discourse=question:118->119|Lem=*LOWER*|Len=3|SpaceAfter=No
 2	_	_	PUNCT	.	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-37
-# text = _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	IN	_	3	mark	3:mark	Discourse=background:119->122|Lem=*LOWER*|Len=7
 2	_	_	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=(person-111)|Lem=_|Len=8
 3	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=like|Len=5
@@ -937,16 +988,17 @@
 11	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-38
-# text = __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	ADV	RB	Degree=Pos	4	advmod	4:advmod	Discourse=joint:122->7|Lem=*LOWER*|Len=10|SpaceAfter=No
 2	_	_	PUNCT	,	_	1	punct	1:punct	Lem=_|Len=1
 3	_	_	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(event-108)|Lem=_|Len=4
 4	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=take|Len=4
 5	_	_	ADP	RP	_	4	compound:prt	4:compound:prt	Lem=_|Len=3
 6	_	_	CCONJ	CC	_	8	cc	8:cc	Discourse=sequence:123->122|Lem=_|Len=3
-7	_	_	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|9:nsubj:xsubj	Entity=(person-112)|Lem=_|Len=6
+7	_	_	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj|9:nsubj:xsubj	Entity=(person-112)|Lem=person|Len=6
 8	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	conj	4:conj:and	Lem=stop|Len=7
 9	_	_	VERB	VBG	VerbForm=Ger	8	xcomp	8:xcomp	Lem=trade|Len=7
 10	_	_	ADP	IN	_	11	case	11:case	Lem=_|Len=3
@@ -969,9 +1021,10 @@
 27	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-39
-# text = _ _ _ ___ __ _ _ _ __ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ __ _ __ _ _ _ _ _ _ ___
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = sub
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ ___ __ _ _ _ ___ _ _ __ _ _ _ _ _ _ _ _ _ _ _ __ _ ___ _ _ _ _ _ ___
 1	_	_	ADV	RB	_	4	advmod	4:advmod	Discourse=attribution:126->128|Lem=*LOWER*|Len=2
 2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-116)|Lem=_|Len=3
 3	_	_	AUX	MD	VerbForm=Fin	4	aux	4:aux	Lem=_|Len=5
@@ -983,7 +1036,8 @@
 9	_	_	ADV	RB	_	12	advmod	12:advmod	Entity=(abstract-117|Lem=_|Len=3
 10	_	_	SCONJ	IN	_	12	mark	12:mark	Lem=_|Len=4
 11	_	_	PRON	EX	_	12	expl	12:expl	Lem=_|Len=5
-12	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:that	Lem=be|Len=2|SpaceAfter=No
+12-13	_____	_	_	_	_	_	_	_	_
+12	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:that	Lem=be|Len=2
 13	_	_	PART	RB	Polarity=Neg	12	advmod	12:advmod	Lem=not|Len=3
 14	_	_	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(substance-98)|Lem=_|Len=4
 15	_	_	ADP	IN	_	17	case	17:case	Lem=_|Len=6
@@ -998,13 +1052,14 @@
 24	_	_	ADV	RB	_	28	advmod	28:advmod	Discourse=attribution:129->130|Lem=_|Len=4
 25	_	_	SCONJ	IN	_	28	mark	28:mark	Lem=_|Len=2
 26	_	_	DET	DT	Definite=Def|PronType=Art	27	det	27:det	Entity=(organization-23|Lem=_|Len=3
-27	_	_	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	Entity=organization-23)|Lem=_|Len=5
+27	_	_	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	Entity=organization-23)|Lem=government|Len=5
 28	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:if	Lem=_|Len=3
 29	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	30:nsubj	Discourse=concession:130->128|Entity=(object-118)|Lem=_|Len=2
 30	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	ccomp	28:ccomp	Lem=be|Len=2|SpaceAfter=No
 31	_	_	PUNCT	.	_	22	punct	22:punct	Entity=abstract-117)|Lem=_|Len=1
 32	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	35	nsubj	35:nsubj	Discourse=justify:131->128|Entity=(organization-23)|Lem=*LOWER*|Len=4
-33	_	_	AUX	MD	VerbForm=Fin	35	aux	35:aux	Lem=will|Len=2|SpaceAfter=No
+33-34	_____	_	_	_	_	_	_	_	_
+33	_	_	AUX	MD	VerbForm=Fin	35	aux	35:aux	Lem=will|Len=2
 34	_	_	PART	RB	Polarity=Neg	35	advmod	35:advmod	Lem=not|Len=3
 35	_	_	VERB	VB	VerbForm=Inf	22	parataxis	22:parataxis	Lem=_|Len=4
 36	_	_	PRON	PRP	Case=Acc|Number=Sing|Person=1|PronType=Prs	35	iobj	35:iobj	Entity=(person-116)|Lem=I|Len=2
@@ -1017,9 +1072,10 @@
 43	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-40
-# text = _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ __
 1	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:132->122|Entity=(abstract-117|Lem=*LOWER*|Len=3
 2	_	_	ADJ	JJ	Degree=Pos	3	amod	3:amod	Lem=_|Len=4
 3	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=abstract-117)|Lem=_|Len=5
@@ -1029,27 +1085,30 @@
 7	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-41
-# text = _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ __
 1	_	_	DET	DT	Polarity=Neg	2	det	2:det	Discourse=elaboration:133->132|Lem=*LOWER*|Len=2
-2	_	_	NUM	CD	NumForm=Word|NumType=Card	3	nsubj	3:nsubj	Lem=_|Len=3
+2	_	_	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Lem=_|Len=3
 3	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=want|Len=5
 4	_	_	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(substance-98)|Lem=_|Len=4
 5	_	_	SCONJ	IN	_	8	mark	8:mark	Discourse=condition:134->133|Lem=_|Len=6
 6	_	_	ADJ	JJ	Degree=Pos	7	amod	7:amod	Entity=(person-121|Lem=_|Len=5
-7	_	_	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=person-121)|Lem=_|Len=6
+7	_	_	NOUN	NNS	Number=Plur	8	nsubj	8:nsubj	Entity=person-121)|Lem=person|Len=6
 8	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	3:advcl:unless	Lem=_|Len=4
 9	_	_	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(substance-98)|Lem=_|Len=4|SpaceAfter=No
 10	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-42
-# text = _ _ __ _ _ _ _ _ _ __ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = wh
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ ___ _ _ _ _ _ __ _ _ _ _ _ __
 1	_	_	SCONJ	IN	_	6	mark	6:mark	Discourse=condition:135->136|Lem=*LOWER*|Len=2
 2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(person-116)|Lem=_|Len=3
-3	_	_	AUX	MD	VerbForm=Fin	6	aux	6:aux	Lem=can|Len=2|SpaceAfter=No
+3-4	_____	_	_	_	_	_	_	_	_
+3	_	_	AUX	MD	VerbForm=Fin	6	aux	6:aux	Lem=can|Len=2
 4	_	_	PART	RB	Polarity=Neg	6	advmod	6:advmod	Lem=not|Len=3
 5	_	_	ADV	RB	Degree=Pos	6	advmod	6:advmod	Lem=_|Len=10
 6	_	_	VERB	VB	VerbForm=Inf	18	advcl	18:advcl:if	Lem=_|Len=5
@@ -1068,9 +1127,10 @@
 19	_	_	PUNCT	.	_	18	punct	18:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-43
-# text = __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ __ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __ _ ___ __
 1	_	_	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=attribution:137->138|Lem=_|Len=1|SpaceAfter=No
 2	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(person-125)|Lem=*LOWER*|Len=7
 3	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	aux	4:aux	Lem=do|Len=3
@@ -1097,31 +1157,35 @@
 24	_	_	VERB	VB	VerbForm=Inf	22	xcomp	22:xcomp	Lem=_|Len=2|SpaceAfter=No
 25	_	_	PUNCT	,	_	28	punct	28:punct	Lem=_|Len=1
 26	_	_	CCONJ	CC	_	28	cc	28:cc	Discourse=concession:141->138|Lem=_|Len=3
-27	_	_	PRON	DT	Number=Sing|PronType=Dem	28	nsubj	28:nsubj	Entity=(event-126)|Lem=_|Len=4|SpaceAfter=No
+27-28	______	_	_	_	_	_	_	_	_
+27	_	_	PRON	DT	Number=Sing|PronType=Dem	28	nsubj	28:nsubj	Entity=(event-126)|Lem=_|Len=4
 28	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	4:conj:but	Lem=be|Len=2
 29	_	_	ADP	IN	_	30	case	30:case	Lem=_|Len=2
 30	_	_	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	28	obl	28:obl:on	Entity=(person-116)|Lem=_|Len=3|SpaceAfter=No
 31	_	_	PUNCT	-RRB-	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-44
-# text = _ _ _ _ _ _ _ __ _ __ _ _ __ __ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ __ _ ___ _ ____ _ _ _ _ _ _ __
 1	_	_	ADV	RB	_	2	advmod	2:advmod	Discourse=condition:142->143|Lem=*LOWER*|Len=2
 2	_	_	ADV	RB	Degree=Pos	13	advmod	13:advmod	Lem=_|Len=4
 3	_	_	SCONJ	IN	_	5	mark	5:mark	Lem=_|Len=2
-4	_	_	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(person-130)|Lem=_|Len=6
+4	_	_	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj|7:nsubj:xsubj	Entity=(person-130)|Lem=person|Len=6
 5	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:as	Lem=_|Len=8
 6	_	_	PART	TO	_	7	mark	7:mark	Lem=_|Len=2
 7	_	_	VERB	VB	VerbForm=Inf	5	xcomp	5:xcomp	Lem=_|Len=5
 8	_	_	NOUN	NNS	Number=Plur	7	obj	7:obj	Entity=(object-86)|Lem=dollar|Len=7|SpaceAfter=No
 9	_	_	PUNCT	,	_	2	punct	2:punct	Lem=_|Len=1
 10	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	nsubj	13:nsubj	Discourse=joint:143->133|Entity=(abstract-131(abstract-132)|Lem=_|Len=2
-11	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	Lem=do|Len=4|SpaceAfter=No
+11-12	_______	_	_	_	_	_	_	_	_
+11	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	13:aux	Lem=do|Len=4
 12	_	_	PART	RB	Polarity=Neg	13	advmod	13:advmod	Lem=not|Len=3
 13	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=6
 14	_	_	PRON	WP	PronType=Rel	13	dislocated	13:dislocated	Entity=(abstract-132|Lem=_|Len=4
-15	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(object-86)|Lem=_|Len=2|SpaceAfter=No
+15-16	____	_	_	_	_	_	_	_	_
+15	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	nsubj	17:nsubj	Entity=(object-86)|Lem=_|Len=2
 16	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	17:cop	Lem=be|Len=2
 17	_	_	ADJ	JJ	Degree=Pos	14	acl:relcl	14:acl:relcl	Entity=abstract-132)|Lem=_|Len=5|SpaceAfter=No
 18	_	_	PUNCT	,	_	25	punct	25:punct	Lem=_|Len=1
@@ -1135,9 +1199,10 @@
 26	_	_	PUNCT	.	_	13	punct	13:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-45
-# text = _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ __
 1	_	_	ADV	RB	_	5	advmod	5:advmod	Discourse=antithesis:144->133|Lem=*LOWER*|Len=2
 2	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=(substance-98)|Lem=_|Len=4
 3	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Lem=be|Len=2
@@ -1149,11 +1214,12 @@
 9	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-46
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=joint:145->133|Entity=(abstract-136|Lem=*LOWER*|Len=3
-2	_	_	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Lem=_|Len=3
+2	_	_	NUM	CD	NumForm=Word|NumType=Card	3	nummod	3:nummod	Lem=*LOWER*|Len=3
 3	_	_	NOUN	NN	Number=Sing	15	nsubj	15:nsubj|30:nsubj:xsubj	Lem=_|Len=10
 4	_	_	ADP	IN	_	6	case	6:case	Lem=_|Len=7
 5	_	_	NOUN	NN	Number=Sing	6	compound	6:compound	Entity=(object-137|Lem=_|Len=5
@@ -1169,7 +1235,7 @@
 15	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=weigh|Len=6
 16	_	_	DET	DT	Definite=Ind|PronType=Art	17	det	17:det	Lem=_|Len=1
 17	_	_	NOUN	NN	Number=Sing	18	obl:npmod	18:obl:npmod	Lem=_|Len=3
-18	_	_	ADJ	JJR	Degree=Cmp	21	advmod	21:advmod	Lem=_|Len=4
+18	_	_	ADV	RBR	Degree=Cmp	21	advmod	21:advmod	Lem=_|Len=4
 19	_	_	ADP	IN	_	18	fixed	18:fixed	Lem=_|Len=4
 20	_	_	SYM	SYM	_	15	obj	15:obj	Entity=(substance-140|Lem=_|Len=1
 21	_	_	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	20:nummod	Lem=100000|Len=7
@@ -1186,16 +1252,18 @@
 32	_	_	PUNCT	.	_	15	punct	15:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-47
-# text = __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = frag
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __
 1	_	_	NOUN	NN	Number=Sing	0	root	0:root	Discourse=preparation:147->148|Entity=(event-141)|Lem=*LOWER*|Len=4|SpaceAfter=No
 2	_	_	PUNCT	:	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-48
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration:148->6|Entity=(person-142)|Lem=_|Len=1
 2	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=make|Len=4
 3	_	_	DET	DT	_	5	det	5:det	Entity=(abstract-143|Lem=_|Len=4
@@ -1210,7 +1278,7 @@
 12	_	_	CCONJ	CC	_	13	cc	13:cc	Lem=_|Len=3
 13	_	_	VERB	VB	Person=2|VerbForm=Inf	11	conj	7:conj|11:conj:and	Lem=_|Len=6
 14	_	_	NOUN	NNS	Number=Plur	13	obj	13:obj	Entity=(abstract-145)|Lem=thing|Len=6
-15	_	_	ADV	RBR	Degree=Cmp	13	advmod	13:advmod	Lem=good|Len=6
+15	_	_	ADV	RBR	Degree=Cmp	13	advmod	13:advmod	Lem=well|Len=6
 16	_	_	ADP	IN	_	19	case	19:case	Lem=_|Len=2
 17	_	_	DET	DT	Definite=Def|PronType=Art	19	det	19:det	Entity=(abstract-2|Lem=_|Len=3
 18	_	_	ADJ	JJ	Degree=Pos	19	amod	19:amod	Lem=_|Len=4
@@ -1220,9 +1288,10 @@
 22	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-49
-# text = __ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = other
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __ _ _ _ __
 1	_	_	ADJ	JJ	Degree=Pos	5	discourse	5:discourse	Discourse=concession:151->148|Lem=*LOWER*|Len=5|SpaceAfter=No
 2	_	_	PUNCT	,	_	1	punct	1:punct	Lem=_|Len=1
 3	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj|6:nsubj:xsubj	Entity=(person-142)|Lem=_|Len=1
@@ -1232,9 +1301,10 @@
 7	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-50
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=joint:152->148|Entity=(person-142)|Lem=_|Len=1
 2	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Lem=_|Len=4
 3	_	_	ADV	RB	_	4	advmod	4:advmod	Lem=_|Len=4
@@ -1268,13 +1338,14 @@
 31	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-51
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __
 1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=concession:156->157|Entity=(abstract-149)|Lem=*LOWER*|Len=4
 2	_	_	ADV	RB	Degree=Pos	3	advmod	3:advmod	Lem=_|Len=5
 3	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=seem|Len=5
-4	_	_	PRON	DT	_	7	obl:npmod	7:obl:npmod	Lem=_|Len=3
+4	_	_	ADV	RB	Degree=Pos	7	advmod	7:advmod	Lem=_|Len=3
 5	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=4
 6	_	_	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Lem=_|Len=3
 7	_	_	NOUN	NN	Number=Sing	3	obl	3:obl:over	Lem=_|Len=5
@@ -1300,9 +1371,10 @@
 27	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-52
-# text = _ _ _ _ _ _ __ _ _ __ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ __ _ _ __ _ _ _ _ __
 1	_	_	ADJ	JJ	Degree=Pos	2	amod	2:amod	Discourse=restatement:159->6|Entity=(abstract-153(abstract-154|Lem=*LOWER*|Len=8
 2	_	_	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=abstract-154)|Lem=_|Len=6
 3	_	_	CCONJ	CC	_	4	cc	4:cc	Lem=_|Len=3
@@ -1323,9 +1395,10 @@
 18	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-53
-# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __
 1	_	_	ADJ	JJR	Degree=Cmp	5	amod	5:amod	Discourse=joint:161->159|Entity=(abstract-156|Lem=large|Len=6
 2	_	_	CCONJ	CC	_	4	cc	4:cc	Lem=_|Len=3
 3	_	_	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Lem=_|Len=4
@@ -1350,9 +1423,10 @@
 22	_	_	PUNCT	.	_	6	punct	6:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-54
-# text = _ _ _ _ _ __ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = decl
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = _ _ _ _ _ __ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:163->161|Entity=(abstract-159)|Lem=*LOWER*|Len=2
 2	_	_	ADV	RB	Degree=Pos|Polarity=Neg	3	advmod	3:advmod	Lem=_|Len=2
 3	_	_	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Lem=long|Len=6
@@ -1369,7 +1443,7 @@
 14	_	_	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=(abstract-102)|Lem=_|Len=5
 15	_	_	SCONJ	IN	_	18	mark	18:mark	Discourse=cause:165->164|Lem=_|Len=7
 16	_	_	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Discourse=attribution:166->167|Entity=(organization-23|Lem=_|Len=3
-17	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj|24:nsubj	Entity=organization-23)|Lem=_|Len=5
+17	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj|24:nsubj	Entity=organization-23)|Lem=government|Len=5
 18	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	advcl	13:advcl:because	Lem=say|Len=4
 19	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	20	nsubj	20:nsubj	Discourse=same-unit:167->165|Entity=(abstract-159)|Lem=_|Len=2
 20	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	18:ccomp	Lem=have|Len=3
@@ -1379,8 +1453,8 @@
 24	_	_	VERB	VB	Person=2|VerbForm=Inf	18	conj	13:advcl:because|18:conj:and	Lem=_|Len=6
 25	_	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	24	obj	24:obj	Entity=(abstract-159)|Lem=_|Len=2
 26	_	_	ADP	IN	_	29	case	29:case	Lem=_|Len=3
-27	_	_	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(abstract-161(organization-23)|Lem=_|Len=5
-28	_	_	VERB	VBN	Tense=Past|VerbForm=Part	29	amod	29:amod	Lem=_|Len=7
+27	_	_	NOUN	NN	Number=Sing	28	compound	28:compound	Entity=(abstract-161(organization-23)|Lem=government|Len=5
+28	_	_	ADJ	JJ	Degree=Pos	29	amod	29:amod	Lem=_|Len=7
 29	_	_	NOUN	NNS	Number=Plur	24	obl	24:obl:for	Entity=abstract-161)|Lem=transaction|Len=12
 30	_	_	CCONJ	CC	_	31	cc	31:cc	Lem=_|Len=3
 31	_	_	NOUN	NN	Number=Sing	29	conj	24:obl:for|29:conj:and	Entity=(abstract-162|Lem=_|Len=8
@@ -1390,12 +1464,14 @@
 35	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_macroeconomics-55
-# text = __ __ _ _ _ _ _ __
+# addressee = GUM_reddit_macroeconomics_spk_A
 # s_type = imp
-# speaker = GUM_reddit_macroeconomics_spk_A
+# speaker = GUM_reddit_macroeconomics_spk_B
+# text = __ ___ _ _ _ _ __
 1	_	_	ADV	RB	_	5	advmod	5:advmod	Discourse=joint:169->159|Lem=*LOWER*|Len=4|SpaceAfter=No
 2	_	_	PUNCT	,	_	1	punct	1:punct	Lem=_|Len=1
-3	_	_	AUX	VB	VerbForm=Inf	5	aux	5:aux	Lem=_|Len=2|SpaceAfter=No
+3-4	_____	_	_	_	_	_	_	_	_
+3	_	_	AUX	VB	VerbForm=Inf	5	aux	5:aux	Lem=_|Len=2
 4	_	_	PART	RB	Polarity=Neg	5	advmod	5:advmod	Lem=not|Len=3
 5	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Lem=_|Len=3
 6	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj:pass	7:nsubj:pass	Entity=(person-142)|Lem=I|Len=2
