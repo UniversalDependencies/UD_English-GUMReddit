@@ -551,8 +551,15 @@ if __name__ == "__main__":
 						skip_space = False
 					line = "\t".join(fields)
 				elif "-" in fields[0]:
-					word_len = len(fields[1])
+					misc_annos = fields[-1].split("|")
+					out_misc = []
+					for anno in misc_annos:
+						if anno.startswith("Len="):
+							word_len = int(anno.split('=')[1])
+						else:
+							out_misc.append(anno)
 					fields[1] = text[:word_len]
+					fields[-1] = "|".join(out_misc) if len(out_misc) > 0 else "_"
 					line = "\t".join(fields)
 					skip = 2
 					if "SpaceAfter=No" in fields[-1]:
