@@ -144,7 +144,7 @@
 # text = _ _ _ _ _ __
 1	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Discourse=solutionhood:12->21|Lem=do|Len=4
 2	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Entity=(person-20|Lem=_|Len=6
-3	_	_	ADJ	JJ	Degree=Pos	2	amod	2:amod	Entity=person-20)|Lem=_|Len=4
+3	_	_	ADV	RB	Degree=Pos	2	advmod	2:advmod	Entity=person-20)|Lem=_|Len=4
 4	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=4
 5	_	_	ADP	IN	_	6	case	6:case	Lem=_|Len=4
 6	_	_	PRON	DT	Number=Sing|PronType=Dem	4	obl	4:obl:with	Entity=(abstract-6)|Lem=_|Len=4|SpaceAfter=No
@@ -545,10 +545,10 @@
 17	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Lem=go|Len=5
 18	_	_	PART	TO	_	19	mark	19:mark	Lem=_|Len=2
 19	_	_	VERB	VB	VerbForm=Inf	17	xcomp	17:xcomp	Lem=_|Len=2
-20	_	_	ADP	RP	_	19	compound:prt	19:compound:prt	Lem=_|Len=3
-21	_	_	ADP	IN	_	23	case	23:case	Lem=_|Len=2
+20	_	_	ADP	IN	_	23	case	23:case	Lem=_|Len=3
+21	_	_	ADP	IN	_	20	fixed	20:fixed	Lem=_|Len=2
 22	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	23	nmod:poss	23:nmod:poss	Entity=(person-63)|Lem=_|Len=5
-23	_	_	NOUN	NN	Number=Sing	19	obl	19:obl:of	Lem=_|Len=3
+23	_	_	NOUN	NN	Number=Sing	19	obl	19:obl:out_of	Lem=_|Len=3
 24	_	_	PART	TO	_	25	mark	25:mark	Discourse=purpose:57->56|Lem=_|Len=2
 25	_	_	VERB	VB	VerbForm=Inf	19	advcl	19:advcl:to	Lem=_|Len=4
 26	_	_	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	25	obj	25:obj|27:nsubj:xsubj	Entity=(person-58)|Lem=_|Len=3
@@ -1394,7 +1394,7 @@
 12	_	_	NOUN	NN	Number=Sing	3	nmod	3:nmod:like	Entity=event-174)|Lem=barbecue|Len=3|SpaceAfter=No
 13	_	_	PUNCT	,	_	28	punct	28:punct	Lem=_|Len=1
 14	_	_	CCONJ	CC	_	28	cc	28:cc	Discourse=antithesis:150->152|Lem=_|Len=3
-15	_	_	ADP	IN	_	28	discourse	28:discourse	Lem=_|Len=4
+15	_	_	INTJ	UH	_	28	discourse	28:discourse	Lem=_|Len=4
 16	_	_	NOUN	NN	Number=Sing	28	obj	28:obj	Entity=(event-176(event-177)|Lem=_|Len=6
 17	_	_	CCONJ	CC	_	18	cc	18:cc	Lem=_|Len=3
 18	_	_	NOUN	NN	Number=Sing	16	conj	16:conj:and|28:obj	Entity=(event-178)|Lem=_|Len=5
@@ -1652,13 +1652,13 @@
 27	_	_	ADV	RB	Degree=Pos	15	advmod	15:advmod	Lem=_|Len=10|SpaceAfter=No
 28	_	_	PUNCT	,	_	33	punct	33:punct	Lem=_|Len=1
 29	_	_	ADV	RB	_	33	advmod	33:advmod	Discourse=contrast:179->176|Lem=_|Len=2
-30	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	nsubj	33:nsubj	Entity=(abstract-214)|Lem=_|Len=2
+30	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	expl	33:expl	Entity=(abstract-214)|Lem=_|Len=2
 31	_	_	AUX	MD	VerbForm=Fin	33	aux	33:aux	Lem=_|Len=5
 32	_	_	AUX	VB	VerbForm=Inf	33	cop	33:cop	Lem=_|Len=2
 33	_	_	ADJ	JJ	Degree=Pos	3	parataxis	3:parataxis	Lem=_|Len=5
 34	_	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	33	obj	33:obj	Lem=_|Len=2
 35	_	_	PART	TO	_	36	mark	36:mark	Entity=(abstract-214|Lem=_|Len=2
-36	_	_	VERB	VB	VerbForm=Inf	33	advcl	33:advcl:to	Lem=_|Len=4
+36	_	_	VERB	VB	VerbForm=Inf	33	csubj	33:csubj	Lem=_|Len=4
 37	_	_	ADP	IN	_	39	case	39:case	Lem=_|Len=2
 38	_	_	DET	DT	Number=Plur|PronType=Dem	39	det	39:det	Entity=(event-184|Lem=this|Len=5
 39	_	_	NOUN	NNS	Number=Plur	36	obl	36:obl:at	Entity=event-184)|Lem=event|Len=6
