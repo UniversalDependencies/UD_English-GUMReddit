@@ -169,7 +169,7 @@
 1	_	_	PRON	DT	Number=Sing|PronType=Dem	7	nsubj:pass	7:nsubj:pass	Discourse=elaboration:20->18|Entity=(abstract-18)|Lem=*LOWER*|Len=4
 2	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	7:aux:pass	Lem=be|Len=3
 3	_	_	ADV	RB	Degree=Pos	7	advmod	7:advmod	Lem=_|Len=9
-4	_	_	PRON	DT	_	5	det:predet	5:det:predet	Entity=(abstract-18|Lem=_|Len=3
+4	_	_	DET	DT	_	5	det:predet	5:det:predet	Entity=(abstract-18|Lem=_|Len=3
 5	_	_	PRON	WDT	_	7	nsubj:pass	7:nsubj:pass	Discourse=elaboration:21->20|Lem=_|Len=4
 6	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux:pass	7:aux:pass	Lem=be|Len=3
 7	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Lem=say|Len=4
@@ -200,7 +200,7 @@
 15	_	_	NOUN	NN	Number=Sing	13	obj	13:obj	Entity=object-22)|Lem=_|Len=5|SpaceAfter=No
 16	_	_	PUNCT	,	_	10	punct	10:punct	Lem=_|Len=1
 17	_	_	PRON	EX	_	18	expl	18:expl	Discourse=same-unit:26->23|Lem=_|Len=5
-18	_	_	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	Lem=be|Len=3
+18	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:and	Lem=be|Len=3
 19	_	_	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(abstract-23|Lem=a|Len=2
 20	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Lem=_|Len=2
 21	_	_	ADP	IN	_	22	case	22:case	Lem=_|Len=2
@@ -523,7 +523,7 @@
 # text = _ _ __ _ _ _ _ _ _ _ _ _ __ _ ___
 1	_	_	INTJ	UH	Typo=Yes	9	discourse	9:discourse	Discourse=preparation:60->62|Lem=*LOWER*|Len=3
 2	_	_	CCONJ	CC	_	3	cc	3:cc	Lem=_|Len=3
-3	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	1	conj	1:conj:and|9:discourse	Lem=_|Len=6|SpaceAfter=No
+3	_	_	VERB	VB	VerbForm=Inf	1	conj	1:conj:and|9:discourse	Lem=_|Len=6|SpaceAfter=No
 4	_	_	PUNCT	,	_	1	punct	1:punct	Lem=_|Len=1
 5	_	_	VERB	VBG	VerbForm=Ger	8	acl	8:acl	Discourse=circumstance:61->62|Lem=scroll|Len=9
 6	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=7
@@ -862,7 +862,7 @@
 39	_	_	VERB	VB	VerbForm=Inf	37	obl	37:obl	Lem=_|Len=4
 40	_	_	NOUN	NNS	Number=Plur	39	obj	39:obj	Entity=(abstract-90)|Lem=contact|Len=8
 41	_	_	CCONJ	CC	_	42	cc	42:cc	Discourse=contrast:99->98|Lem=_|Len=2
-42	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	39	conj	37:obl|39:conj:or	Lem=_|Len=5
+42	_	_	VERB	VB	VerbForm=Inf	39	conj	37:obl|39:conj:or	Lem=_|Len=5
 43	_	_	DET	DT	Definite=Ind|PronType=Art	44	det	44:det	Entity=(abstract-91|Lem=_|Len=1
 44	_	_	NOUN	NN	Number=Sing	42	obj	42:obj	Entity=abstract-91)|Lem=_|Len=8
 45	_	_	PUNCT	:	_	4	punct	4:punct	Lem=…|Len=3
@@ -873,7 +873,7 @@
 # speaker = GUM_reddit_conspiracy_spk_E
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	PRON	EX	_	2	expl	2:expl	Discourse=restatement:100->88|Lem=*LOWER*|Len=5
-2	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=be|Len=3
+2	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=be|Len=3
 3	_	_	DET	DT	Definite=Ind|PronType=Art	4	det	4:det	Entity=(abstract-92|Lem=_|Len=1
 4	_	_	NOUN	NN	Number=Sing	2	nsubj	2:nsubj	Lem=_|Len=3
 5	_	_	ADP	IN	_	6	case	6:case	Lem=_|Len=2
@@ -1124,7 +1124,7 @@
 43	_	_	PART	RB	Polarity=Neg	44	advmod	44:advmod	Lem=not|Len=3
 44	_	_	VERB	VB	VerbForm=Inf	38	parataxis	38:parataxis	Lem=_|Len=8
 45	_	_	CCONJ	CC	_	46	cc	46:cc	Lem=_|Len=3
-46	_	_	VERB	VB	Person=2|VerbForm=Inf	44	conj	44:conj:and	Lem=_|Len=5
+46	_	_	VERB	VB	VerbForm=Inf	44	conj	44:conj:and	Lem=_|Len=5
 47	_	_	ADP	IN	_	49	case	49:case	Lem=_|Len=2
 48	_	_	DET	DT	Definite=Ind|PronType=Art	49	det	49:det	Entity=(object-131|Lem=_|Len=1
 49	_	_	NOUN	NN	Number=Sing	44	obl	44:obl:in	Entity=object-131)|Lem=_|Len=7|SpaceAfter=No
@@ -1147,7 +1147,7 @@
 2	_	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Entity=(person-95)|Lem=_|Len=3
 3	_	_	ADV	RB	Degree=Pos	4	advmod	4:advmod	Lem=_|Len=8
 4	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	18	advcl	18:advcl:if	Lem=say|Len=4
-5	_	_	PRON	DT	_	4	obj	4:obj	Entity=(abstract-130|Lem=_|Len=3
+5	_	_	DET	DT	_	4	obj	4:obj	Entity=(abstract-130|Lem=_|Len=3
 6	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=2
 7	_	_	PRON	DT	Number=Sing|PronType=Dem	5	nmod	5:nmod:of	Entity=abstract-130)|Lem=_|Len=4
 8	_	_	ADP	IN	_	10	case	10:case	Lem=_|Len=2
@@ -1197,7 +1197,7 @@
 26	_	_	NOUN	NN	Number=Sing	24	obl	24:obl:with	Entity=(abstract-137)|Lem=_|Len=6|SpaceAfter=No
 27	_	_	PUNCT	,	_	29	punct	29:punct	Lem=_|Len=1
 28	_	_	CCONJ	CC	_	29	cc	29:cc	Discourse=concession:137->134|Lem=_|Len=3
-29	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:but	Lem=_|Len=3|SpaceAfter=No
+29	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	6:conj:but	Lem=_|Len=3|SpaceAfter=No
 30	_	_	PUNCT	.	_	6	punct	6:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_conspiracy-44
@@ -1272,7 +1272,7 @@
 6	_	_	ADV	RB	Degree=Pos	3	advmod	3:advmod	Lem=_|Len=8
 7	_	_	SCONJ	IN	_	9	mark	9:mark	Discourse=background:143->149|Lem=_|Len=4
 8	_	_	PROPN	NNP	Number=Sing	9	nsubj	9:nsubj	Entity=(abstract-145(animal-142-Tyrannosaurus)|Lem=_|Len=5
-9	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Lem=_|Len=4
+9	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Lem=_|Len=4
 10	_	_	NOUN	NNS	Number=Plur	9	obj	9:obj	Entity=(object-146)abstract-145)|Lem=feather|Len=8|SpaceAfter=No
 11	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
@@ -1536,9 +1536,9 @@
 14	_	_	PUNCT	,	_	17	punct	17:punct	Lem=_|Len=1
 15	_	_	CCONJ	CC	_	17	cc	17:cc	Discourse=joint:172->171|Lem=_|Len=3
 16	_	_	PART	TO	_	17	mark	17:mark	Lem=_|Len=2
-17	_	_	VERB	VB	Person=2|VerbForm=Inf	10	conj	2:advcl:to|10:conj:and	Lem=_|Len=6
+17	_	_	VERB	VB	VerbForm=Inf	10	conj	2:advcl:to|10:conj:and	Lem=_|Len=6
 18	_	_	CCONJ	CC	_	19	cc	19:cc	Discourse=joint:173->171|Lem=_|Len=3
-19	_	_	VERB	VB	Person=2|VerbForm=Inf	17	conj	10:conj|17:conj:and	Lem=_|Len=11|SpaceAfter=No
+19	_	_	VERB	VB	VerbForm=Inf	17	conj	10:conj|17:conj:and	Lem=_|Len=11|SpaceAfter=No
 20	_	_	PUNCT	,	_	23	punct	23:punct	Lem=_|Len=1
 21	_	_	ADV	RB	Degree=Pos	23	advmod	23:advmod	Discourse=joint:174->141|Lem=_|Len=7
 22	_	_	PROPN	NNP	Number=Sing	23	nsubj	23:nsubj	Entity=(animal-142-Tyrannosaurus)|Lem=_|Len=5

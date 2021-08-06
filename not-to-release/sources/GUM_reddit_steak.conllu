@@ -9,7 +9,7 @@
 # sent_id = GUM_reddit_steak-1
 # s_type = decl
 # text = _ _ _ _ _ _ _ _
-1	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=preparation:1->11|Entity=(event-1|Lem=_|Len=4
+1	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=preparation:1->11|Entity=(event-1|Lem=_|Len=4
 2	_	_	SCONJ	IN	_	3	mark	3:mark	Discourse=means:2->1|Lem=_|Len=2
 3	_	_	VERB	VBG	VerbForm=Ger	1	advcl	1:advcl:by	Lem=throw|Len=8
 4	_	_	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(object-2(person-3)|Lem=_|Len=2
@@ -174,7 +174,7 @@
 12	_	_	ADJ	JJ	Degree=Pos	13	amod	13:amod	Lem=_|Len=5
 13	_	_	NOUN	NN	Number=Sing	7	appos	7:appos	Lem=_|Len=5
 14	_	_	ADP	IN	_	15	case	15:case	Lem=_|Len=3
-15	_	_	PRON	DT	_	13	nmod	13:nmod:for	Lem=_|Len=4
+15	_	_	DET	DT	_	13	nmod	13:nmod:for	Lem=_|Len=4
 16	_	_	ADP	IN	_	17	case	17:case	Lem=_|Len=2
 17	_	_	PRON	PRP	Case=Acc|Number=Plur|Person=1|PronType=Prs	15	nmod	15:nmod:of	Entity=(person-17)object-21)|Lem=we|Len=2|SpaceAfter=No
 18	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
@@ -740,7 +740,7 @@
 # text = _ _ _ _ _ _
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	5:nsubj	Discourse=elaboration:68->67|Entity=(person-3)|Lem=_|Len=1
 2	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	cop	5:cop	Lem=be|Len=2
-3	_	_	PRON	PDT	_	5	det:predet	5:det:predet	Entity=(person-3|Lem=_|Len=4
+3	_	_	DET	PDT	_	5	det:predet	5:det:predet	Entity=(person-3|Lem=_|Len=4
 4	_	_	DET	DT	Definite=Ind|PronType=Art	5	det	5:det	Lem=_|Len=1
 5	_	_	NOUN	NN	Number=Sing	0	root	0:root	Entity=person-3)|Lem=_|Len=5
 6	_	_	PUNCT	:	_	5	punct	5:punct	Lem=…|Len=3
@@ -798,8 +798,8 @@
 # s_type = other
 # speaker = GUM_reddit_steak_spk_A
 # text = _ __ _ _ _ _ __ _
-1	_	_	PUNCT	:	_	4	punct	4:punct	Lem=…|Len=3
-2	_	_	PUNCT	-LRB-	_	4	punct	4:punct	Discourse=contrast:75->73|Lem=_|Len=1|SpaceAfter=No
+1	_	_	PUNCT	:	_	4	punct	4:punct	Discourse=contrast:75->73|Lem=…|Len=3
+2	_	_	PUNCT	-LRB-	_	4	punct	4:punct	Lem=_|Len=1|SpaceAfter=No
 3	_	_	DET	DT	Polarity=Neg	4	det	4:det	Lem=_|Len=2
 4	_	_	NOUN	NN	Number=Sing	0	root	0:root	Entity=(abstract-68)|Lem=_|Len=4
 5	_	_	VERB	VBG	VerbForm=Ger	4	acl	4:acl	Lem=come|Len=6
