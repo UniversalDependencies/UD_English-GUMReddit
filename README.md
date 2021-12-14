@@ -201,6 +201,10 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2021-12-14
+  * Corrections incl. bug fix for escaping wikification identifiers containing hyphens
+  * Added more exhaustive PronType annotations
+
 * 2021-11-01
   * Add annotated newpar comments representing possibly nesting blocks
   * Add XML MISC attribute for XML markup in source data which does not correspond to paragraph blocks

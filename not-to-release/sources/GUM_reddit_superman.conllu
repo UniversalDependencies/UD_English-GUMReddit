@@ -89,7 +89,7 @@
 6	_	_	CCONJ	CC	_	8	cc	8:cc	Discourse=contrast_m:11->10:0|Lem=_|Len=3
 7	_	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-2-giv:act-1-ana-Zack_Snyder)|Lem=_|Len=2
 8	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	conj	2:conj:but	Lem=have|Len=3
-9	_	_	DET	DT	Polarity=Neg	10	det	10:det	Lem=_|Len=2
+9	_	_	DET	DT	Polarity=Neg|PronType=Art	10	det	10:det	Lem=_|Len=2
 10	_	_	NOUN	NN	Number=Sing	8	obj	8:obj	Entity=(abstract-13-new-1-sgl)|Lem=_|Len=9|SpaceAfter=No
 11	_	_	PUNCT	,	_	16	punct	16:punct	Lem=_|Len=1
 12	_	_	CCONJ	CC	_	16	cc	16:cc	Discourse=attribution:12->13:0|Lem=_|Len=3
@@ -256,7 +256,7 @@
 23	_	_	VERB	VB	VerbForm=Inf	21	xcomp	21:xcomp	Lem=_|Len=2
 24	_	_	PRON	DT	Number=Sing|PronType=Dem	23	obj	23:obj	Entity=(event-32-giv:act-1-coref)|Lem=_|Len=4
 25	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	30	aux	30:aux	Discourse=concession:26->25:0|Lem=have|Len=3
-26	_	_	PRON	EX	_	30	expl	30:expl	Lem=_|Len=5
+26	_	_	PRON	EX	PronType=Dem	30	expl	30:expl	Lem=_|Len=5
 27	_	_	AUX	VBN	Tense=Past|VerbForm=Part	30	cop	30:cop	Lem=be|Len=4
 28	_	_	ADJ	JJ	Degree=Pos	30	amod	30:amod	Entity=(abstract-22-giv:inact-3-coref|Lem=_|Len=8
 29	_	_	NOUN	NN	Number=Sing	30	compound	30:compound	Entity=(event-23-giv:act-1-coref)|Lem=_|Len=6
@@ -271,7 +271,7 @@
 # s_type = decl
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __ _ __ _ _ _ _ _ __
 1	_	_	CCONJ	CC	_	13	cc	13:cc	Discourse=contrast_m:27->20:3|Lem=*LOWER*|Len=3
-2	_	_	DET	DT	_	13	nsubj	13:nsubj	Entity=(abstract-33-new-1-ana|Lem=_|Len=3
+2	_	_	DET	DT	PronType=Tot	13	nsubj	13:nsubj	Entity=(abstract-33-new-1-ana|Lem=_|Len=3
 3	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	4	nsubj	4:nsubj	Discourse=elaboration:28->27:0|Entity=(person-34-acc:com-1-sgl)|Lem=_|Len=2
 4	_	_	VERB	VBD	Mood=Ind|Number=Plur|Person=1|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Lem=get|Len=3
 5	_	_	ADP	IN	_	9	case	9:case	Lem=_|Len=2
