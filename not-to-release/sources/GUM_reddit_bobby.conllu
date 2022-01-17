@@ -80,7 +80,7 @@
 # text = _ _ _ _ _ _ _ _ _ __ _ __
 # newpar = p (7 s)
 1	_	_	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=context-background:8->16:2|Lem=*LOWER*|Len=8
-2	_	_	SCONJ	WRB	PronType=Rel	1	obj	1:obj	Lem=_|Len=4
+2	_	_	ADV	WRB	PronType=Rel	1	obj	1:obj	Lem=_|Len=4
 3	_	_	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|13:nsubj	Entity=(person-13-new-1,2-coref-Anne_Burrell|Lem=_|Len=4
 4	_	_	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=13)|Lem=_|Len=7
 5	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Entity=(event-14-new-1-disc|Lem=challenge|Len=10
@@ -317,7 +317,7 @@
 33	_	_	ADP	RP	_	32	compound:prt	32:compound:prt	Lem=_|Len=3
 34	_	_	ADP	IN	_	36	case	36:case	Lem=_|Len=2
 35	_	_	DET	DT	Definite=Def|PronType=Art	36	det	36:det	Entity=(person-29-giv:act-2-coref|Lem=_|Len=3
-36	_	_	NOUN	NN	Number=Sing	32	obl	32:obl:by	Entity=29)|Lem=_|Len=10|SpaceAfter=No
+36	_	_	NOUN	NN	Number=Sing	32	obl:agent	32:obl:agent	Entity=29)|Lem=_|Len=10|SpaceAfter=No
 37	_	_	PUNCT	.	_	25	punct	25:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-11
@@ -435,7 +435,7 @@
 20	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	21:aux:pass	Lem=get|Len=4
 21	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	9	advcl	9:advcl:when	Lem=clobber|Len=9
 22	_	_	ADP	IN	_	23	case	23:case	Lem=_|Len=2
-23	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	21	obl	21:obl:by	Entity=(person-2-giv:act-1,2-coref-Bobby_Flay|Lem=_|Len=3
+23	_	_	PROPN	NNP	Abbr=Yes|Number=Sing	21	obl:agent	21:obl:agent	Entity=(person-2-giv:act-1,2-coref-Bobby_Flay|Lem=_|Len=3
 24	_	_	PROPN	NNP	Number=Sing	23	flat	23:flat	Entity=2)|Lem=_|Len=4|SpaceAfter=No
 25	_	_	PUNCT	.	_	9	punct	9:punct	Lem=_|Len=1
 
@@ -571,7 +571,7 @@
 1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=joint-other_m:58->33:3|Entity=(abstract-9-giv:inact-1-ana)|Lem=*LOWER*|Len=4
 2	_	_	ADV	RB	_	3	advmod	3:advmod	Lem=_|Len=4
 3	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=illuminate|Len=11
-4	_	_	SCONJ	WRB	PronType=Rel	3	obj	3:obj	Lem=_|Len=3
+4	_	_	ADV	WRB	PronType=Rel	3	obj	3:obj	Lem=_|Len=3
 5	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(person-33-giv:inact-1-ana)|Lem=_|Len=2
 6	_	_	ADV	RB	_	7	advmod	7:advmod	Lem=_|Len=2
 7	_	_	ADV	RB	Degree=Pos	8	advmod	8:advmod	Lem=_|Len=5
@@ -613,7 +613,7 @@
 17	_	_	NOUN	NNS	Number=Plur	15	obl	15:obl:in|19:nsubj	Entity=(person-55-giv:act-1-coref)|Lem=judge|Len=6
 18	_	_	PRON	WP	PronType=Rel	19	nsubj	17:ref	Discourse=attribution-positive:62->63:0|Lem=_|Len=3
 19	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	Lem=_|Len=4
-20	_	_	SCONJ	WRB	PronType=Rel	19	obj	19:obj	Discourse=elaboration-additional:63->61:0|Lem=_|Len=3
+20	_	_	ADV	WRB	PronType=Rel	19	obj	19:obj	Discourse=elaboration-additional:63->61:0|Lem=_|Len=3
 21-22	__	_	_	_	_	_	_	_	Len=4
 21	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	23:nsubj:pass|26:nsubj:pass:xsubj	Entity=(object-40-giv:act-1-ana)|Lem=_|Len=2
 22	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	23:aux:pass	Lem=be|Len=2
@@ -839,7 +839,7 @@
 18	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	Lem=tell|Len=5
 19	_	_	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	iobj	18:iobj	Entity=(person-19-giv:inact-1-ana)|Lem=_|Len=3
 20	_	_	ADP	IN	_	21	case	21:case	Lem=_|Len=5
-21	_	_	SCONJ	WRB	PronType=Rel	18	obl	18:obl:about	Discourse=elaboration-additional:86->84:0|Lem=_|Len=3
+21	_	_	ADV	WRB	PronType=Rel	18	obl	18:obl:about	Discourse=elaboration-additional:86->84:0|Lem=_|Len=3
 22	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(abstract-6-giv:act-1-ana)|Lem=_|Len=2
 23	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	Lem=work|Len=5|SpaceAfter=No
 24	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
@@ -1409,7 +1409,7 @@
 17	_	_	ADP	IN	_	20	case	20:case	Lem=_|Len=2
 18	_	_	DET	DT	Definite=Ind|PronType=Art	20	det	20:det	Entity=(person-2-giv:inact-3-coref-Bobby_Flay|Lem=_|Len=1
 19	_	_	NOUN	NN	Number=Sing	20	compound	20:compound	Lem=_|Len=6
-20	_	_	NOUN	NN	Number=Sing	16	obl	16:obl:by	Entity=2)|Lem=_|Len=4|SpaceAfter=No
+20	_	_	NOUN	NN	Number=Sing	16	obl:agent	16:obl:agent	Entity=2)|Lem=_|Len=4|SpaceAfter=No
 21	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-51

@@ -95,7 +95,7 @@
 4	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Lem=_|Len=3
 5	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=2
 6	_	_	DET	DT	Definite=Def|PronType=Art	7	det	7:det	Entity=(person-8-giv:inact-2-coref|Lem=_|Len=3
-7	_	_	NOUN	NN	Number=Sing	4	obl	4:obl:by	Entity=8)|Lem=_|Len=8|SpaceAfter=No
+7	_	_	NOUN	NN	Number=Sing	4	obl:agent	4:obl:agent	Entity=8)|Lem=_|Len=8|SpaceAfter=No
 8	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_gender-6
@@ -180,7 +180,7 @@
 19	_	_	ADV	RB	Degree=Pos	20	advmod	20:advmod	Lem=_|Len=9
 20	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	advcl	4:advcl:since	Lem=follow|Len=8
 21	_	_	ADP	IN	_	22	case	22:case	Lem=_|Len=2
-22	_	_	ADJ	JJS	Degree=Sup	20	obl	20:obl:by	Entity=(person-8-giv:inact-1-coref)|Lem=_|Len=4|SpaceAfter=No
+22	_	_	ADJ	JJS	Degree=Sup	20	obl:agent	20:obl:agent	Entity=(person-8-giv:inact-1-coref)|Lem=_|Len=4|SpaceAfter=No
 23	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_gender-10
@@ -594,7 +594,7 @@
 15	_	_	CCONJ	CC	_	16	cc	16:cc	Lem=_|Len=3
 16	_	_	VERB	VBN	Tense=Past|VerbForm=Part	14	conj	11:xcomp|14:conj:and	Lem=accept|Len=8
 17	_	_	ADP	IN	_	18	case	18:case	Lem=_|Len=2
-18	_	_	NOUN	NN	Number=Sing	14	obl	14:obl:by	Entity=(person-54-giv:inact-1-coref)|Lem=_|Len=8|SpaceAfter=No
+18	_	_	NOUN	NN	Number=Sing	14	obl:agent	14:obl:agent	Entity=(person-54-giv:inact-1-coref)|Lem=_|Len=8|SpaceAfter=No
 19	_	_	PUNCT	.	_	6	punct	6:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_gender-25
@@ -1060,7 +1060,7 @@
 7	_	_	NOUN	NN	Number=Sing	0	root	0:root	Entity=101)|Lem=_|Len=5
 8	_	_	CCONJ	CC	_	24	cc	24:cc	Discourse=attribution-positive:100->101:1|Lem=_|Len=3
 9	_	_	VERB	VBG	VerbForm=Ger	24	csubj	24:csubj	Entity=(abstract-102-new-1-disc|Lem=know|Len=7
-10	_	_	SCONJ	WRB	PronType=Rel	9	obj	9:obj	Discourse=adversative-concession:101->99:0|Lem=_|Len=4
+10	_	_	ADV	WRB	PronType=Rel	9	obj	9:obj	Discourse=adversative-concession:101->99:0|Lem=_|Len=4
 11	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	13:nsubj	Entity=(person-36-giv:inact-1-ana)|Lem=_|Len=3
 12	_	_	AUX	MD	VerbForm=Fin	13	aux	13:aux	Lem=_|Len=4
 13	_	_	VERB	VB	VerbForm=Inf	10	acl:relcl	10:acl:relcl	Lem=_|Len=9
