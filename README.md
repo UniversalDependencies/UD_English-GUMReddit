@@ -223,6 +223,9 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2022-01-31
+  * Revised RST discourse relations (now 32 labels + ROOT)
+
 * 2022-01-09
   * Added GUM V8 documents
 
