@@ -558,12 +558,12 @@
 # speaker = GUM_reddit_introverts_spk_F
 # transition = establishment
 # text = _ _ _ _ _ _ _ _ _ _ _ _
-1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-justify:57->48:1|Entity=(61-abstract-new-cf4-3-disc(62-abstract-new-cf3-2-sgl|Lem=*LOWER*|Len=3
-2	_	_	NOUN	NN	Number=Sing	3	nsubj	3:nsubj	Entity=62)|Lem=_|Len=10
-3	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=be|Len=2
+1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=explanation-justify:57->48:1|Entity=(61-abstract-new-cf4-6-disc(62-abstract-new-cf3-2-sgl|Lem=*LOWER*|Len=3
+2	_	_	NOUN	NN	Number=Sing	6	nsubj	6:nsubj|7:nsubj:xsubj|9:nsubj:xsubj	Entity=62)|Lem=_|Len=10
+3	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	Lem=be|Len=2
 4	_	_	SCONJ	IN	Typo=Yes	6	mark	6:mark	CorrectForm=whether|Lem=whether|Len=6|XML=<sic ana:::"whether"></sic>
 5	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj|7:nsubj:xsubj|9:nsubj:xsubj	Entity=(5-person-giv:inact-cf2-1-ana)|Lem=_|Len=3
-6	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	3:ccomp	Lem=_|Len=6
+6	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=_|Len=6
 7	_	_	VERB	VBN	Tense=Past|VerbForm=Part	6	xcomp	6:xcomp	Lem=drain|Len=7
 8	_	_	CCONJ	CC	_	9	cc	9:cc	Lem=_|Len=2
 9	_	_	VERB	VBN	Tense=Past|VerbForm=Part	7	conj	6:xcomp|7:conj:or	Lem=energize|Len=9
@@ -1042,7 +1042,7 @@
 15	_	_	VERB	VB	Typo=Yes|VerbForm=Inf	5	conj	5:conj:but	CorrectForm=depends|Lem=_|Len=6|XML=<sic ana:::"depends"></sic>
 16	_	_	SCONJ	IN	_	18	mark	18:mark	Lem=_|Len=2
 17	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	18:nsubj	CorrectForm=how I|Entity=(113-person-giv:act-cf1*-1-ana)|Lem=_|Len=1|XML=<sic ana:::"how I"></sic>
-18	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	ccomp	15:ccomp	Lem=_|Len=4
+18	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	advcl	15:advcl:on	Lem=_|Len=4
 19	_	_	ADV	RB	Degree=Pos	18	advmod	18:advmod	Lem=_|Len=5|SpaceAfter=No
 20	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
@@ -1188,14 +1188,14 @@
 # speaker = GUM_reddit_introverts_spk_F
 # transition = null
 # text = _ __ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
-1	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj	Discourse=joint-other_m:123->5:1|Entity=(137-person-new-cf1-1-coref)|Lem=*LOWER*|Len=7
+1	_	_	NOUN	NN	Number=Sing	4	nsubj	4:nsubj|6:nsubj:xsubj|8:nsubj:xsubj	Discourse=joint-other_m:123->5:1|Entity=(137-person-new-cf1-1-coref)|Lem=*LOWER*|Len=7
 2-3	__	_	_	_	_	_	_	_	Len=5
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Lem=be|Len=2
 3	_	_	PART	RB	Polarity=Neg	4	advmod	4:advmod	Lem=not|Len=3
 4-5	__	_	_	_	_	_	_	_	Len=5
 4	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Lem=go|Len=3|XML=<w>
 5	_	_	PART	TO	_	6	mark	6:mark	Lem=to|Len=2|XML=</w>
-6	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	4	ccomp	4:ccomp	Lem=_|Len=4
+6	_	_	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	Lem=_|Len=4
 7	_	_	PART	TO	_	8	mark	8:mark	Lem=_|Len=2
 8	_	_	VERB	VB	VerbForm=Inf	6	xcomp	6:xcomp	Lem=_|Len=2
 9	_	_	NOUN	NN	Number=Sing	8	obj	8:obj|11:nsubj	Entity=(138-event-new-cf3-1-sgl|Lem=_|Len=9
