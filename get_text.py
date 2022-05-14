@@ -535,6 +535,8 @@ if __name__ == "__main__":
 						fields[2] = word
 					else:
 						fields[2] = lemma_rule
+					if fields[7] == "goeswith":
+						fields[2] = "_"  # No lemma for goeswith token
 					if fields[0] == "1" and sent != "":  # New sentence
 						sents.append(sent.strip())
 						sent = ""
