@@ -1,12 +1,15 @@
 # newdoc id = GUM_reddit_superman
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = Neodymium6
 # meta::dateCollected = 2017-09-13
 # meta::dateCreated = 2017-04-30
 # meta::dateModified = 2017-04-30
+# meta::genre = reddit
 # meta::sourceURL = https://www.reddit.com/r/DC_Cinematic/comments/68e0u3/other_i_know_this_post_is_silly_and_extraneous/
 # meta::speakerCount = 1
 # meta::title = OTHER: I know this post is silly and extraneous
 # sent_id = GUM_reddit_superman-1
+# s_prominence = 3
 # s_type = frag
 # transition = null
 # text = __
@@ -16,6 +19,7 @@
 2	_	_	PUNCT	.	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-2
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
@@ -39,16 +43,18 @@
 18	_	_	PUNCT	.	_	17	punct	17:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-3
+# s_prominence = 3
 # s_type = frag
 # transition = establishment
 # text = _ _ _ __
 1	_	_	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Discourse=elaboration-additional:7->2:2|Entity=(1-abstract-giv:act-cf1*-4-coref|Lem=*LOWER*|Len=3
 2	_	_	NUM	CD	NumForm=Digit|NumType=Card	3	nummod	3:nummod	Entity=(6-time-new-cf2-2-coref|Lem=_|Len=1
-3	_	_	NOUN	NN	Number=Sing	4	compound	4:compound	CorrectForm=hour|Entity=6)|Lem=hour|Len=2|XML=<sic ana:::"hour"></sic>
+3	_	_	NOUN	NN	Number=Sing|Typo=Yes	4	compound	4:compound	CorrectForm=hour|Entity=6)|Lem=hour|Len=2|XML=<sic ana:::"hour"></sic>
 4	_	_	NOUN	NN	Number=Sing	0	root	0:root	Entity=1)|Lem=_|Len=2|SpaceAfter=No
 5	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-4
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
@@ -66,12 +72,13 @@
 10	_	_	DET	DT	Definite=Def|PronType=Art	11	det	11:det	Bridge=6<10|Entity=(10-abstract-acc:inf-cf1-2-coref|Lem=_|Len=3
 11	_	_	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=10)9)|Lem=_|Len=10
 12	_	_	ADP	IN	_	15	case	15:case	Lem=_|Len=4
-13	_	_	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(11-abstract-new-cf5-3-sgl(10-abstract-giv:act-cf1-1-ana)|Lem=_|Len=3
+13	_	_	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	15	nmod:poss	15:nmod:poss	Entity=(11-abstract-new-cf5-3-sgl(10-abstract-giv:act-cf1-1-ana)|Lem=_|Len=3
 14	_	_	VERB	VBG	VerbForm=Ger	15	amod	15:amod	Lem=script|Len=9
 15	_	_	NOUN	NNS	Number=Plur	8	nmod	8:nmod:from	Entity=11)|Lem=stage|Len=6|SpaceAfter=No
 16	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-5
+# s_prominence = 2
 # s_type = decl
 # transition = null
 # text = _ _ _ _ _ _ _ __
@@ -86,12 +93,13 @@
 9	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-6
+# s_prominence = 3
 # s_type = decl
 # transition = establishment
 # text = _ _ _ __ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=elaboration-additional:12->10:1|Entity=(2-person-giv:act-cf1*-1-ana-Zack_Snyder)|Lem=*LOWER*|Len=2
 2	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=do|Len=3
-3	_	_	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(12-abstract-new-cf5-2-sgl(2-person-giv:act-cf1*-1-ana-Zack_Snyder)|Lem=_|Len=3
+3	_	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	4	nmod:poss	4:nmod:poss	Entity=(12-abstract-new-cf5-2-sgl(2-person-giv:act-cf1*-1-ana-Zack_Snyder)|Lem=_|Len=3
 4	_	_	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=12)|Lem=_|Len=3|SpaceAfter=No
 5	_	_	PUNCT	,	_	8	punct	8:punct	Lem=_|Len=1
 6	_	_	CCONJ	CC	_	8	cc	8:cc	Discourse=adversative-contrast_m:13->12:0|Lem=_|Len=3
@@ -108,7 +116,7 @@
 17	_	_	SCONJ	IN	_	25	mark	25:mark	Discourse=adversative-concession:15->13:0|Lem=_|Len=4
 18	_	_	DET	DT	Definite=Ind|PronType=Art	21	det	21:det	Entity=(14-abstract-new-cf4-4-sgl|Lem=_|Len=1
 19	_	_	NUM	CD	NumForm=Digit|NumType=Card	20	nummod	20:nummod	Entity=(6-time-giv:inact-cf3-2-coref|Lem=_|Len=1
-20	_	_	NOUN	NN	Number=Sing	21	compound	21:compound	CorrectForm=hour|Entity=6)|Lem=hour|Len=2|XML=<sic ana:::"hour"></sic>
+20	_	_	NOUN	NN	Number=Sing|Typo=Yes	21	compound	21:compound	CorrectForm=hour|Entity=6)|Lem=hour|Len=2|XML=<sic ana:::"hour"></sic>
 21	_	_	NOUN	NN	Number=Sing	25	nsubj	25:nsubj	Entity=14)|Lem=_|Len=3
 22-23	__	_	_	_	_	_	_	_	Len=4
 22	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	25:cop	Lem=be|Len=2
@@ -121,6 +129,7 @@
 29	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-7
+# s_prominence = 1
 # s_type = sub
 # transition = smooth-shift
 # text = _ _ _ _ _ _ _ __
@@ -137,6 +146,7 @@
 9	_	_	PUNCT	.	_	6	punct	6:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-8
+# s_prominence = 2
 # s_type = sub
 # transition = smooth-shift
 # text = _ _ __ _ _ _ _ _ _ _ _ __ _ _ __ _ _ _ _ __ _ _ _ _ _ _ _ __
@@ -170,13 +180,14 @@
 26	_	_	PRON	DT	Number=Sing|PronType=Dem	27	nsubj	27:nsubj	Entity=(18-event-giv:act-cf2-1-coref)|Lem=_|Len=4
 27	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	conj	5:conj|23:conj:and	Lem=carry|Len=7
 28	_	_	ADJ	JJR	Degree=Cmp	29	amod	29:amod	Entity=(20-abstract-new-cf3-2-sgl|Lem=_|Len=4
-29	_	_	NOUN	NN	Number=Sing	27	obj	27:obj	CorrectForm=weight|Entity=20)|Lem=weight|Len=4|XML=<sic ana:::"weight"></sic>
+29	_	_	NOUN	NN	Number=Sing|Typo=Yes	27	obj	27:obj	CorrectForm=weight|Entity=20)|Lem=weight|Len=4|XML=<sic ana:::"weight"></sic>
 30	_	_	ADP	IN	_	32	case	32:case	Lem=_|Len=2
 31	_	_	DET	DT	Definite=Def|PronType=Art	32	det	32:det	Lem=_|Len=3
 32	_	_	NOUN	NN	Number=Sing	27	obl	27:obl:in	Lem=_|Len=3|SpaceAfter=No
 33	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-9
+# s_prominence = 2
 # s_type = decl
 # transition = continue
 # text = _ _ _ _ _ _ _ _ _ _ __
@@ -186,7 +197,7 @@
 4	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	Lem=be|Len=3
 5	_	_	ADJ	JJ	Degree=Pos|Polarity=Neg	0	root	0:root	Lem=_|Len=6
 6	_	_	ADP	IN	_	8	case	8:case	Lem=_|Len=2
-7	_	_	PRON	PRP$	Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(21-abstract-new-cf2-2-coref(1-abstract-giv:act-cf1*-1-ana)|Lem=_|Len=3
+7	_	_	PRON	PRP$	Case=Gen|Gender=Neut|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(21-abstract-new-cf2-2-coref(1-abstract-giv:act-cf1*-1-ana)|Lem=_|Len=3
 8	_	_	NOUN	NN	Number=Sing	5	obl	5:obl:in	Lem=_|Len=8
 9	_	_	ADP	IN	_	11	case	11:case	Lem=_|Len=2
 10	_	_	NOUN	NN	Number=Sing	11	compound	11:compound	Entity=(22-abstract-new-cf3-2-coref(23-event-new-cf4-1-coref)|Lem=_|Len=6
@@ -194,6 +205,7 @@
 12	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-10
+# s_prominence = 3
 # s_type = decl
 # transition = smooth-shift
 # text = _ _ _ _ _ _ _ __
@@ -208,6 +220,7 @@
 9	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-11
+# s_prominence = 3
 # s_type = decl
 # transition = zero
 # text = _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ __
@@ -228,13 +241,14 @@
 14	_	_	DET	DT	Definite=Def|PronType=Art	16	det	16:det	Lem=_|Len=3
 15	_	_	ADJ	JJS	Degree=Sup	16	amod	16:amod	Lem=good|Len=4
 16	_	_	NOUN	NN	Number=Sing	0	root	0:root	Lem=_|Len=8
-17	_	_	SCONJ	WRB	PronType=Int	18	mark	18:mark	Discourse=context-circumstance:23->22:0|Lem=_|Len=4
+17	_	_	ADV	WRB	PronType=Int	18	advmod	18:advmod	Discourse=context-circumstance:23->22:0|Lem=_|Len=4
 18	_	_	VERB	VBG	VerbForm=Ger	16	acl	16:acl:when	Lem=market|Len=9
 19	_	_	ADP	IN	_	20	case	20:case	Lem=_|Len=2
 20	_	_	NOUN	NN	Number=Sing	18	obl	18:obl:to	Entity=(31-person-new-cf2-1-coref)|Lem=_|Len=2|SpaceAfter=No
 21	_	_	PUNCT	.	_	16	punct	16:punct	Entity=25)|Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-12
+# s_prominence = 4
 # s_type = decl
 # transition = establishment
 # text = _ _ _ _ __
@@ -246,6 +260,7 @@
 6	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-13
+# s_prominence = 4
 # s_type = other
 # transition = zero
 # text = _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
@@ -287,6 +302,7 @@
 35	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-14
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __ _ __ _ __ _ _ _ _ _ __
@@ -298,7 +314,7 @@
 6	_	_	DET	DT	Definite=Def|PronType=Art	9	det	9:det	Bridge=1<35|Entity=(35-time-acc:inf-cf3-4-sgl|Lem=_|Len=3
 7	_	_	ADJ	JJ	Degree=Pos|NumType=Ord	9	amod	9:amod	Lem=_|Len=5
 8	_	_	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	9:nummod	Lem=_|Len=1
-9	_	_	NOUN	NNS	Number=Plur	4	obl	4:obl:in	CorrectForm=hours|Entity=35)33)|Lem=hour|Len=3|XML=<sic ana:::"hours"></sic>
+9	_	_	NOUN	NNS	Number=Plur|Typo=Yes	4	obl	4:obl:in	CorrectForm=hours|Entity=35)33)|Lem=hour|Len=3|XML=<sic ana:::"hours"></sic>
 10	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	13	cop	13:cop	Discourse=same-unit_m:31->29:1|Lem=be|Len=3
 11	_	_	DET	DT	Definite=Def|PronType=Art	13	det	13:det	Entity=(33-abstract-giv:act-cf1-3-coref(36-abstract-new-cf5-3-sgl|Lem=_|Len=3
 12	_	_	ADJ	JJ	Degree=Pos	13	amod	13:amod	Lem=_|Len=5
@@ -323,6 +339,7 @@
 31	_	_	PUNCT	.	_	13	punct	13:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-15
+# s_prominence = 3
 # s_type = decl
 # transition = null
 # text = _ _ _ _ _ _ _ _ __
@@ -340,6 +357,7 @@
 10	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_superman-16
+# s_prominence = 2
 # s_type = sub
 # transition = null
 # text = _ _____ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ ___ _ _ __

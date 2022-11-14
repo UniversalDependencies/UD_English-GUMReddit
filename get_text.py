@@ -2,6 +2,7 @@ import ast, re, io, os, sys
 import requests
 from collections import defaultdict
 from glob import glob
+from requests.exceptions import ConnectionError
 
 PY3 = sys.version_info[0] == 3
 
@@ -220,7 +221,13 @@ docs = {
 
 def get_proxy_data():
 	out_posts = {}
-	tab_delim = requests.get("https://corpling.uis.georgetown.edu/gum/fetch_text_proxy.py").text
+	try:
+		# Try fetching from corpling server
+		raise ConnectionError
+		tab_delim = requests.get("https://corpling.uis.georgetown.edu/gum/fetch_text_proxy.py").text
+	except ConnectionError:
+		# Fall back to mirror on coptic-dictionary.org
+		tab_delim = requests.get("https://coptic-dictionary.org/gum/fetch_text_proxy.py").text
 	for line in tab_delim.split("\n"):
 		if "\t" in line:
 			post, text = line.split("\t")

@@ -1,12 +1,15 @@
 # newdoc id = GUM_reddit_monsters
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = MrDrProfTimeLord, earthling105b, curlbaumann and others (see URL)
 # meta::dateCollected = 2018-09-11
 # meta::dateCreated = 2018-09-09
 # meta::dateModified = 2018-09-09
+# meta::genre = reddit
 # meta::sourceURL = https://www.reddit.com/r/FanTheories/comments/9eci2u/monsters_inc_monstropolis_is_the_only_city_in_a/
 # meta::speakerCount = 4
 # meta::title = [Monsters Inc] Monstropolis is the only city in a destroyed world
 # sent_id = GUM_reddit_monsters-1
+# s_prominence = 2
 # s_type = frag
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -19,6 +22,7 @@
 4	_	_	PUNCT	-RRB-	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-2
+# s_prominence = 1
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -34,6 +38,7 @@
 9	_	_	NOUN	NN	Number=Sing	5	nmod	5:nmod:in	Entity=4)2)|Lem=_|Len=5
 
 # sent_id = GUM_reddit_monsters-3
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -52,6 +57,7 @@
 10	_	_	NOUN	NNS	Number=Plur	7	nmod	7:nmod:from	Entity=6)5)|Lem=movie|Len=6
 
 # sent_id = GUM_reddit_monsters-4
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -76,12 +82,13 @@
 16	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-5
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ ___ __
 1	_	_	DET	DT	Polarity=Neg|PronType=Art	2	det	2:det	Discourse=adversative-antithesis:6->4:1|Entity=(10-organization-new-cf2-2-coref|Lem=*LOWER*|Len=2
-2	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Lem=_|Len=3
+2	_	_	PRON	NN	Number=Sing|PronType=Neg	5	nsubj	5:nsubj	Lem=_|Len=3
 3	_	_	ADV	RB	Degree=Pos	2	advmod	2:advmod	Entity=10)|Lem=_|Len=4
 4	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	5:aux	Lem=be|Len=2
 5	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Lem=step|Len=8
@@ -100,12 +107,13 @@
 18	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-6
+# s_prominence = 3
 # s_type = q
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
 # text = _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ __
 1	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	4:cop	Discourse=evaluation-comment:8->4:2|Lem=be|Len=2
-2	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	nsubj	4:nsubj	Lem=_|Len=2
+2	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	4	expl	4:expl	Lem=_|Len=2
 3	_	_	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Lem=_|Len=4
 4	_	_	ADJ	JJ	Degree=Pos	0	root	0:root	Lem=_|Len=6
 5	_	_	SCONJ	IN	_	8	mark	8:mark	Lem=_|Len=4
@@ -126,6 +134,7 @@
 20	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-7
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -134,7 +143,7 @@
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux:pass	4:aux:pass	Lem=be|Len=2
 3	_	_	ADV	RBR	Degree=Cmp	4	advmod	4:advmod	Lem=far|Len=7
 4	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	0	root	0:root	Lem=underline|Len=10
-5	_	_	SCONJ	WRB	PronType=Int	13	mark	13:mark	Discourse=context-circumstance:10->9:0|Lem=_|Len=4
+5	_	_	ADV	WRB	PronType=Int	13	advmod	13:advmod	Discourse=context-circumstance:10->9:0|Lem=_|Len=4
 6	_	_	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Entity=(11-abstract-new-cf5-1-sgl|Lem=_|Len=8
 7	_	_	ADP	IN	_	10	case	10:case	Lem=_|Len=4
 8	_	_	DET	DT	Definite=Def|PronType=Art	10	det	10:det	Bridge=1<12|Entity=(12-abstract-acc:inf-cf4-3-sgl|Lem=_|Len=3
@@ -151,7 +160,7 @@
 19	_	_	DET	DT	Definite=Def|PronType=Art	20	det	20:det	Entity=(7-organization-giv:act-cf1*-2-coref-Monsters%2C_Inc.|Lem=_|Len=3
 20	_	_	NOUN	NN	Number=Sing	13	obl	13:obl:as	Lem=_|Len=11
 21	_	_	ADP	IN	_	22	case	22:case	Lem=_|Len=3
-22	_	_	PRON	DT	Number=Plur|PronType=Dem	20	nmod	20:nmod:for|24:nsubj|33:nsubj	Entity=(13-person-new-cf8-1-sgl|Lem=this|Len=5
+22	_	_	PRON	DT	Number=Plur|PronType=Dem	20	nmod	20:nmod:for|24:nsubj|33:nsubj	Entity=(13-person-new-cf8-1-sgl|Lem=that|Len=5
 23	_	_	PRON	WP	PronType=Rel	24	nsubj	22:ref	Discourse=elaboration-attribute:11->10:0|Lem=_|Len=3
 24	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	22	acl:relcl	22:acl:relcl	Lem=_|Len=4
 25	_	_	PART	TO	_	27	mark	27:mark	Lem=_|Len=2
@@ -182,6 +191,7 @@
 50	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-8
+# s_prominence = 2
 # s_type = multiple
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -244,6 +254,7 @@
 56	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-9
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -268,7 +279,7 @@
 16	_	_	SCONJ	IN	_	18	mark	18:mark	Discourse=elaboration-attribute:22->21:0|Lem=_|Len=4
 17	_	_	PRON	EX	PronType=Dem	18	expl	18:expl	Lem=_|Len=5
 18	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl	15:acl:that	Lem=be|Len=2
-19	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=(28-person-new-cf4-1-sgl|Lem=_|Len=6
+19	_	_	PRON	NN	Number=Sing|PronType=Ind	18	nsubj	18:nsubj	Entity=(28-person-new-cf4-1-sgl|Lem=_|Len=6
 20	_	_	ADV	RB	Degree=Pos	19	advmod	19:advmod	Entity=28)|Lem=_|Len=4
 21	_	_	ADP	IN	_	24	case	24:case	Lem=_|Len=2
 22	_	_	DET	DT	PronType=Ind	24	det	24:det	Entity=(10-organization-giv:act-cf1*-3-coref|Lem=_|Len=3
@@ -280,6 +291,7 @@
 28	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-10
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = rough-shift
@@ -294,7 +306,7 @@
 6	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	aux	14:aux	Lem=have|Len=3
 7	_	_	AUX	VBN	Tense=Past|VerbForm=Part	14	cop	14:cop	Lem=be|Len=4
 8	_	_	ADP	IN	_	10	case	10:case	Lem=_|Len=2
-9	_	_	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(31-person-new-cf7-2-sgl(29-person-giv:act-cf1-1-ana)|Lem=_|Len=3
+9	_	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(31-person-new-cf7-2-sgl(29-person-giv:act-cf1-1-ana)|Lem=_|Len=3
 10	_	_	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	Entity=31)|Lem=_|Len=6
 11	_	_	ADP	IN	_	14	case	14:case	Lem=_|Len=3
 12	_	_	PUNCT	``	_	14	punct	14:punct	Lem=''|Len=1|SpaceAfter=No|XML=<quote>
@@ -335,6 +347,7 @@
 46	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-11
+# s_prominence = 3
 # s_type = sub
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -357,6 +370,7 @@
 16	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-12
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -380,7 +394,7 @@
 17	_	_	NOUN	NN	Number=Sing	28	parataxis	28:parataxis	Entity=38)|Lem=_|Len=5|SpaceAfter=No
 18	_	_	PUNCT	,	_	19	punct	19:punct	Lem=_|Len=1
 19	_	_	VERB	VBN	Tense=Past|VerbForm=Part	17	advcl	17:advcl	Discourse=context-background:34->33:0|Lem=give|Len=5
-20	_	_	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(39-abstract-new-cf6-2,7-sgl(29-person-giv:act-cf1-1-ana)|Lem=_|Len=3
+20	_	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	nmod:poss	21:nmod:poss	Entity=(39-abstract-new-cf6-2,7-sgl(29-person-giv:act-cf1-1-ana)|Lem=_|Len=3
 21	_	_	NOUN	NN	Number=Sing	19	obj	19:obj	Lem=_|Len=7
 22	_	_	ADP	IN	_	24	case	24:case	Lem=_|Len=5
 23	_	_	DET	DT	Definite=Def|PronType=Art	24	det	24:det	Bridge=7<40|Entity=(40-organization-acc:inf-cf5-2,4-sgl|Lem=_|Len=3
@@ -401,6 +415,7 @@
 38	_	_	PUNCT	.	_	28	punct	28:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-13
+# s_prominence = 3
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -424,6 +439,7 @@
 16	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-14
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -440,6 +456,7 @@
 8	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-15
+# s_prominence = 3
 # s_type = frag
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -469,11 +486,12 @@
 23	_	_	NOUN	NNS	Number=Plur	11	advcl	11:advcl:like	Entity=42)|Lem=country|Len=9
 
 # sent_id = GUM_reddit_monsters-16
+# s_prominence = 5
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
 # text = _ _ _ _ _ _ __ _ _ _ _ __
-1	_	_	SCONJ	WRB	PronType=Int	2	mark	2:mark	Discourse=context-circumstance:42->43:0|Lem=*LOWER*|Len=4
+1	_	_	ADV	WRB	PronType=Int	2	advmod	2:advmod	Discourse=context-circumstance:42->43:0|Lem=*LOWER*|Len=4
 2	_	_	VERB	VBG	VerbForm=Ger	10	advcl	10:advcl:when	Lem=try|Len=6
 3	_	_	PART	TO	_	4	mark	4:mark	Lem=_|Len=2
 4	_	_	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Lem=_|Len=3
@@ -489,6 +507,7 @@
 14	_	_	PUNCT	:	_	10	punct	10:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-17
+# s_prominence = 4
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -507,6 +526,7 @@
 10	_	_	NOUN	NN	Number=Sing	5	obl	5:obl:under	Entity=3)|Lem=_|Len=4
 
 # sent_id = GUM_reddit_monsters-18
+# s_prominence = 4
 # s_type = ger
 # speaker = GUM_reddit_monsters_spk_A
 # transition = smooth-shift
@@ -526,6 +546,7 @@
 11	_	_	PUNCT	''	_	10	punct	10:punct	Lem=''|Len=1|XML=</q>
 
 # sent_id = GUM_reddit_monsters-19
+# s_prominence = 4
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -550,6 +571,7 @@
 16	_	_	NOUN	NN	Number=Sing	11	conj	8:obj|11:conj:and	Entity=49)|Lem=_|Len=5
 
 # sent_id = GUM_reddit_monsters-20
+# s_prominence = 4
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -564,6 +586,7 @@
 6	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-21
+# s_prominence = 4
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -579,6 +602,7 @@
 9	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-22
+# s_prominence = 4
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -592,7 +616,7 @@
 7	_	_	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(50-place-new-cf4-2-sgl|Lem=_|Len=3
 8	_	_	NOUN	NN	Number=Sing	4	obl	4:obl:in	Lem=_|Len=5
 9	_	_	ADP	IN	_	11	case	11:case	Lem=_|Len=2
-10	_	_	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(51-object-new-cf5-2-sgl(43-person-giv:inact-cf2-1-ana)|Lem=_|Len=3
+10	_	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	11	nmod:poss	11:nmod:poss	Entity=(51-object-new-cf5-2-sgl(43-person-giv:inact-cf2-1-ana)|Lem=_|Len=3
 11	_	_	NOUN	NN	Number=Sing	8	nmod	8:nmod:of	Entity=51)50)|Lem=_|Len=3|SpaceAfter=No
 12	_	_	PUNCT	,	_	13	punct	13:punct	Lem=_|Len=1
 13	_	_	VERB	VB	Person=2|VerbForm=Inf	4	conj	4:conj:and	Discourse=joint-sequence_m:52->51:0|Lem=_|Len=5
@@ -604,11 +628,12 @@
 19	_	_	PUNCT	,	_	21	punct	21:punct	Lem=_|Len=1
 20	_	_	CCONJ	CC	_	21	cc	21:cc	Discourse=joint-sequence_m:53->51:0|Lem=_|Len=3
 21	_	_	VERB	VB	Person=2|VerbForm=Inf	4	conj	4:conj:and	Lem=_|Len=3
-22	_	_	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	obj	21:obj|23:nsubj:xsubj	Entity=(18-person-giv:act-cf1-1-ana)|Lem=_|Len=3
+22	_	_	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	21	obj	21:obj|23:nsubj:xsubj	Entity=(18-person-giv:act-cf1-1-ana)|Lem=_|Len=3
 23	_	_	ADJ	JJ	Degree=Pos	21	xcomp	21:xcomp	Lem=_|Len=5|SpaceAfter=No
 24	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-23
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -621,6 +646,7 @@
 5	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-24
+# s_prominence = 4
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -637,6 +663,7 @@
 10	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-25
+# s_prominence = 3
 # s_type = ger
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -647,6 +674,7 @@
 4	_	_	PUNCT	.	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-26
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -672,6 +700,7 @@
 18	_	_	PUNCT	.	_	17	punct	17:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-27
+# s_prominence = 3
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = smooth-shift
@@ -682,6 +711,7 @@
 4	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-28
+# s_prominence = 2
 # s_type = multiple
 # speaker = GUM_reddit_monsters_spk_A
 # transition = retain
@@ -700,14 +730,14 @@
 11	_	_	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(55-abstract-giv:act-cf2*-4-coref|Lem=_|Len=3
 12	_	_	ADV	RBS	Degree=Sup	13	advmod	13:advmod	Lem=_|Len=4
 13	_	_	ADJ	JJ	Degree=Pos	14	amod	14:amod	Lem=_|Len=6
-14	_	_	NOUN	NN	Number=Sing	15	nsubj	15:nsubj	Entity=55)|Lem=_|Len=6
+14	_	_	NOUN	NN	Number=Sing	15	nsubj	15:nsubj|20:nsubj:xsubj	Entity=55)|Lem=_|Len=6
 15	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	3:parataxis	Lem=seem|Len=5
 16	_	_	PART	TO	_	20	mark	20:mark	Lem=_|Len=2
 17	_	_	AUX	VB	VerbForm=Inf	20	cop	20:cop	Lem=_|Len=2
 18	_	_	SCONJ	IN	_	20	mark	20:mark	Lem=_|Len=4
-19	_	_	PRON	EX	PronType=Dem	20	expl	20:expl	Entity=(55-abstract-giv:act-cf2*-3-coref|Lem=_|Len=5
+19	_	_	PRON	EX	PronType=Dem	20	expl	20:expl	Entity=(55-abstract-giv:act-cf2*-2-disc|Lem=_|Len=5
 20	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	xcomp	15:xcomp	Lem=be|Len=3
-21	_	_	NOUN	NNS	Number=Plur	15	obj	15:obj|20:nsubj:xsubj|25:nsubj	Entity=(58-person-new-cf3-3-coref|Lem=thing|Len=6
+21	_	_	NOUN	NNS	Number=Plur	20	nsubj	20:nsubj|25:nsubj	Entity=(58-person-new-cf3-3-coref|Lem=thing|Len=6
 22	_	_	ADV	RB	_	23	advmod	23:advmod	Lem=_|Len=3
 23	_	_	ADV	RB	PronType=Dem	20	advmod	20:advmod	Entity=(46-place-giv:inact-cf5-1-coref)58)|Lem=_|Len=5
 24	_	_	PRON	WDT	PronType=Rel	25	nsubj	21:ref	Discourse=elaboration-attribute:61->60:0|Lem=_|Len=4
@@ -735,13 +765,14 @@
 46	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-29
+# s_prominence = 3
 # s_type = multiple
 # speaker = GUM_reddit_monsters_spk_A
 # transition = continue
 # text = _ _ _ _ _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	CCONJ	CC	_	4	cc	4:cc	Discourse=evaluation-comment:64->60:3|Lem=*LOWER*|Len=3
 2	_	_	ADV	RB	_	3	advmod	3:advmod	Lem=_|Len=4
-3	_	_	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(55-abstract-giv:act-cf1*-1-ana)|Lem=_|Len=4
+3	_	_	PRON	DT	Number=Sing|PronType=Dem	4	nsubj	4:nsubj	Entity=(55-abstract-giv:act-cf1*-1-coref)|Lem=_|Len=4
 4	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=present|Len=8
 5	_	_	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(60-abstract-new-cf4-2-sgl|Lem=_|Len=1
 6	_	_	NOUN	NN	Number=Sing	4	obj	4:obj	Entity=60)|Lem=_|Len=7|SpaceAfter=No
@@ -763,6 +794,7 @@
 22	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-30
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -809,6 +841,7 @@
 39	_	_	PUNCT	.	_	19	punct	19:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-31
+# s_prominence = 3
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -826,13 +859,14 @@
 11	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-32
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = smooth-shift
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	DET	DT	Definite=Def|PronType=Art	3	det	3:det	Discourse=adversative-contrast_m:72->60:5|Entity=(67-abstract-new-cf4-3-sgl|Lem=*LOWER*|Len=3
 2	_	_	ADJ	JJS	Degree=Sup	3	amod	3:amod	Lem=simple|Len=8
-3	_	_	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Lem=_|Len=11
+3	_	_	NOUN	NN	Number=Sing	12	nsubj:outer	12:nsubj:outer	Lem=_|Len=11
 4	_	_	ADP	IN	_	5	case	5:case	Lem=_|Len=3
 5	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nmod	3:nmod:for	Entity=(65-abstract-giv:inact-cf2-1-coref)67)|Lem=_|Len=4
 6	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	Lem=be|Len=2
@@ -848,11 +882,12 @@
 16	_	_	PUNCT	.	_	12	punct	12:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-33
+# s_prominence = 4
 # s_type = wh
 # speaker = GUM_reddit_monsters_spk_A
 # transition = smooth-shift
 # text = _ _ _ _ _ __ __ __
-1	_	_	DET	WP	PronType=Int	2	det	2:det	Discourse=topic-question:73->74:1|Lem=*LOWER*|Len=4
+1	_	_	DET	WDT	PronType=Int	2	det	2:det	Discourse=topic-question:73->74:1|Lem=*LOWER*|Len=4
 2	_	_	NOUN	NN	Number=Sing	0	root	0:root	Lem=_|Len=4
 3	_	_	ADP	IN	_	4	case	4:case	Lem=_|Len=2
 4	_	_	NOUN	NN	Number=Sing	2	nmod	2:nmod:of	Entity=(68-place-giv:act-cf1*-1-coref)|Lem=_|Len=11
@@ -865,6 +900,7 @@
 11	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-34
+# s_prominence = 3
 # s_type = q
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -881,6 +917,7 @@
 10	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-35
+# s_prominence = 3
 # s_type = q
 # speaker = GUM_reddit_monsters_spk_A
 # transition = null
@@ -909,6 +946,7 @@
 22	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_monsters-36
+# s_prominence = 3
 # s_type = q
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -944,6 +982,7 @@
 
 # sent_id = GUM_reddit_monsters-37
 # addressee = GUM_reddit_monsters_spk_A
+# s_prominence = 1
 # s_type = other
 # speaker = GUM_reddit_monsters_spk_B
 # transition = zero
@@ -964,6 +1003,7 @@
 
 # sent_id = GUM_reddit_monsters-38
 # addressee = GUM_reddit_monsters_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_B
 # transition = null
@@ -994,6 +1034,7 @@
 
 # sent_id = GUM_reddit_monsters-39
 # addressee = GUM_reddit_monsters_spk_A
+# s_prominence = 1
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_B
 # transition = establishment
@@ -1005,7 +1046,7 @@
 5	_	_	NOUN	NN	Number=Sing	3	obj	3:obj	Lem=_|Len=3
 6	_	_	PART	TO	_	7	mark	7:mark	Discourse=purpose-attribute:88->87:0|Lem=_|Len=2
 7	_	_	VERB	VB	VerbForm=Inf	5	acl	5:acl:to	Lem=_|Len=4
-8	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(3-place-giv:inact-cf4-2-coref(61-person-giv:act-cf1*-1-ana)|Lem=_|Len=5
+8	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	9	nmod:poss	9:nmod:poss	Entity=(3-place-giv:inact-cf4-2-coref(61-person-giv:act-cf1*-1-ana)|Lem=_|Len=5
 9	_	_	NOUN	NN	Number=Sing	7	obj	7:obj|10:nsubj:xsubj	Entity=3)|Lem=_|Len=4
 10	_	_	ADJ	JJ	Degree=Pos	7	xcomp	7:xcomp	Lem=_|Len=6
 11	_	_	ADP	IN	_	12	case	12:case	Lem=_|Len=4
@@ -1040,6 +1081,7 @@
 
 # sent_id = GUM_reddit_monsters-40
 # addressee = GUM_reddit_monsters_spk_B
+# s_prominence = 2
 # s_type = multiple
 # speaker = GUM_reddit_monsters_spk_C
 # transition = smooth-shift
@@ -1062,6 +1104,7 @@
 
 # sent_id = GUM_reddit_monsters-41
 # addressee = GUM_reddit_monsters_spk_C
+# s_prominence = 4
 # s_type = sub
 # speaker = GUM_reddit_monsters_spk_A
 # transition = smooth-shift
@@ -1084,6 +1127,7 @@
 
 # sent_id = GUM_reddit_monsters-42
 # addressee = GUM_reddit_monsters_spk_C
+# s_prominence = 4
 # s_type = other
 # speaker = GUM_reddit_monsters_spk_A
 # transition = continue
@@ -1102,6 +1146,7 @@
 
 # sent_id = GUM_reddit_monsters-43
 # addressee = GUM_reddit_monsters_spk_A
+# s_prominence = 3
 # s_type = frag
 # speaker = GUM_reddit_monsters_spk_D
 # transition = zero
@@ -1112,6 +1157,7 @@
 
 # sent_id = GUM_reddit_monsters-44
 # addressee = GUM_reddit_monsters_spk_D
+# s_prominence = 4
 # s_type = multiple
 # speaker = GUM_reddit_monsters_spk_A
 # transition = establishment
@@ -1159,6 +1205,7 @@
 
 # sent_id = GUM_reddit_monsters-45
 # addressee = GUM_reddit_monsters_spk_D
+# s_prominence = 5
 # s_type = decl
 # speaker = GUM_reddit_monsters_spk_A
 # transition = rough-shift
@@ -1216,6 +1263,7 @@
 
 # sent_id = GUM_reddit_monsters-46
 # addressee = GUM_reddit_monsters_spk_D
+# s_prominence = 5
 # s_type = imp
 # speaker = GUM_reddit_monsters_spk_A
 # transition = continue
@@ -1246,6 +1294,7 @@
 
 # sent_id = GUM_reddit_monsters-47
 # addressee = GUM_reddit_monsters_spk_D
+# s_prominence = 6
 # s_type = sub
 # speaker = GUM_reddit_monsters_spk_A
 # transition = smooth-shift
@@ -1276,6 +1325,7 @@
 
 # sent_id = GUM_reddit_monsters-48
 # addressee = GUM_reddit_monsters_spk_D
+# s_prominence = 6
 # s_type = multiple
 # speaker = GUM_reddit_monsters_spk_A
 # transition = zero
@@ -1283,7 +1333,7 @@
 1	_	_	PUNCT	-LRB-	_	2	punct	2:punct	Discourse=organization-preparation:117->120:1|Lem=_|Len=1|SpaceAfter=No
 2	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Lem=*LOWER*|Len=8|SpaceAfter=No
 3	_	_	PUNCT	,	_	9	punct	9:punct	Lem=_|Len=1
-4	_	_	SCONJ	WRB	PronType=Int	9	mark	9:mark	Discourse=context-circumstance:118->119:0|Lem=_|Len=4
+4	_	_	ADV	WRB	PronType=Int	9	advmod	9:advmod	Discourse=context-circumstance:118->119:0|Lem=_|Len=4
 5	_	_	PROPN	NNP	Number=Sing	9	nsubj:pass	9:nsubj:pass	Entity=(95-person-new-cf1-1,3-coref(43-person-giv:inact-cf2-1-coref)|Lem=_|Len=4
 6	_	_	CCONJ	CC	_	7	cc	7:cc	Lem=_|Len=3
 7	_	_	PROPN	NNP	Number=Sing	5	conj	5:conj:and|9:nsubj:pass	Entity=(96-person-new-cf7-1-sgl)95)|Lem=_|Len=5

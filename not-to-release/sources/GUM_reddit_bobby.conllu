@@ -1,19 +1,22 @@
 # newdoc id = GUM_reddit_bobby
 # global.Entity = GRP-etype-infstat-centering-minspan-link-identity
+# meta::author = reddit community (see URL)
 # meta::dateCollected = 2018-09-12
 # meta::dateCreated = 2018-06-08
 # meta::dateModified = 2018-08-10
+# meta::genre = reddit
 # meta::sourceURL = https://www.reddit.com/r/foodnetwork/comments/8ph56q/why_very_few_actually_beat_bobby_flay/
 # meta::speakerCount = 8
 # meta::title = Why very few actually Beat Bobby Flay.
 # sent_id = GUM_reddit_bobby-1
+# s_prominence = 2
 # s_type = other
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
 # text = _ _ _ _ _ _ __
 # newpar
 # newpar_block = sp who:::"GUM_reddit_bobby_spk_A" (27 s) | head (1 s)
-1	_	_	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=organization-heading:1->6:4|Lem=*LOWER*|Len=3
+1	_	_	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=organization-heading:1->6:4|Lem=*LOWER*|Len=3
 2	_	_	ADV	RB	_	3	advmod	3:advmod	Entity=(1-person-new-cf1-2-sgl|Lem=_|Len=4
 3	_	_	ADJ	JJ	Degree=Pos	5	nsubj	5:nsubj	Entity=1)|Lem=_|Len=3
 4	_	_	ADV	RB	Degree=Pos	5	advmod	5:advmod	Lem=_|Len=8
@@ -23,6 +26,7 @@
 8	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-2
+# s_prominence = 1
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -71,6 +75,7 @@
 39	_	_	PUNCT	.	_	26	punct	26:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-3
+# s_prominence = 3
 # s_type = inf
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -80,6 +85,7 @@
 3	_	_	PUNCT	:	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-4
+# s_prominence = 5
 # s_type = q
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -87,10 +93,10 @@
 # newpar
 # newpar_block = p (7 s)
 1	_	_	VERB	VB	Person=2|VerbForm=Inf	0	root	0:root	Discourse=context-background:8->16:2|Lem=*LOWER*|Len=8
-2	_	_	ADV	WRB	PronType=Rel	1	obj	1:obj	Lem=_|Len=4
+2	_	_	SCONJ	WRB	PronType=Rel	1	obj	1:obj	Lem=_|Len=4
 3	_	_	PROPN	NNP	Number=Sing	5	nsubj	5:nsubj|13:nsubj	Entity=(13-person-new-cf2-1,2-coref-Anne_Burrell|Lem=_|Len=4
 4	_	_	PROPN	NNP	Number=Sing	3	flat	3:flat	Entity=13)|Lem=_|Len=7
-5	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Entity=(14-event-new-cf4-1-disc|Lem=challenge|Len=10
+5	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	2	advcl:relcl	2:advcl:relcl	Entity=(14-event-new-cf4-1-disc|Lem=challenge|Len=10
 6	_	_	PROPN	NNP	Number=Sing	5	obj	5:obj	Entity=(2-person-giv:inact-cf1-1-coref-Bobby_Flay)|Lem=_|Len=5
 7	_	_	ADP	IN	_	10	case	10:case	Lem=_|Len=2
 8	_	_	DET	DT	Definite=Ind|PronType=Art	10	det	10:det	Entity=(15-event-new-cf3-3-sgl|Lem=_|Len=1
@@ -98,10 +104,11 @@
 10	_	_	NOUN	NN	Number=Sing	5	obl	5:obl:to	Entity=15)14)|Lem=_|Len=6|SpaceAfter=No
 11	_	_	PUNCT	,	_	13	punct	13:punct	Lem=_|Len=1
 12	_	_	CCONJ	CC	_	13	cc	13:cc	Discourse=joint-sequence_m:9->8:0|Lem=_|Len=3
-13	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	2:acl:relcl|5:conj:and	Lem=win|Len=3|SpaceAfter=No
+13	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	conj	2:advcl:relcl|5:conj:and	Lem=win|Len=3|SpaceAfter=No
 14	_	_	PUNCT	.	_	1	punct	1:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-5
+# s_prominence = 6
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -112,7 +119,7 @@
 3	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	nsubj	8:nsubj	Discourse=adversative-concession:11->13:1|Entity=(16-object-giv:act-cf2-1-ana)|Lem=_|Len=2
 4	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	8:cop	Lem=be|Len=2
 5	_	_	PART	RB	Polarity=Neg	8	advmod	8:advmod	Lem=_|Len=3
-6	_	_	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(17-object-new-cf4-3-sgl(13-person-giv:act-cf1*-1-ana-Anne_Burrell)|Lem=_|Len=3
+6	_	_	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(17-object-new-cf4-3-sgl(13-person-giv:act-cf1*-1-ana-Anne_Burrell)|Lem=_|Len=3
 7	_	_	ADJ	JJ	Degree=Pos	8	amod	8:amod	Lem=_|Len=8
 8	_	_	NOUN	NN	Number=Sing	2	ccomp	2:ccomp	Entity=17)|Lem=_|Len=4|SpaceAfter=No
 9	_	_	PUNCT	,	_	12	punct	12:punct	Lem=_|Len=1
@@ -127,6 +134,7 @@
 18	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-6
+# s_prominence = 5
 # s_type = q
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -147,7 +155,7 @@
 13-14	__	_	_	_	_	_	_	_	Len=6
 13	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	aux	17:aux	Lem=have|Len=3
 14	_	_	PART	RB	Polarity=Neg	17	advmod	17:advmod	Lem=not|Len=3
-15	_	_	NOUN	NN	Number=Sing	17	nsubj	17:nsubj|19:nsubj:xsubj	Entity=(21-person-new-cf4-1-coref|Lem=_|Len=6
+15	_	_	PRON	NN	Number=Sing|PronType=Ind	17	nsubj	17:nsubj|19:nsubj:xsubj	Entity=(21-person-new-cf4-1-coref|Lem=_|Len=6
 16	_	_	ADV	RB	Degree=Pos	15	advmod	15:advmod	Entity=21)|Lem=_|Len=4
 17	_	_	VERB	VBN	Tense=Past|VerbForm=Part	4	ccomp	4:ccomp	Lem=think|Len=7
 18	_	_	PART	TO	_	19	mark	19:mark	Lem=_|Len=2
@@ -157,6 +165,7 @@
 22	_	_	PUNCT	''	_	17	punct	17:punct	Lem=''|Len=1|XML=</quote>
 
 # sent_id = GUM_reddit_bobby-7
+# s_prominence = 4
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -168,6 +177,7 @@
 5	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-8
+# s_prominence = 4
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = smooth-shift
@@ -181,6 +191,7 @@
 7	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-9
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -217,7 +228,7 @@
 30	_	_	PART	TO	_	31	mark	31:mark	Lem=_|Len=2
 31	_	_	VERB	VB	VerbForm=Inf	29	xcomp	29:xcomp	Lem=_|Len=4
 32	_	_	ADP	IN	_	35	case	35:case	Lem=_|Len=2
-33	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(25-object-giv:act-cf4-3-coref(26-person-giv:act-cf1-1-ana)|Lem=_|Len=5
+33	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(25-object-giv:act-cf4-3-coref(26-person-giv:act-cf1-1-ana)|Lem=_|Len=5
 34	_	_	NOUN	NN	Number=Sing	35	compound	35:compound	Lem=_|Len=9
 35	_	_	NOUN	NN	Number=Sing	31	obl	31:obl:as	Entity=25)25)|Lem=_|Len=4
 36	_	_	ADP	IN	_	39	case	39:case	Lem=_|Len=2
@@ -290,13 +301,14 @@
 100	_	_	PUNCT	.	_	26	punct	26:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-10
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
 # text = _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ __ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 1	_	_	VERB	VBN	Tense=Past|VerbForm=Part	25	advcl	25:advcl	Discourse=causal-cause:30->33:0|Lem=give|Len=5
 2	_	_	SCONJ	IN	_	14	mark	14:mark	Lem=_|Len=4
-3	_	_	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=context-circumstance:31->32:0|Lem=_|Len=4
+3	_	_	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:31->32:0|Lem=_|Len=4
 4	_	_	VERB	VBN	Tense=Past|VerbForm=Part	14	advcl	14:advcl:when	Lem=confront|Len=10
 5	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=4
 6	_	_	DET	DT	Definite=Ind|PronType=Art	7	det	7:det	Entity=(36-object-new-cf5-2-sgl|Lem=_|Len=1
@@ -334,6 +346,7 @@
 37	_	_	PUNCT	.	_	25	punct	25:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-11
+# s_prominence = 3
 # s_type = imp
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -344,7 +357,7 @@
 1	_	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Discourse=explanation-motivation:34->35:0|Lem=*LOWER*|Len=2
 2	_	_	PART	RB	Polarity=Neg	3	advmod	3:advmod	Lem=not|Len=3
 3	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Lem=_|Len=4
-4	_	_	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(39-abstract-new-cf4-2-sgl(7-person-giv:inact-cf1-1-ana)|Lem=_|Len=2
+4	_	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(39-abstract-new-cf4-2-sgl(7-person-giv:inact-cf1-1-ana)|Lem=_|Len=2
 5	_	_	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=39)|Lem=_|Len=4
 6	_	_	ADP	IN	_	7	case	7:case	Lem=_|Len=3
 7	_	_	PRON	PRP	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	obl	3:obl:for	Entity=(9-abstract-giv:inact-cf2-1-coref)|Lem=_|Len=2|SpaceAfter=No
@@ -356,16 +369,17 @@
 13	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-12
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = null
 # text = _ _ _ _ _ _ _ _ _ _ __ __ __ _ _ _ ___ _ _ _ _ _ _ _ _ _ _ __ _ _ __ __ _ _ _ _ _ __ _ _ _ _ _ _ __ _ _ _ ____
 1	_	_	ADV	RB	Degree=Pos	9	advmod	9:advmod	Discourse=attribution-positive:36->39:0|Lem=*LOWER*|Len=7
-2	_	_	SCONJ	WRB	PronType=Int	5	mark	5:mark	Discourse=context-circumstance:37->38:0|Lem=_|Len=4
+2	_	_	ADV	WRB	PronType=Int	5	advmod	5:advmod	Discourse=context-circumstance:37->38:0|Lem=_|Len=4
 3	_	_	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(29-person-giv:inact-cf1-2-coref|Lem=_|Len=3
 4	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=29)|Lem=_|Len=10
 5	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	advcl	9:advcl:when	Lem=announce|Len=9
-6	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(40-object-new-cf3-2-coref(29-person-giv:act-cf1-1-ana)|Lem=_|Len=5
+6	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	7	nmod:poss	7:nmod:poss	Entity=(40-object-new-cf3-2-coref(29-person-giv:act-cf1-1-ana)|Lem=_|Len=5
 7	_	_	NOUN	NN	Number=Sing	5	obj	5:obj	Entity=40)|Lem=_|Len=4
 8	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	9:nsubj	Discourse=same-unit_m:38->36:0|Entity=(19-person-giv:inact-cf2-1-ana)|Lem=_|Len=3
 9	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=_|Len=5
@@ -391,7 +405,7 @@
 28	_	_	ADP	IN	_	30	case	30:case	Lem=_|Len=2
 29	_	_	DET	DT	Number=Sing|PronType=Dem	30	det	30:det	Entity=(42-event-new-cf10-2-sgl|Lem=_|Len=4
 30	_	_	NOUN	NN	Number=Sing	27	obl	27:obl:to	Entity=42)|Lem=_|Len=9
-31	_	_	SCONJ	WRB	PronType=Rel	37	mark	37:mark	Discourse=attribution-positive:41->42:1|Lem=_|Len=5
+31	_	_	ADV	WRB	PronType=Rel	37	advmod	37:advmod	Discourse=attribution-positive:41->42:1|Lem=_|Len=5
 32	_	_	DET	DT	Definite=Ind|PronType=Art	36	det	36:det	Entity=(29-person-giv:act-cf1-5-coref|Lem=_|Len=1
 33	_	_	VERB	VBG	VerbForm=Ger	36	amod	36:amod	Lem=smile|Len=7|SpaceAfter=No
 34	_	_	PUNCT	,	_	33	punct	33:punct	Lem=_|Len=1
@@ -400,7 +414,7 @@
 37	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	acl:relcl	30:acl:relcl	Lem=say|Len=4|SpaceAfter=No
 38	_	_	PUNCT	,	_	44	punct	44:punct	Lem=_|Len=1
 39	_	_	PUNCT	``	_	44	punct	44:punct	Discourse=elaboration-additional:42->40:0|Lem=''|Len=1|SpaceAfter=No|XML=<quote>
-40	_	_	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	41	nmod:poss	41:nmod:poss	Bridge=40<43|Entity=(43-object-acc:inf-cf6-2-coref(29-person-giv:act-cf1-1-ana)|Lem=*LOWER*|Len=2
+40	_	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	41	nmod:poss	41:nmod:poss	Bridge=40<43|Entity=(43-object-acc:inf-cf6-2-coref(29-person-giv:act-cf1-1-ana)|Lem=*LOWER*|Len=2
 41	_	_	NOUN	NN	Number=Sing	44	nsubj	44:nsubj	Lem=_|Len=7
 42	_	_	ADP	IN	_	43	case	43:case	Lem=_|Len=2
 43	_	_	SYM	SYM	_	41	nmod	41:nmod:of	Entity=43)|Lem=_|Len=8
@@ -426,6 +440,7 @@
 62	_	_	PUNCT	''	_	44	punct	44:punct	Lem=''|Len=1|XML=</quote>
 
 # sent_id = GUM_reddit_bobby-13
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -445,8 +460,8 @@
 13	_	_	ADP	IN	_	15	case	15:case	Lem=_|Len=2
 14	_	_	DET	DT	Definite=Def|PronType=Art	15	det	15:det	Entity=(6-abstract-giv:inact-cf4-2-coref-Beat_Bobby_Flay|Lem=_|Len=3
 15	_	_	NOUN	NN	Number=Sing	12	nmod	12:nmod:of	Entity=6)47)|Lem=_|Len=4
-16	_	_	SCONJ	WRB	PronType=Int	21	mark	21:mark	Discourse=context-circumstance:45->44:0|Lem=_|Len=4
-17	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(43-object-giv:act-cf2-3-coref(29-person-giv:act-cf1*-1-ana)|Lem=_|Len=5
+16	_	_	ADV	WRB	PronType=Int	21	advmod	21:advmod	Discourse=context-circumstance:45->44:0|Lem=_|Len=4
+17	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	19	nmod:poss	19:nmod:poss	Entity=(43-object-giv:act-cf2-3-coref(29-person-giv:act-cf1*-1-ana)|Lem=_|Len=5
 18	_	_	ADJ	JJ	Degree=Pos	19	amod	19:amod	Lem=_|Len=5
 19	_	_	NOUN	NN	Number=Sing	21	nsubj:pass	21:nsubj:pass	Entity=43)|Lem=_|Len=10
 20	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux:pass	21:aux:pass	Lem=get|Len=4
@@ -457,6 +472,7 @@
 25	_	_	PUNCT	.	_	9	punct	9:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-14
+# s_prominence = 2
 # s_type = sub
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -482,6 +498,7 @@
 17	_	_	PUNCT	.	_	10	punct	10:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-15
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -508,6 +525,7 @@
 19	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-16
+# s_prominence = 3
 # s_type = other
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -522,11 +540,12 @@
 6	_	_	PROPN	NNP	Number=Sing	2	obl	2:obl:to	Entity=(13-person-giv:inact-cf1-1,2-coref-Anne_Burrell|Lem=_|Len=4
 7	_	_	PROPN	NNP	Number=Sing	6	flat	6:flat	Entity=13)|Lem=_|Len=7
 8	_	_	CCONJ	CC	_	10	cc	10:cc	Lem=_|Len=3
-9	_	_	PRON	PRP$	Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(16-object-giv:inact-cf3-2-coref(13-person-giv:act-cf1-1-ana-Anne_Burrell)|Lem=_|Len=3
+9	_	_	PRON	PRP$	Case=Gen|Gender=Fem|Number=Sing|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(16-object-giv:inact-cf3-2-coref(13-person-giv:act-cf1-1-ana-Anne_Burrell)|Lem=_|Len=3
 10	_	_	NOUN	NN	Number=Sing	6	conj	2:obl:to|6:conj:and	Entity=16)|Lem=_|Len=10|SpaceAfter=No
 11	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-17
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = null
@@ -556,6 +575,7 @@
 23	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-18
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -573,7 +593,7 @@
 11	_	_	NOUN	NN	Number=Sing	7	obl	7:obl:on	Entity=6)|Lem=_|Len=4|SpaceAfter=No
 12	_	_	PUNCT	,	_	22	punct	22:punct	Lem=_|Len=1
 13	_	_	CCONJ	CC	_	22	cc	22:cc	Discourse=context-circumstance:56->57:0|Lem=_|Len=3
-14	_	_	SCONJ	WRB	PronType=Int	16	mark	16:mark	Lem=_|Len=4
+14	_	_	ADV	WRB	PronType=Int	16	advmod	16:advmod	Lem=_|Len=4
 15	_	_	PROPN	NNP	Number=Sing	16	nsubj	16:nsubj	Entity=(2-person-giv:act-cf2-1-coref-Bobby_Flay)|Lem=_|Len=5
 16	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	22:advcl:when	Lem=lose|Len=5
 17	_	_	ADP	IN	_	18	case	18:case	Lem=_|Len=2
@@ -588,6 +608,7 @@
 25	_	_	PUNCT	.	_	5	punct	5:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-19
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -597,11 +618,11 @@
 1	_	_	PRON	DT	Number=Sing|PronType=Dem	3	nsubj	3:nsubj	Discourse=joint-other_m:58->33:3|Entity=(9-abstract-giv:inact-cf3-1-ana)|Lem=*LOWER*|Len=4
 2	_	_	ADV	RB	_	3	advmod	3:advmod	Lem=_|Len=4
 3	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=illuminate|Len=11
-4	_	_	ADV	WRB	PronType=Rel	3	obj	3:obj	Lem=_|Len=3
+4	_	_	SCONJ	WRB	PronType=Rel	3	obj	3:obj	Lem=_|Len=3
 5	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	8:nsubj	Entity=(33-person-giv:inact-cf2-1-ana)|Lem=_|Len=2
 6	_	_	ADV	RB	_	7	advmod	7:advmod	Lem=_|Len=2
 7	_	_	ADV	RB	Degree=Pos	8	advmod	8:advmod	Lem=_|Len=5
-8	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	4:acl:relcl	Lem=_|Len=3
+8	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	advcl:relcl	4:advcl:relcl	Lem=_|Len=3
 9	_	_	NOUN	NNS	Number=Plur	8	obj	8:obj|12:nsubj	Entity=(55-person-new-cf1-1-coref)|Lem=judge|Len=6
 10	_	_	PRON	WP	PronType=Rel	12	nsubj	9:ref	Discourse=elaboration-attribute:59->58:0|Lem=_|Len=3
 11	_	_	PRON	PRP	Number=Plur|Person=3|PronType=Prs	12	obl:npmod	12:obl:npmod	Entity=(55-person-giv:act-cf1-1-ana)|Lem=_|Len=10
@@ -617,6 +638,7 @@
 21	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-20
+# s_prominence = 3
 # s_type = sub
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -640,11 +662,11 @@
 17	_	_	NOUN	NNS	Number=Plur	15	obl	15:obl:in|19:nsubj	Entity=(55-person-giv:act-cf4-1-coref)|Lem=judge|Len=6
 18	_	_	PRON	WP	PronType=Rel	19	nsubj	17:ref	Discourse=attribution-positive:62->63:0|Lem=_|Len=3
 19	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	acl:relcl	17:acl:relcl	Lem=_|Len=4
-20	_	_	ADV	WRB	PronType=Rel	19	obj	19:obj	Discourse=elaboration-additional:63->61:0|Lem=_|Len=3
+20	_	_	SCONJ	WRB	PronType=Rel	19	obj	19:obj	Discourse=elaboration-additional:63->61:0|Lem=_|Len=3
 21-22	__	_	_	_	_	_	_	_	Len=4
 21	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj:pass	23:nsubj:pass|26:nsubj:pass:xsubj	Entity=(40-object-giv:act-cf2*-1-ana)|Lem=_|Len=2
 22	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	aux:pass	23:aux:pass	Lem=be|Len=2
-23	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	acl:relcl	20:acl:relcl	Lem=suppose|Len=8
+23	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	20	advcl:relcl	20:advcl:relcl	Lem=suppose|Len=8
 24	_	_	PART	TO	_	26	mark	26:mark	Lem=_|Len=2
 25	_	_	AUX	VB	VerbForm=Inf	26	aux:pass	26:aux:pass	Lem=_|Len=2
 26	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	23	xcomp	23:xcomp	Lem=cook|Len=6
@@ -675,6 +697,7 @@
 50	_	_	PUNCT	.	_	15	punct	15:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-21
+# s_prominence = 2
 # s_type = frag
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
@@ -687,6 +710,7 @@
 4	_	_	PUNCT	:	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-22
+# s_prominence = 1
 # s_type = sub
 # speaker = GUM_reddit_bobby_spk_A
 # transition = establishment
@@ -730,7 +754,7 @@
 34	_	_	SCONJ	IN	_	45	mark	45:mark	Discourse=joint-other_m:72->6:3|Lem=_|Len=2
 35	_	_	NUM	CD	NumForm=Word|NumType=Card	45	nsubj:pass	45:nsubj:pass|51:nsubj:pass	Entity=(59-person-new-cf6-1-sgl|Lem=_|Len=3
 36	_	_	ADP	IN	_	38	case	38:case	Lem=_|Len=2
-37	_	_	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	38:nmod:poss	Entity=(2-person-giv:act-cf2-1-ana-Bobby_Flay)|Lem=_|Len=3
+37	_	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	38	nmod:poss	38:nmod:poss	Entity=(2-person-giv:act-cf2-1-ana-Bobby_Flay)|Lem=_|Len=3
 38	_	_	NOUN	NNS	Number=Plur	35	nmod	35:nmod:of	Lem=assistant|Len=10
 39	_	_	CCONJ	CC	_	42	cc	42:cc	Lem=_|Len=2
 40	_	_	NOUN	NN	Number=Sing	42	compound	42:compound	Lem=_|Len=4|SpaceAfter=No|XML=<w>
@@ -755,6 +779,7 @@
 58	_	_	PUNCT	.	_	33	punct	33:punct	Entity=58)|Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-23
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = smooth-shift
@@ -764,7 +789,7 @@
 2	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	cop	3:cop	Lem=be|Len=2
 3	_	_	ADJ	JJ	Degree=Pos	0	root	0:root	Lem=_|Len=4
 4-5	__	_	_	_	_	_	_	_	Len=4
-4	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj	9:nsubj	Entity=(60-object-giv:act-cf2-1-ana)|Lem=_|Len=2
+4	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	nsubj:outer	9:nsubj:outer	Entity=(60-object-giv:act-cf2-1-ana)|Lem=_|Len=2
 5	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	9:cop	Lem=be|Len=2
 6	_	_	ADV	RB	_	9	advmod	9:advmod	Lem=_|Len=6
 7	_	_	ADV	RB	Degree=Pos	9	advmod	9:advmod	Lem=_|Len=4|SpaceAfter=No|XML=<w>
@@ -794,12 +819,13 @@
 29	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-24
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = zero
 # text = _ _ _ _ _ _ _ _ __ __ _ _ __ _ _ __ __ _ __
 1	_	_	ADV	RB	_	24	advmod	24:advmod	Discourse=elaboration-additional:77->72:3|Lem=*LOWER*|Len=2
-2	_	_	SCONJ	WRB	PronType=Int	4	mark	4:mark	Discourse=context-circumstance:78->81:0|Lem=_|Len=4
+2	_	_	ADV	WRB	PronType=Int	4	advmod	4:advmod	Discourse=context-circumstance:78->81:0|Lem=_|Len=4
 3	_	_	PROPN	NNP	Number=Sing	4	nsubj	4:nsubj|6:nsubj	Entity=(2-person-giv:inact-cf2-1-coref-Bobby_Flay)|Lem=_|Len=5
 4	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	advcl	24:advcl:when	Lem=look|Len=5
 5	_	_	CCONJ	CC	_	6	cc	6:cc	Discourse=joint-list_m:79->78:0|Lem=_|Len=3
@@ -822,11 +848,12 @@
 21-22	__	_	_	_	_	_	_	_	Len=6
 21	_	_	PRON	DT	Number=Sing|PronType=Dem	24	nsubj	24:nsubj	Discourse=same-unit_m:81->77:0|Entity=(66-object-giv:act-cf1-1-ana)|Lem=_|Len=4
 22	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	cop	24:cop	Lem=be|Len=2
-23	_	_	PRON	PRP$	Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(66-object-giv:act-cf1-2-coref(2-person-giv:act-cf2-1-ana-Bobby_Flay)|Lem=_|Len=3
+23	_	_	PRON	PRP$	Case=Gen|Gender=Masc|Number=Sing|Person=3|Poss=Yes|PronType=Prs	24	nmod:poss	24:nmod:poss	Entity=(66-object-giv:act-cf1-2-coref(2-person-giv:act-cf2-1-ana-Bobby_Flay)|Lem=_|Len=3
 24	_	_	NOUN	NN	Number=Sing	0	root	0:root	Entity=66)|Lem=_|Len=4|SpaceAfter=No
 25	_	_	PUNCT	.	_	24	punct	24:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-25
+# s_prominence = 3
 # s_type = sub
 # speaker = GUM_reddit_bobby_spk_A
 # transition = null
@@ -848,6 +875,7 @@
 13	_	_	PUNCT	''	_	8	punct	8:punct	Lem=''|Len=1
 
 # sent_id = GUM_reddit_bobby-26
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = null
@@ -869,18 +897,19 @@
 12	_	_	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	Lem=_|Len=8
 13	_	_	ADV	RB	Degree=Pos	12	advmod	12:advmod	Lem=_|Len=8
 14	_	_	ADP	IN	_	15	case	15:case	Lem=_|Len=4
-15	_	_	NOUN	NN	Number=Sing	12	obl	12:obl:with	Entity=(69-abstract-new-cf4-1-sgl)|Lem=_|Len=8
+15	_	_	PRON	NN	Number=Sing|PronType=Ind	12	obl	12:obl:with	Entity=(69-abstract-new-cf4-1-sgl)|Lem=_|Len=8
 16	_	_	DET	DT	Definite=Def|PronType=Art	17	det	17:det	Discourse=attribution-positive:85->86:0|Entity=(6-abstract-giv:inact-cf2-2-coref-Beat_Bobby_Flay|Lem=_|Len=3
 17	_	_	NOUN	NN	Number=Sing	18	nsubj	18:nsubj	Entity=6)|Lem=_|Len=4
 18	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	15:acl:relcl	Lem=tell|Len=5
 19	_	_	PRON	PRP	Case=Acc|Number=Sing|Person=2|PronType=Prs	18	iobj	18:iobj	Entity=(19-person-giv:inact-cf3-1-ana)|Lem=_|Len=3
 20	_	_	ADP	IN	_	21	case	21:case	Lem=_|Len=5
-21	_	_	ADV	WRB	PronType=Rel	18	obl	18:obl:about	Discourse=elaboration-additional:86->84:0|Lem=_|Len=3
+21	_	_	SCONJ	WRB	PronType=Rel	18	obl	18:obl:about	Discourse=elaboration-additional:86->84:0|Lem=_|Len=3
 22	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	23	nsubj	23:nsubj	Entity=(6-abstract-giv:act-cf2-1-ana-Beat_Bobby_Flay)|Lem=_|Len=2
-23	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	acl:relcl	21:acl:relcl	Lem=work|Len=5|SpaceAfter=No
+23	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	advcl:relcl	21:advcl:relcl	Lem=work|Len=5|SpaceAfter=No
 24	_	_	PUNCT	.	_	3	punct	3:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-27
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_A
 # transition = null
@@ -888,7 +917,7 @@
 1	_	_	CCONJ	CC	_	11	cc	11:cc	Discourse=evaluation-comment:87->72:5|Lem=*LOWER*|Len=3
 2	_	_	PRON	DT	Number=Sing|PronType=Dem	11	nsubj	11:nsubj	Entity=(70-abstract-acc:com-cf1-1-ana)|Lem=_|Len=4|SpaceAfter=No
 3	_	_	PUNCT	,	_	2	punct	2:punct	Lem=_|Len=1
-4	_	_	PRON	PRP$	Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(71-person-new-cf3-2-sgl(7-person-giv:inact-cf2-1-ana)|Lem=_|Len=2
+4	_	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	5	nmod:poss	5:nmod:poss	Entity=(71-person-new-cf3-2-sgl(7-person-giv:inact-cf2-1-ana)|Lem=_|Len=2
 5	_	_	NOUN	NNS	Number=Plur	11	vocative	11:vocative	Entity=71)|Lem=friend|Len=7|SpaceAfter=No
 6	_	_	PUNCT	,	_	5	punct	5:punct	Lem=_|Len=1
 7	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	11:cop	Lem=be|Len=2
@@ -900,6 +929,7 @@
 
 # sent_id = GUM_reddit_bobby-28
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 1
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_B
 # transition = null
@@ -915,6 +945,7 @@
 
 # sent_id = GUM_reddit_bobby-29
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = wh
 # speaker = GUM_reddit_bobby_spk_B
 # transition = establishment
@@ -942,6 +973,7 @@
 
 # sent_id = GUM_reddit_bobby-30
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 1
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_B
 # transition = zero
@@ -979,7 +1011,7 @@
 29	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	ccomp	23:ccomp	Lem=tend|Len=5
 30	_	_	PART	TO	_	35	mark	35:mark	Lem=_|Len=2
 31	_	_	AUX	VB	VerbForm=Inf	35	cop	35:cop	Lem=_|Len=2
-32	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(74-person-new-cf5-4-sgl(29-person-giv:act-cf3-1-ana)|Lem=_|Len=5
+32	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	35	nmod:poss	35:nmod:poss	Entity=(74-person-new-cf5-4-sgl(29-person-giv:act-cf3-1-ana)|Lem=_|Len=5
 33	_	_	ADJ	JJ	Degree=Pos	35	amod	35:amod	Lem=_|Len=3
 34	_	_	ADJ	JJS	Degree=Sup	35	amod	35:amod	Lem=bad|Len=5
 35	_	_	NOUN	NN	Number=Sing	29	xcomp	29:xcomp	Entity=74)|Lem=_|Len=5|SpaceAfter=No
@@ -987,6 +1019,7 @@
 
 # sent_id = GUM_reddit_bobby-31
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_B
 # transition = establishment
@@ -999,7 +1032,7 @@
 6	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	2:advcl:like	Lem=_|Len=2
 7	_	_	ADV	RB	Degree=Pos	6	advmod	6:advmod	Lem=_|Len=9
 8	_	_	ADP	IN	_	10	case	10:case	Lem=_|Len=4
-9	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(43-object-giv:inact-cf6-2-coref(29-person-giv:act-cf2-1-ana)|Lem=_|Len=5
+9	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(43-object-giv:inact-cf6-2-coref(29-person-giv:act-cf2-1-ana)|Lem=_|Len=5
 10	_	_	NOUN	NN	Number=Sing	6	obl	6:obl:with	Entity=43)|Lem=_|Len=4
 11	_	_	PART	TO	_	12	mark	12:mark	Discourse=purpose-goal:97->96:0|Lem=_|Len=2
 12	_	_	VERB	VB	VerbForm=Inf	6	advcl	6:advcl:to	Lem=_|Len=3
@@ -1024,6 +1057,7 @@
 
 # sent_id = GUM_reddit_bobby-32
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_B
 # transition = smooth-shift
@@ -1054,12 +1088,13 @@
 24	_	_	ADV	RBR	Degree=Cmp	25	advmod	25:advmod	Lem=_|Len=4
 25	_	_	ADJ	JJ	Degree=Pos	21	xcomp	21:xcomp	Lem=_|Len=6
 26	_	_	CCONJ	CC	_	28	cc	28:cc	Lem=_|Len=3
-27	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(29-person-giv:act-cf1*-1-ana)|Lem=_|Len=5
+27	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	28	nmod:poss	28:nmod:poss	Entity=(29-person-giv:act-cf1*-1-ana)|Lem=_|Len=5
 28	_	_	ADJ	JJ	Degree=Pos	25	conj	21:xcomp|25:conj:and	Entity=78)|Lem=_|Len=3|SpaceAfter=No
 29	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_bobby-33
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 4
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_B
 # transition = smooth-shift
@@ -1071,6 +1106,7 @@
 
 # sent_id = GUM_reddit_bobby-34
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_C
 # transition = zero
@@ -1106,6 +1142,7 @@
 
 # sent_id = GUM_reddit_bobby-35
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 4
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_C
 # transition = establishment
@@ -1136,6 +1173,7 @@
 
 # sent_id = GUM_reddit_bobby-36
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 5
 # s_type = intj
 # speaker = GUM_reddit_bobby_spk_C
 # transition = smooth-shift
@@ -1146,6 +1184,7 @@
 
 # sent_id = GUM_reddit_bobby-37
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 6
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_C
 # transition = continue
@@ -1163,6 +1202,7 @@
 
 # sent_id = GUM_reddit_bobby-38
 # addressee = GUM_reddit_bobby_spk_C
+# s_prominence = 2
 # s_type = other
 # speaker = GUM_reddit_bobby_spk_D
 # transition = smooth-shift
@@ -1178,14 +1218,15 @@
 
 # sent_id = GUM_reddit_bobby-39
 # addressee = GUM_reddit_bobby_spk_C
+# s_prominence = 3
 # s_type = other
 # speaker = GUM_reddit_bobby_spk_D
 # transition = zero
 # text = _ _ _ _ ___ _ _ _ _ _
 1	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Discourse=causal-cause:112->111:0|Lem=_|Len=4
-2	_	_	ADV	WRB	PronType=Rel	1	obj	1:obj	Lem=_|Len=4
+2	_	_	SCONJ	WRB	PronType=Rel	1	obj	1:obj	Lem=_|Len=4
 3	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	Entity=(89-person-acc:com-cf1-1-sgl)|Lem=_|Len=1
-4	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	acl:relcl	2:acl:relcl	Lem=_|Len=3
+4	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	advcl:relcl	2:advcl:relcl	Lem=_|Len=3
 5	_	_	NOUN	NNS	Number=Plur	4	obj	4:obj	Entity=(90-person-new-cf2-1-sgl)|Lem=person|Len=6|SpaceAfter=No|XML=<w>
 6	_	_	SYM	SYM	_	7	cc	7:cc	Lem=_|Len=1|SpaceAfter=No
 7	_	_	NOUN	NNS	Number=Plur	5	conj	4:obj|5:conj:slash	Entity=(91-place-new-cf3-3-sgl|Lem=place|Len=6|XML=</w>
@@ -1197,6 +1238,7 @@
 
 # sent_id = GUM_reddit_bobby-40
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 1
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_E
 # transition = null
@@ -1230,6 +1272,7 @@
 
 # sent_id = GUM_reddit_bobby-41
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = imp
 # speaker = GUM_reddit_bobby_spk_E
 # transition = null
@@ -1256,6 +1299,7 @@
 
 # sent_id = GUM_reddit_bobby-42
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = other
 # speaker = GUM_reddit_bobby_spk_E
 # transition = null
@@ -1272,6 +1316,7 @@
 
 # sent_id = GUM_reddit_bobby-43
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_F
 # transition = null
@@ -1282,7 +1327,7 @@
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Lem=have|Len=3
 3	_	_	ADV	RB	Polarity=Neg	4	advmod	4:advmod	Lem=_|Len=5
 4	_	_	VERB	VBN	Tense=Past|VerbForm=Part	0	root	0:root	Lem=make|Len=4
-5	_	_	NOUN	NN	Number=Sing	4	obj	4:obj|9:obl:to	Entity=(103-object-new-cf3-1-coref)|Lem=_|Len=8
+5	_	_	PRON	NN	Number=Sing|PronType=Ind	4	obj	4:obj|9:obl:to	Entity=(103-object-new-cf3-1-coref)|Lem=_|Len=8
 6	_	_	PRON	WDT	PronType=Rel	9	obl	5:ref	Discourse=elaboration-attribute:119->118:0|Lem=_|Len=4
 7	_	_	DET	DT	Definite=Def|PronType=Art	8	det	8:det	Entity=(4-event-giv:inact-cf2-2-coref|Lem=_|Len=3
 8	_	_	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	Entity=4)|Lem=_|Len=11
@@ -1293,6 +1338,7 @@
 
 # sent_id = GUM_reddit_bobby-44
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_F
 # transition = establishment
@@ -1321,14 +1367,15 @@
 
 # sent_id = GUM_reddit_bobby-45
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_G
 # transition = continue
 # text = _ _ _ _ _ _ _ _ __
 # newpar
 # newpar_block = sp who:::"GUM_reddit_bobby_spk_G" whom:::"GUM_reddit_bobby_spk_A" (3 s) | p (3 s)
-1	_	_	PROPN	NNP	Number=Sing	6	nsubj	6:nsubj	CorrectForm=Bobby Flay|Discourse=joint-other_m:122->120:2|Entity=(2-person-giv:act-cf1*-1,2-coref-Bobby_Flay|Lem=Bobby|Len=5|XML=<sic ana:::"Bobby Flay">
-2	_	_	PROPN	NNP	Number=Sing|Typo=Yes	1	flat	1:flat	CorrectForm=_|Entity=2)|Lem=Flay|Len=4|XML=</sic>
+1	_	_	PROPN	NNP	Number=Sing|Typo=Yes	6	nsubj	6:nsubj	CorrectForm=Bobby|Discourse=joint-other_m:122->120:2|Entity=(2-person-giv:act-cf1*-1,2-coref-Bobby_Flay|Lem=Bobby|Len=5|XML=<sic ana:::"Bobby"></sic>
+2	_	_	PROPN	NNP	Number=Sing|Typo=Yes	1	flat	1:flat	CorrectForm=Flay|Entity=2)|Lem=Flay|Len=4|XML=<sic ana:::"Flay"></sic>
 3	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	6:cop	Lem=be|Len=2
 4	_	_	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(2-person-giv:act-cf1*-3-pred-Bobby_Flay|Lem=a|Len=2
 5	_	_	NOUN	NN	Number=Sing	6	compound	6:compound	Lem=_|Len=4
@@ -1340,11 +1387,12 @@
 
 # sent_id = GUM_reddit_bobby-46
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_G
 # transition = continue
 # text = _ _ _ _ _ _ _ _ _ _ __
-1	_	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	nsubj	3:nsubj	CorrectForm=He|Discourse=context-background:123->122:0|Entity=(2-person-giv:act-cf1*-1-ana-Bobby_Flay)|Lem=_|Len=2|XML=<sic ana:::"He"></sic>
+1	_	_	PRON	PRP	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs|Typo=Yes	3	nsubj	3:nsubj	CorrectForm=He|Discourse=context-background:123->122:0|Entity=(2-person-giv:act-cf1*-1-ana-Bobby_Flay)|Lem=_|Len=2|XML=<sic ana:::"He"></sic>
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	3:aux	Lem=be|Len=2
 3	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	0	root	0:root	Lem=go|Len=5
 4	_	_	ADP	RP	_	3	compound:prt	3:compound:prt	Lem=_|Len=2
@@ -1359,12 +1407,13 @@
 
 # sent_id = GUM_reddit_bobby-47
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_G
 # transition = retain
 # text = _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __
 1	_	_	SCONJ	IN	Typo=Yes	4	mark	4:mark	CorrectForm=While|Discourse=attribution-positive:124->125:1|Lem=_|Len=5|XML=<sic ana:::"While"></sic>
-2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	4:nsubj	CorrectForm=I|Entity=(110-person-acc:com-cf1-1-ana)|Lem=I|Len=1|XML=<sic ana:::"I"></sic>
+2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Typo=Yes	4	nsubj	4:nsubj	CorrectForm=I|Entity=(110-person-acc:com-cf1-1-ana)|Lem=I|Len=1|XML=<sic ana:::"I"></sic>
 3	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	4:aux	Lem=_|Len=2
 4	_	_	VERB	VB	VerbForm=Inf	22	advcl	22:advcl:while	Lem=_|Len=5
 5	_	_	SCONJ	IN	_	7	mark	7:mark	Discourse=adversative-concession:125->128:1|Lem=_|Len=4
@@ -1382,7 +1431,7 @@
 17	_	_	NOUN	NN	Number=Sing	18	compound	18:compound	Entity=(112-abstract-new-cf6-2-sgl|Lem=_|Len=13
 18	_	_	NOUN	NNS	Number=Plur	14	obl	14:obl:for	Entity=112)|Lem=purpose|Len=8|SpaceAfter=No
 19	_	_	PUNCT	,	_	4	punct	4:punct	Lem=_|Len=1
-20	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	22:nsubj	CorrectForm=I|Discourse=attribution-positive:127->128:0|Entity=(110-person-giv:act-cf1-1-ana)|Lem=I|Len=1|XML=<sic ana:::"I"></sic>
+20	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs|Typo=Yes	22	nsubj	22:nsubj	CorrectForm=I|Discourse=attribution-positive:127->128:0|Entity=(110-person-giv:act-cf1-1-ana)|Lem=I|Len=1|XML=<sic ana:::"I"></sic>
 21	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	22	aux	22:aux	Lem=_|Len=2
 22	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=7
 23	_	_	SCONJ	IN	_	27	mark	27:mark	Discourse=restatement-repetition_m:128->122:1|Lem=_|Len=4
@@ -1394,6 +1443,7 @@
 
 # sent_id = GUM_reddit_bobby-48
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_H
 # transition = smooth-shift
@@ -1410,7 +1460,7 @@
 7	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	9	aux	9:aux	Lem=_|Len=2
 8	_	_	PART	RB	Polarity=Neg	9	advmod	9:advmod	Lem=not|Len=3
 9	_	_	VERB	VB	VerbForm=Inf	3	conj	3:conj:but	Lem=_|Len=5
-10	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj	13:nsubj|15:nsubj	Discourse=joint-other_m:131->120:2|Entity=(24-person-giv:act-cf1*-1-ana)|Lem=_|Len=4|SpaceAfter=No
+10	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	13	nsubj:outer	13:nsubj:outer|15:nsubj:outer	Discourse=joint-other_m:131->120:2|Entity=(24-person-giv:act-cf1*-1-ana)|Lem=_|Len=4|SpaceAfter=No
 11	_	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|Typo=Yes|VerbForm=Fin	13	cop	13:cop	CorrectForm=_|Lem=be|Len=3|XML=<sic ana:::""></sic>
 12	_	_	ADV	RB	Degree=Pos	13	advmod	13:advmod	Lem=_|Len=8
 13	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	9	ccomp	9:ccomp	Lem=_|Len=3
@@ -1424,6 +1474,7 @@
 
 # sent_id = GUM_reddit_bobby-49
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_H
 # transition = continue
@@ -1431,10 +1482,10 @@
 1	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	2	nsubj	2:nsubj	Discourse=explanation-justify:132->131:2|Entity=(24-person-giv:act-cf1*-1-ana)|Lem=*LOWER*|Len=4
 2	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=_|Len=4
 3	_	_	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(115-abstract-new-cf2-4-disc(29-person-giv:inact-cf3-2-coref|Lem=_|Len=3
-4	_	_	NOUN	NNS	Number=Plur	2	obj	2:obj|6:nsubj:xsubj	CorrectForm=competitors|Entity=29)|Lem=competitor|Len=11|XML=<sic ana:::"competitors"></sic>
+4	_	_	NOUN	NNS	Number=Plur|Typo=Yes	2	obj	2:obj|6:nsubj:xsubj	CorrectForm=competitors|Entity=29)|Lem=competitor|Len=11|XML=<sic ana:::"competitors"></sic>
 5	_	_	PART	TO	_	6	mark	6:mark	Lem=_|Len=2
 6	_	_	VERB	VB	VerbForm=Inf	2	xcomp	2:xcomp	Lem=_|Len=4
-7	_	_	PRON	PRP$	Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(40-object-giv:inact-cf4-4-coref(29-person-giv:act-cf3-1-ana)|Lem=_|Len=5
+7	_	_	PRON	PRP$	Case=Gen|Number=Plur|Person=3|Poss=Yes|PronType=Prs	10	nmod:poss	10:nmod:poss	Entity=(40-object-giv:inact-cf4-4-coref(29-person-giv:act-cf3-1-ana)|Lem=_|Len=5
 8	_	_	ADJ	JJ	Degree=Pos	10	amod	10:amod	Lem=_|Len=3
 9	_	_	NOUN	NN	Number=Sing	10	compound	10:compound	Lem=_|Len=9
 10	_	_	NOUN	NN	Number=Sing	6	obj	6:obj	Entity=40)115)|Lem=_|Len=4
@@ -1456,6 +1507,7 @@
 
 # sent_id = GUM_reddit_bobby-50
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = frag
 # speaker = GUM_reddit_bobby_spk_H
 # transition = zero
@@ -1484,11 +1536,12 @@
 
 # sent_id = GUM_reddit_bobby-51
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_H
 # transition = null
 # text = _ __ _ _ __ _ __ _ _ _ _ _ __
-1	_	_	SCONJ	WRB	PronType=Int	6	mark	6:mark	Discourse=contingency-condition:137->138:0|Lem=*LOWER*|Len=4
+1	_	_	ADV	WRB	PronType=Int	6	advmod	6:advmod	Discourse=contingency-condition:137->138:0|Lem=*LOWER*|Len=4
 2	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	6:nsubj	Entity=(118-person-acc:com-cf1-1-ana)|Lem=_|Len=3|SpaceAfter=No
 3	_	_	AUX	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	cop	6:cop	Lem=be|Len=3
 4	_	_	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(118-person-giv:act-cf1-3-pred|Lem=_|Len=1
@@ -1509,6 +1562,7 @@
 
 # sent_id = GUM_reddit_bobby-52
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 3
 # s_type = decl
 # speaker = GUM_reddit_bobby_spk_H
 # transition = establishment
@@ -1516,7 +1570,7 @@
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	3	nsubj	3:nsubj|8:nsubj	Discourse=restatement-repetition_m:139->138:1|Entity=(118-person-giv:act-cf1*-1-ana)|Lem=*LOWER*|Len=3
 2	_	_	AUX	MD	VerbForm=Fin	3	aux	3:aux|8:aux	Lem=_|Len=3
 3	_	_	VERB	VB	VerbForm=Inf	0	root	0:root	Lem=_|Len=4
-4	_	_	NOUN	NN	Number=Sing	3	obj	3:obj	Entity=(120-object-new-cf2-1-sgl)|Lem=_|Len=10|SpaceAfter=No
+4	_	_	PRON	NN	Number=Sing|PronType=Tot	3	obj	3:obj	Entity=(120-object-new-cf2-1-sgl)|Lem=_|Len=10|SpaceAfter=No
 5	_	_	PUNCT	,	_	8	punct	8:punct	Lem=_|Len=1
 6	_	_	CCONJ	CC	_	8	cc	8:cc	Discourse=joint-list_m:140->139:0|Lem=_|Len=3
 7	_	_	ADV	RB	_	8	advmod	8:advmod	Lem=_|Len=5
@@ -1529,12 +1583,13 @@
 
 # sent_id = GUM_reddit_bobby-53
 # addressee = GUM_reddit_bobby_spk_A
+# s_prominence = 2
 # s_type = sub
 # speaker = GUM_reddit_bobby_spk_H
 # transition = continue
 # text = _ _ _ _ _ _ __ _ _ _ _ _ _ _ _ __ _ _ _ _ __
 1	_	_	ADV	RB	_	12	advmod	12:advmod	Discourse=contingency-condition:141->142:1|Lem=*LOWER*|Len=2
-2	_	_	SCONJ	WRB	PronType=Int	5	mark	5:mark	Lem=_|Len=4
+2	_	_	ADV	WRB	PronType=Int	5	advmod	5:advmod	Lem=_|Len=4
 3	_	_	NOUN	NN	Number=Sing	4	compound	4:compound	Entity=(118-person-giv:act-cf1*-2-coref|Lem=_|Len=6
 4	_	_	NOUN	NNS	Number=Plur	5	nsubj	5:nsubj	Entity=118)|Lem=chef|Len=5
 5	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	advcl	12:advcl:when	Lem=_|Len=2
