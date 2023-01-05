@@ -5,6 +5,7 @@ from glob import glob
 from requests.exceptions import ConnectionError
 
 PY3 = sys.version_info[0] == 3
+script_dir = os.path.dirname(os.path.realpath(__file__))
 
 if not PY3:
 	reload(sys)
@@ -367,7 +368,6 @@ def get_no_space_strings(cache_dict, praw_cred=None, overwrite_cache=False):
 
 
 def run_fetch():
-	script_dir = os.path.dirname(os.path.realpath(__file__))
 	if not os.path.isfile(script_dir + os.sep + "cache.txt"):
 		io.open(script_dir + os.sep + "cache.txt", "a").close()  # Make sure cache file exists
 
@@ -487,8 +487,26 @@ def run_fetch():
 if __name__ == "__main__":
 	docs2chars = run_fetch()
 
-	# Individual files
-	files = glob("not-to-release" + os.sep + "sources" + os.sep + "*.conllu")
+	# Check that not-to-release individual files exist or generate them
+	if not os.path.exists(script_dir + os.sep + "not-to-release"):
+		os.makedirs(script_dir + os.sep + "not-to-release")
+	if not os.path.exists(script_dir + os.sep + "not-to-release" + os.sep + "sources"):
+		os.makedirs(script_dir + os.sep + "not-to-release" + os.sep + "sources")
+	files = glob(script_dir + os.sep + "not-to-release" + os.sep + "sources" + os.sep + "*.conllu")
+	if len(files) == 0:
+		print("Did not find individual source document files, regenerating not-to-release/sources/*.conllu")
+		all_conllu = io.open(script_dir + os.sep + "en_gumreddit-ud-dev.conllu",encoding="utf8").read().strip() + "\n\n"
+		all_conllu += io.open(script_dir + os.sep + "en_gumreddit-ud-test.conllu",encoding="utf8").read().strip() + "\n\n"
+		all_conllu += io.open(script_dir + os.sep + "en_gumreddit-ud-train.conllu",encoding="utf8").read().strip() + "\n\n"
+		docs = all_conllu.split("# newdoc")[1:]
+		for doc in docs:
+			doc = "# newdoc" + doc
+			docname = doc.split("\n")[0].split("=")[1].strip()
+			with open(script_dir + os.sep + "not-to-release" + os.sep + "sources" + os.sep + docname + ".conllu",'w',encoding="utf8",newline="\n") as f:
+				f.write(doc)
+		print("Done reconstructing individual files")
+		files = glob(script_dir + os.sep + "not-to-release" + os.sep + "sources" + os.sep + "*.conllu")
+
 	reconstructed = {}
 
 	for file_ in files:
