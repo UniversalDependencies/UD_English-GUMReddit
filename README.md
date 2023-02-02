@@ -227,6 +227,10 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2023-02-02
+  * Added document summaries to metadata
+  * Added salient entity metadata
+
 * 2022-10-21
   * Added new subtypes advcl:relcl and nsubj:outer
   * Many updates to UPOS and FEATS consistency with EWT
