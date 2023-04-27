@@ -268,7 +268,7 @@
 22	_	_	ADP	IN	_	25	case	25:case	Lem=_|Len=7
 23	_	_	DET	DT	Definite=Def|PronType=Art	25	det	25:det	Entity=(30-abstract-new-cf5-3-sgl|Lem=_|Len=3
 24	_	_	ADJ	JJ	Degree=Pos	25	amod	25:amod	Lem=_|Len=6
-25	_	_	NOUN	NN	Number=Sing	21	nmod	21:nmod:through	Entity=30)|Lem=_|Len=5|SpaceAfter=No
+25	_	_	NOUN	NN	Number=Sing	21	obl	21:obl:through	Entity=30)|Lem=_|Len=5|SpaceAfter=No
 26	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
 # sent_id = GUM_reddit_escape-9
@@ -609,8 +609,8 @@
 12	_	_	PRON	EX	PronType=Dem	13	expl	13:expl	Lem=_|Len=5
 13	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	11	advcl:relcl	11:advcl:relcl	Lem=be|Len=3
 14	_	_	DET	DT	Definite=Ind|PronType=Art	15	det	15:det	Entity=(64-abstract-new-cf6-2-sgl|Lem=_|Len=1
-15	_	_	NOUN	NN	Number=Sing	13	nsubj	13:nsubj	Lem=_|Len=7
-16	_	_	PRON	WDT	PronType=Rel	18	obj	18:obj	Discourse=elaboration-attribute:56->55:0|Lem=_|Len=4
+15	_	_	NOUN	NN	Number=Sing	13	nsubj	13:nsubj|18:obj	Lem=_|Len=7
+16	_	_	PRON	WDT	PronType=Rel	18	obj	15:ref	Discourse=elaboration-attribute:56->55:0|Lem=_|Len=4
 17	_	_	VERB	VBG	Typo=Yes|VerbForm=Ger	15	acl:relcl	15:acl:relcl	CorrectForm=needed|Lem=need|Len=7|XML=<sic ana:::"needed"></sic>
 18	_	_	VERB	VBG	VerbForm=Ger	17	xcomp	17:xcomp	Lem=think|Len=8
 19	_	_	ADP	RP	_	18	compound:prt	18:compound:prt	Entity=64)|Lem=_|Len=7
@@ -1122,7 +1122,7 @@
 38	_	_	NOUN	NN	Number=Sing	29	ccomp	29:ccomp	Entity=109)|Lem=_|Len=4|SpaceAfter=No
 39	_	_	PUNCT	,	_	41	punct	41:punct	Lem=_|Len=1
 40	_	_	CCONJ	CC	_	41	cc	41:cc	Discourse=adversative-concession:108->107:1|Lem=_|Len=3
-41	_	_	PRON	WDT	PronType=Int	27	conj	7:conj|27:conj:but	Lem=_|Len=8
+41	_	_	PRON	WP	PronType=Int	27	conj	7:conj|27:conj:but	Lem=_|Len=8
 42-43	__	_	_	_	_	_	_	_	Len=4
 42	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nsubj	45:nsubj	Discourse=explanation-justify:109->108:0|Lem=_|Len=2
 43	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	45:cop	Lem=be|Len=2
