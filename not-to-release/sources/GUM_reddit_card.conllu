@@ -33,7 +33,7 @@
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 # newpar
 # newpar_block = sp who:::"GUM_reddit_card_spk_A" (8 s) | p (6 s)
-1	_	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-circumstance:2->4:1:_;joint-list2->2:2:1:orp-and-17|Entity=(2-person-new-cf1-2,4-coref(3-person-new-cf4-2-sgl(4-person-acc:com-cf2-1-ana)|Lem=*LOWER*|Len=2
+1	_	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	2	nmod:poss	2:nmod:poss	Discourse=context-circumstance:2->4:1:_;joint-list:2->2:2:1:orp-and-17|Entity=(2-person-new-cf1-2,4-coref(3-person-new-cf4-2-sgl(4-person-acc:com-cf2-1-ana)|Lem=*LOWER*|Len=2
 2	_	_	NOUN	NN	Number=Sing	7	nsubj	7:nsubj	Entity=3)|Lem=_|Len=4
 3	_	_	CCONJ	CC	_	4	cc	4:cc	Lem=_|Len=3
 4	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	conj	2:conj:and|7:nsubj	Entity=(4-person-giv:act-cf2-1-ana)2)|Lem=_|Len=1
@@ -120,7 +120,7 @@
 7	_	_	CCONJ	CC	_	9	cc	9:cc	Discourse=evaluation-comment:12->13:2:_|Lem=_|Len=3
 8	_	_	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	9	aux:pass	9:aux:pass	Lem=be|Len=4
 9	_	_	VERB	VBN	Tense=Past|VerbForm=Part|Voice=Pass	4	conj	4:conj:but	Lem=shock|Len=7|MSeg=shock-ed
-10	_	_	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=explanation-motivation:13->22:0:_;context-circumstance13->12:1:0:orp-when-73|Lem=_|Len=4
+10	_	_	ADV	WRB	PronType=Int	12	advmod	12:advmod	Discourse=explanation-motivation:13->22:0:_;context-circumstance:13->12:1:0:orp-when-73|Lem=_|Len=4
 11	_	_	PRON	PRP	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	12	nsubj	12:nsubj	Discourse=attribution-positive:14->15:0:sem-atsrc-74+lex-indwd-75+syn-rpr-76|Entity=(12-event-new-cf4-2-disc(7-person-giv:inact-cf2-1-ana)|Lem=_|Len=3
 12	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	9	advcl	9:advcl:when	Lem=announce|Len=9|MSeg=announc-ed
 13	_	_	SCONJ	IN	_	16	mark	16:mark	Discourse=same-unit_m:15->13:0:_|Lem=_|Len=4
@@ -319,7 +319,7 @@
 # text = _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
 # newpar
 # newpar_block = sp who:::"GUM_reddit_card_spk_C" whom:::"GUM_reddit_card_spk_B" (18 s) | p (2 s)
-1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=context-background:32->33:2:_;explanation-justify32->33:0:1:orp-and-189|Entity=(33-person-acc:com-cf3-1-ana)|Lem=_|Len=1
+1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	2:nsubj	Discourse=context-background:32->33:2:_;explanation-justify:32->33:0:1:orp-and-189|Entity=(33-person-acc:com-cf3-1-ana)|Lem=_|Len=1
 2	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	0	root	0:root	Lem=work|Len=6|MSeg=work-ed
 3	_	_	ADP	IN	_	6	case	6:case	Lem=_|Len=2
 4	_	_	DET	DT	Definite=Ind|PronType=Art	6	det	6:det	Entity=(34-organization-new-cf4-3-sgl|Lem=_|Len=1
@@ -672,7 +672,7 @@
 # text = _ _ _ _ _ _ _ _ _ _ _ _ __ _ _ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	2:nsubj	Discourse=attribution-positive:59->61:1:sem-atsrc-364+lex-indwd-365+syn-rpr-366-368,370,378|Entity=(59-person-acc:com-cf1-1-ana)|Lem=*LOWER*|Len=3
 2	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=_|Len=5
-3	_	_	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=evaluation-comment:60->61:0:lex-indwd-369;attribution-positive60->61:0:0:sem-atsrc-366|Entity=(60-person-new-cf2-1-coref)|Lem=person|Len=6
+3	_	_	NOUN	NNS	Number=Plur	6	nsubj	6:nsubj	Discourse=evaluation-comment:60->61:0:lex-indwd-369;attribution-positive:60->61:0:0:sem-atsrc-366|Entity=(60-person-new-cf2-1-coref)|Lem=person|Len=6
 4	_	_	AUX	MD	VerbForm=Fin	6	aux	6:aux	Lem=_|Len=5
 5	_	_	AUX	VB	VerbForm=Inf	6	cop	6:cop	Lem=_|Len=2
 6	_	_	ADJ	JJ	Degree=Pos	2	ccomp	2:ccomp	Lem=_|Len=5|MSeg=happ-y
@@ -946,7 +946,7 @@
 # text = _ _ ___ _ _ _ _ _ _ _ _ _ _ _ ___
 # newpar
 # newpar_block = sp who:::"GUM_reddit_card_spk_E" whom:::"GUM_reddit_card_spk_B" (5 s) | p (2 s)
-1	_	_	DET	DT	PronType=Ind	2	det	2:det	Discourse=adversative-concession:80->81:1:dm-but-530;explanation-evidence80->86:2:1:lex-indwd-534+orp-so-544;adversative-concession80->96:4:2:orp-though-644|Entity=(84-organization-giv:inact-cf1-2-coref|Lem=*LOWER*|Len=4
+1	_	_	DET	DT	PronType=Ind	2	det	2:det	Discourse=adversative-concession:80->81:1:dm-but-530;explanation-evidence:80->86:2:1:lex-indwd-534+orp-so-544;adversative-concession:80->96:4:2:orp-though-644|Entity=(84-organization-giv:inact-cf1-2-coref|Lem=*LOWER*|Len=4
 2	_	_	NOUN	NNS	Number=Plur	3	nsubj	3:nsubj	Entity=84)|Lem=company|Len=9|MSeg=companie-s
 3-4	__	_	_	_	_	_	_	_	Len=5|SpaceAfter=No
 3	_	_	AUX	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Lem=_|Len=2

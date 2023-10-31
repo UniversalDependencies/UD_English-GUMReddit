@@ -100,7 +100,7 @@
 6	_	_	PRON	PRP$	Case=Gen|Number=Sing|Person=1|Poss=Yes|PronType=Prs	8	nmod:poss	8:nmod:poss	Entity=(7-person-giv:act-cf2-3-coref(3-person-giv:act-cf1*-1-ana)|Lem=_|Len=2
 7	_	_	ADJ	JJ	Degree=Pos	8	amod	8:amod	Lem=_|Len=5|MSeg=sill-y
 8	_	_	NOUN	NN	Number=Sing	5	iobj	5:iobj	Entity=7)|Lem=_|Len=4
-9	_	_	SCONJ	IN	_	12	mark	12:mark	Discourse=explanation-justify:8->6:0:_;joint-sequence8->6:2:0:orp-and-52|Lem=_|Len=4
+9	_	_	SCONJ	IN	_	12	mark	12:mark	Discourse=explanation-justify:8->6:0:_;joint-sequence:8->6:2:0:orp-and-52|Lem=_|Len=4
 10	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	12:nsubj	Entity=(3-person-giv:act-cf1*-1-ana)|Lem=_|Len=1
 11	_	_	ADV	RB	_	12	advmod	12:advmod	Lem=_|Len=6
 12	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Lem=_|Len=4
@@ -545,7 +545,7 @@
 # speaker = GUM_reddit_steak_spk_A
 # transition = null
 # text = _ _ __ __
-1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:43->46:1:_;elaboration-additional43->44:2:1:orp-that is-371-372+ref-prs-357,384|Entity=(4-object-giv:inact-cf1-2-coref|Lem=*LOWER*|Len=3
+1	_	_	DET	DT	Definite=Def|PronType=Art	2	det	2:det	Discourse=context-circumstance:43->46:1:_;elaboration-additional:43->44:2:1:orp-that is-371-372+ref-prs-357,384|Entity=(4-object-giv:inact-cf1-2-coref|Lem=*LOWER*|Len=3
 2	_	_	NOUN	NN	Number=Sing	5	nsubj	5:nsubj	Entity=4)|Lem=_|Len=6
 3-4	__	_	_	_	_	_	_	_	Len=6
 3	_	_	AUX	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	5	cop	5:cop	Lem=be|Len=3
@@ -581,7 +581,7 @@
 # speaker = GUM_reddit_steak_spk_A
 # transition = continue
 # text = _ __ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ __
-1	_	_	PRON	DT	Number=Sing|PronType=Dem	11	obl:npmod	11:obl:npmod	Discourse=causal-cause:46->49:4:_;context-circumstance46->44:0:1:orp-until-374|Lem=*LOWER*|Len=4
+1	_	_	PRON	DT	Number=Sing|PronType=Dem	11	obl:npmod	11:obl:npmod	Discourse=causal-cause:46->49:4:_;context-circumstance:46->44:0:1:orp-until-374|Lem=*LOWER*|Len=4
 2	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	fixed	1:fixed	Lem=be|Len=2|SpaceAfter=No
 3	_	_	PUNCT	,	_	1	punct	1:punct	Lem=_|Len=1
 4	_	_	SCONJ	IN	_	11	mark	11:mark	Lem=_|Len=5|MSeg=un-til
