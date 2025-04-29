@@ -286,8 +286,8 @@
 1	_	_	ADV	RB	_	2	advmod	2:advmod	Discourse=explanation-evidence:21->18:1:_|Lem=*LOWER*|Len=4|PDTB=Implicit:Contingency.Cause.Result:so:_:175-193:194-200
 2	_	_	VERB	VB	Mood=Imp|Person=2|VerbForm=Fin	0	root	0:root	Lem=_|Len=5
 3	_	_	DET	DT	Definite=Def|PronType=Art	6	det	6:det	Entity=(37-abstract-new-nnnnn-cf1-4-coref-Apollo_13_%28film%29|Lem=_|Len=3
-4	_	_	PROPN	NNP	Number=Sing|Typo=Yes	6	compound	6:compound	CorrectForm=Apollo|Entity=(38-abstract-new-nnnnn-cf2-1-sgl-Apollo_13|Lem=Apollo|Len=6|XML=<sic ana:::"Apollo"></sic>
-5	_	_	NUM	CD	NumForm=Digit|NumType=Card	4	nummod	4:nummod	Entity=38)|Lem=_|Len=2
+4	_	_	PROPN	NNP	Number=Sing|Typo=Yes	6	compound	6:compound	CorrectForm=Apollo|Entity=(38-abstract-new-nnnnn-cf2-1,2-sgl-Apollo_13|Lem=Apollo|Len=6|XML=<sic ana:::"Apollo"></sic>
+5	_	_	NUM	CD	NumForm=Digit|NumType=Card	4	flat	4:flat	Entity=38)|Lem=_|Len=2
 6	_	_	NOUN	NN	Number=Sing	2	obj	2:obj	Entity=37)|Lem=_|Len=5|MSeg=mov-ie|SpaceAfter=No
 7	_	_	PUNCT	.	_	2	punct	2:punct	Lem=_|Len=1
 
@@ -627,8 +627,8 @@
 6	_	_	VERB	VB	VerbForm=Inf	4	xcomp	4:xcomp	Cxn=Conditional-UnspecifiedEpistemic-NoInversion|CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Apodosis|Lem=_|Len=4
 7	_	_	PRON	NN	Number=Sing|PronType=Ind	6	obj	6:obj	Entity=(73-abstract-new-nnnnn-cf3-1-sgl)|Lem=_|Len=8|MSeg=any-thing
 8	_	_	SCONJ	IN	_	12	mark	12:mark	Discourse=contingency-condition:56->55:0:dm-if-432|Lem=_|Len=2|PDTB=Explicit:Contingency.Condition.Arg2-as-cond:if:432:425-431:433-437
-9	_	_	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(71-abstract-giv:act-n____-cf1*-1-coref|Lem=_|Len=1|SpaceAfter=No|XML=<w>
-10	_	_	NUM	CD	NumForm=Digit|NumType=Card	9	nummod	9:nummod	Entity=71)|Lem=_|Len=1|XML=</w>
+9	_	_	NOUN	NN	Number=Sing	12	nsubj	12:nsubj	Entity=(71-abstract-giv:act-n____-cf1*-1,2-coref|Lem=_|Len=1|SpaceAfter=No|XML=<w>
+10	_	_	NUM	CD	NumForm=Digit|NumType=Card	9	flat	9:flat	Entity=71)|Lem=_|Len=1|XML=</w>
 11	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	12:cop	Lem=be|Len=2
 12	_	_	ADJ	JJ	Degree=Pos	6	advcl	6:advcl:if	CxnElt=6:Conditional-UnspecifiedEpistemic-NoInversion.Protasis|Lem=_|Len=4|SpaceAfter=No
 13	_	_	PUNCT	.	_	4	punct	4:punct	Lem=_|Len=1
@@ -810,7 +810,7 @@
 # speaker = GUM_reddit_space_spk_B
 # addressee = GUM_reddit_space_spk_A
 # text = _ _ _ _ _ _ _ __ ___ __ _ __
-1	_	_	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:72->73:0:sem-atsrc-545+lex-indwd-545|Lem=*LOWER*|Len=6|PDTB=NoRel:NoRel:_:_:522-543:544-560
+1	_	_	ADV	RB	_	2	advmod	2:advmod	Discourse=attribution-positive:72->73:0:lex-indwd-545+sem-atsrc-545|Lem=*LOWER*|Len=6|PDTB=NoRel:NoRel:_:_:522-543:544-560
 2	_	_	ADV	RB	Degree=Pos	5	advmod	5:advmod	Lem=_|Len=4
 3	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=1|PronType=Prs	5	nsubj	5:nsubj|7:nsubj:xsubj	Discourse=attribution-positive:73->74:0:sem-atsrc-546-547+lex-indwd-550|Entity=(1-person-giv:inact-sssss-cf2-1-ana|Lem=_|Len=2
 4	_	_	DET	DT	PronType=Ind	3	det	3:det	Entity=1)|Lem=_|Len=3
