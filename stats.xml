@@ -17,7 +17,7 @@
   <tags unique="17">
     <tag name="ADJ">998</tag><!-- _ -->
     <tag name="ADP">1293</tag><!-- _ -->
-    <tag name="ADV">1107</tag><!-- _ -->
+    <tag name="ADV">1106</tag><!-- _ -->
     <tag name="AUX">1182</tag><!-- _ -->
     <tag name="CCONJ">521</tag><!-- _ -->
     <tag name="DET">1236</tag><!-- _ -->
@@ -28,13 +28,13 @@
     <tag name="PRON">1963</tag><!-- _ -->
     <tag name="PROPN">238</tag><!-- _ -->
     <tag name="PUNCT">1869</tag><!-- _ -->
-    <tag name="SCONJ">403</tag><!-- _ -->
+    <tag name="SCONJ">404</tag><!-- _ -->
     <tag name="SYM">53</tag><!-- _ -->
     <tag name="VERB">2045</tag><!-- _ -->
     <tag name="X">33</tag><!-- _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="53">
+  <feats unique="55">
     <feat name="Abbr" value="Yes" upos="ADP,ADV,NOUN,PRON,PROPN,VERB">75</feat><!-- _ -->
     <feat name="Case" value="Acc" upos="PRON">294</feat><!-- _ -->
     <feat name="Case" value="Gen" upos="PRON">268</feat><!-- _ -->
@@ -44,17 +44,19 @@
     <feat name="Degree" value="Cmp" upos="ADJ,ADV">87</feat><!-- _ -->
     <feat name="Degree" value="Pos" upos="ADJ,ADV">1428</feat><!-- _ -->
     <feat name="Degree" value="Sup" upos="ADJ,ADV">53</feat><!-- _ -->
-    <feat name="ExtPos" value="ADP" upos="VERB">1</feat><!-- _ -->
-    <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN">16</feat><!-- _ -->
+    <feat name="ExtPos" value="ADP" upos="ADJ,ADP,ADV,VERB">13</feat><!-- _ -->
+    <feat name="ExtPos" value="ADV" upos="ADP,ADV,NOUN,PRON">14</feat><!-- _ -->
+    <feat name="ExtPos" value="CCONJ" upos="ADV,VERB">6</feat><!-- _ -->
+    <feat name="ExtPos" value="SCONJ" upos="SCONJ">3</feat><!-- _ -->
     <feat name="Gender" value="Fem" upos="PRON">75</feat><!-- _ -->
     <feat name="Gender" value="Masc" upos="PRON">96</feat><!-- _ -->
     <feat name="Gender" value="Neut" upos="PRON">253</feat><!-- _ -->
     <feat name="Mood" value="Imp" upos="AUX,VERB">66</feat><!-- _ -->
     <feat name="Mood" value="Ind" upos="AUX,VERB">1543</feat><!-- _ -->
     <feat name="Mood" value="Sub" upos="AUX,VERB">4</feat><!-- _ -->
-    <feat name="Number" value="Plur" upos="AUX,DET,NOUN,PRON,PROPN,VERB">1409</feat><!-- _ -->
+    <feat name="Number" value="Plur" upos="AUX,DET,NOUN,PRON,PROPN,VERB">1406</feat><!-- _ -->
     <feat name="Number" value="Ptan" upos="NOUN">13</feat><!-- _ -->
-    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,PROPN,SYM,VERB">4847</feat><!-- _ -->
+    <feat name="Number" value="Sing" upos="AUX,DET,NOUN,PRON,PROPN,SYM,VERB">4850</feat><!-- _ -->
     <feat name="NumForm" value="Combi" upos="ADJ,NOUN,NUM">6</feat><!-- _ -->
     <feat name="NumForm" value="Digit" upos="NUM">54</feat><!-- _ -->
     <feat name="NumForm" value="Word" upos="ADJ,ADV,NOUN,NUM,PROPN">78</feat><!-- _ -->
@@ -72,10 +74,10 @@
     <feat name="PronType" value="Dem" upos="ADV,DET,PRON">349</feat><!-- _ -->
     <feat name="PronType" value="Emp" upos="PRON">1</feat><!-- _ -->
     <feat name="PronType" value="Ind" upos="DET,PRON">159</feat><!-- _ -->
-    <feat name="PronType" value="Int" upos="ADV,DET,PRON">135</feat><!-- _ -->
+    <feat name="PronType" value="Int" upos="ADV,DET,PRON">134</feat><!-- _ -->
     <feat name="PronType" value="Neg" upos="DET,PRON">39</feat><!-- _ -->
     <feat name="PronType" value="Prs" upos="PRON">1493</feat><!-- _ -->
-    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">187</feat><!-- _ -->
+    <feat name="PronType" value="Rel" upos="ADV,DET,PRON">188</feat><!-- _ -->
     <feat name="PronType" value="Tot" upos="DET,PRON">60</feat><!-- _ -->
     <feat name="Reflex" value="Yes" upos="PRON">26</feat><!-- _ -->
     <feat name="Style" value="Coll" upos="PART">1</feat><!-- _ -->
@@ -90,53 +92,54 @@
     <feat name="Voice" value="Pass" upos="VERB">164</feat><!-- _ -->
   </feats>
   <!-- Statistics of universal dependency relations. -->
-  <deps unique="47">
+  <deps unique="48">
     <dep name="acl">131</dep>
-    <dep name="acl:relcl">230</dep>
+    <dep name="acl:relcl">231</dep>
     <dep name="advcl">380</dep>
     <dep name="advcl:relcl">21</dep>
-    <dep name="advmod">1261</dep>
+    <dep name="advmod">1257</dep>
     <dep name="amod">644</dep>
     <dep name="appos">34</dep>
     <dep name="aux">567</dep>
     <dep name="aux:pass">96</dep>
-    <dep name="case">1186</dep>
-    <dep name="cc">541</dep>
+    <dep name="case">1190</dep>
+    <dep name="cc">542</dep>
     <dep name="cc:preconj">5</dep>
     <dep name="ccomp">201</dep>
     <dep name="compound">322</dep>
     <dep name="compound:prt">93</dep>
-    <dep name="conj">567</dep>
-    <dep name="cop">476</dep>
-    <dep name="csubj">59</dep>
+    <dep name="conj">569</dep>
+    <dep name="cop">477</dep>
+    <dep name="csubj">58</dep>
     <dep name="csubj:pass">1</dep>
-    <dep name="dep">20</dep>
+    <dep name="dep">16</dep>
     <dep name="det">1180</dep>
     <dep name="det:predet">17</dep>
     <dep name="discourse">85</dep>
     <dep name="dislocated">4</dep>
     <dep name="expl">98</dep>
-    <dep name="fixed">41</dep>
-    <dep name="flat">49</dep>
+    <dep name="fixed">36</dep>
+    <dep name="flat">48</dep>
     <dep name="goeswith">5</dep>
     <dep name="iobj">57</dep>
     <dep name="mark">727</dep>
-    <dep name="nmod">404</dep>
+    <dep name="nmod">405</dep>
+    <dep name="nmod:desc">5</dep>
     <dep name="nmod:poss">301</dep>
     <dep name="nmod:unmarked">11</dep>
     <dep name="nsubj">1518</dep>
     <dep name="nsubj:outer">30</dep>
     <dep name="nsubj:pass">73</dep>
-    <dep name="nummod">67</dep>
-    <dep name="obj">852</dep>
-    <dep name="obl">710</dep>
+    <dep name="nummod">65</dep>
+    <dep name="obj">851</dep>
+    <dep name="obl">713</dep>
     <dep name="obl:agent">11</dep>
-    <dep name="obl:unmarked">65</dep>
+    <dep name="obl:unmarked">62</dep>
     <dep name="parataxis">123</dep>
     <dep name="punct">1869</dep>
-    <dep name="reparandum">5</dep>
+    <dep name="reparandum">7</dep>
     <dep name="root">895</dep>
     <dep name="vocative">8</dep>
-    <dep name="xcomp">324</dep>
+    <dep name="xcomp">325</dep>
   </deps>
 </treebank>
