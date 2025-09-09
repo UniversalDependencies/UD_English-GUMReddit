@@ -382,6 +382,7 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 Data available since: UD v2.6
 License: CC BY 4.0
 Includes text: no
+Parallel: no
 Genre: blog social
 Lemmas: manual native
 UPOS: converted from manual
