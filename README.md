@@ -298,6 +298,10 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2025-11-01
+  * Changed dep to parataxis for footnotes and citations
+  * Error corrections
+
 * 2025-03-13
   * Added 5 summaries per document
   * Added graded salience annotations
@@ -382,6 +386,7 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 Data available since: UD v2.6
 License: CC BY 4.0
 Includes text: no
+Parallel: no
 Genre: blog social
 Lemmas: manual native
 UPOS: converted from manual
