@@ -5,6 +5,8 @@
 # meta::dateCreated = 2018-09-08
 # meta::dateModified = 2018-09-09
 # meta::genre = reddit
+# meta::modality = written
+# meta::production = informal/spontaneous/public
 # meta::salientEntities = 2 (5*), 7 (5*), 9 (5*), 24 (4), 40 (4*), 1 (3*), 3 (3*), 6 (3*), 34 (3), 61 (3*), 17 (2), 10 (1*), 12 (1*), 32 (1*), 33 (1*), 37 (1*), 43 (1*), 45 (1), 54 (1), 59 (1*), 60 (1*), 75 (1*), 76 (1), 87 (1), 88 (1), 92 (1)
 # meta::sourceURL = https://www.reddit.com/r/Showerthoughts/comments/9e3s9h/humans_are_the_only_species_on_earth_to_try_and/
 # meta::speakerCount = 25
@@ -354,7 +356,7 @@
 11	_	_	ADJ	JJ	Degree=Pos	15	nsubj	15:nsubj	Entity=(46-animal-new-nnnnn-cf7-1-sgl|Lem=_|Len=4
 12	_	_	ADP	IN	_	14	case	14:case	Lem=_|Len=2
 13	_	_	DET	DT	Definite=Def|PronType=Art	14	det	14:det	Entity=(40-animal-giv:act-snsss-cf2-2-coref|Lem=_|Len=3
-14	_	_	NOUN	NNS	Number=Plur	11	obl	11:obl:of	Entity=40)46)|Lem=rat|Len=4|MSeg=rat-s
+14	_	_	NOUN	NNS	Number=Plur	11	nmod	11:nmod:of	Entity=40)46)|Lem=rat|Len=4|MSeg=rat-s
 15	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	3	parataxis	3:parataxis	Lem=exhibit|Len=9|MSeg=exhibit-ed
 16	_	_	ADJ	JJ	Degree=Pos	17	amod	17:amod	Entity=(47-abstract-new-nnnnn-cf8-2-sgl|Lem=_|Len=8
 17	_	_	NOUN	NN	Number=Sing	15	obj	15:obj|23:nsubj	Lem=_|Len=11|MSeg=dis-interest|Negation=Yes
@@ -370,7 +372,7 @@
 27	_	_	NOUN	NN	Number=Sing	28	nsubj	28:nsubj	Entity=50)|Lem=_|Len=4
 28	_	_	VERB	VBD	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	advcl	23:advcl:as	Entity=47)|Lem=decrease|Len=9|MSeg=decreas-ed|SpaceAfter=No
 29	_	_	PUNCT	,	_	30	punct	30:punct	Lem=_|Len=1
-30	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	23	advcl	23:advcl	Discourse=causal-result:30->27:1:lex-indwd-229-_+syn-pres-229-_|Lem=cause|Len=7|MSeg=caus-ing|PDTB=Implicit:Contingency.Cause.Result:thus:_:209-228:229-236
+30	_	_	VERB	VBG	Tense=Pres|VerbForm=Part	23	advcl	23:advcl	Discourse=causal-result:30->27:1:syn-pres-229-_+lex-indwd-229-_|Lem=cause|Len=7|MSeg=caus-ing|PDTB=Implicit:Contingency.Cause.Result:thus:_:209-228:229-236
 31	_	_	DET	DT	Definite=Ind|PronType=Art	32	det	32:det	Entity=(51-event-new-nnnnn-cf9-2-sgl|Lem=_|Len=1
 32	_	_	NOUN	NN	Number=Sing	30	obj	30:obj	Lem=_|Len=8
 33	_	_	ADP	IN	_	36	case	36:case	Lem=_|Len=2
@@ -645,7 +647,7 @@
 # speaker = GUM_reddit_pandas_spk_Q
 # addressee = GUM_reddit_pandas_spk_A
 # text = _ _ _ _ _ _ _ _ _ __
-1	_	_	PRON	WP	PronType=Int	0	root	0:root	Cxn=WhatAbout|CxnElt=1:WhatAbout.W|Discourse=elaboration-additional:59->1:4:ref-prs-1,362-_|Lem=*LOWER*|Len=4
+1	_	_	PRON	WP	Case=Acc|PronType=Int	0	root	0:root	Cxn=WhatAbout|CxnElt=1:WhatAbout.W|Discourse=elaboration-additional:59->1:4:ref-prs-1,362-_|Lem=*LOWER*|Len=4
 2	_	_	ADP	IN	_	4	case	4:case	CxnElt=1:WhatAbout.About|Lem=_|Len=5
 3	_	_	DET	DT	Definite=Def|PronType=Art	4	det	4:det	Entity=(70-abstract-new-nnnnn-cf2-2-coref|Lem=_|Len=3
 4	_	_	NOUN	NN	Number=Sing|Typo=Yes	1	obl	1:obl:about	CorrectForm=AI|CxnElt=1:WhatAbout.N|Entity=70)|Lem=AI|Len=2|XML=<sic ana:::"AI"></sic>
@@ -836,7 +838,7 @@
 5	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	2:ccomp	Cxn=Interrogative-Polar-Indirect|CxnElt=5:Interrogative-Polar-Indirect.Clause|Lem=mean|Len=5|MSeg=mean-s
 6	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	7	nsubj	7:nsubj|14:nsubj	Entity=(76-animal-giv:act-nsnnn-cf2-1-ana)|Lem=_|Len=4
 7	_	_	VERB	VBP	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	ccomp	5:ccomp	Lem=_|Len=2
-8	_	_	ADV	RB	_	7	advmod	7:advmod	Lem=_|Len=9
+8	_	_	ADV	RB	PronType=Tot	7	advmod	7:advmod	Lem=_|Len=9
 9	_	_	ADV	RB	Degree=Pos	8	advmod	8:advmod	Lem=_|Len=4
 10	_	_	PART	TO	_	11	mark	11:mark	Discourse=purpose-goal:75->74:0:syn-inf-453-_|Lem=_|Len=2|PDTB=Implicit:Contingency.Purpose.Arg2-as-goal:in order:_:446-452:453-454
 11	_	_	VERB	VB	VerbForm=Inf	7	advcl	7:advcl:to	Lem=_|Len=4

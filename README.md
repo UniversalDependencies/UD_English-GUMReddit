@@ -325,6 +325,9 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2026-07-10
+  * Add modality and production metadata
+
 * 2026-04-30
   * Added closed-book summaries to dev set documents
   * Error corrections
