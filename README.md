@@ -325,6 +325,10 @@ As a scholarly citation for the GUM corpus as a whole, please use this article (
 
 # Changelog
 
+* 2026-10-27
+  * Production metadata rearranged into modality, formality, context and preparation
+  * Error corrections
+
 * 2026-07-10
   * Add modality and production metadata
 

@@ -1,12 +1,14 @@
 # newdoc id = GUM_reddit_escape
 # global.Entity = GRP-etype-infstat-salience-centering-minspan-link-identity
 # meta::author = reddit community (see URL)
+# meta::context = public
 # meta::dateCollected = 2018-09-12
 # meta::dateCreated = 2017-05-07
 # meta::dateModified = 2017-10-19
+# meta::formality = informal
 # meta::genre = reddit
 # meta::modality = written
-# meta::production = informal/spontaneous/public
+# meta::preparation = spontaneous
 # meta::salientEntities = 1 (5*), 3 (5*), 4 (5*), 10 (4*), 11 (4*), 81 (4*), 83 (4*), 15 (3), 17 (2), 121 (1*)
 # meta::sourceURL = https://www.reddit.com/r/AskReddit/comments/69r98j/escape_the_room_employees_what_is_the_weirdest/
 # meta::speakerCount = 35
@@ -199,7 +201,7 @@
 5	_	_	NOUN	NNS	Number=Plur	11	nsubj	11:nsubj	Entity=24)|Lem=instinct|Len=9|MSeg=instinct-s
 6	_	_	AUX	VBD	Mood=Ind|Number=Plur|Person=3|Tense=Past|VerbForm=Fin	11	cop	11:cop	Lem=be|Len=4
 7	_	_	ADV	RBR	Degree=Cmp	8	advmod	8:advmod	Lem=_|Len=4
-8	_	_	ADV	RB	Degree=Pos	11	advmod	11:advmod	Lem=_|Len=5
+8	_	_	ADV	RB	Degree=Pos	11	advmod	11:advmod	Lem=_|Len=5|MSeg=oft-en
 9	_	_	SCONJ	IN	_	10	mark	10:mark	Lem=_|Len=4
 10	_	_	PART	RB	Polarity=Neg	8	advcl	8:advcl:than	Lem=_|Len=3|Negation=Yes
 11	_	_	ADJ	JJ	Degree=Pos	0	root	0:root	Lem=_|Len=7
@@ -335,7 +337,7 @@
 # addressee = GUM_reddit_escape_spk_B
 # text = _ _ __ _ _ _ _ _ __
 1	_	_	PRON	PRP	Case=Nom|Number=Plur|Person=3|PronType=Prs	3	nsubj	3:nsubj	Discourse=evaluation-comment:31->26:3:lex-indwd-227-_|Entity=(27-abstract-giv:inact-nnnnn-cf2-1-ana)|Lem=*LOWER*|Len=4
-2	_	_	ADV	RB	Degree=Pos	3	advmod	3:advmod	Lem=_|Len=8|MSeg=probab-ly
+2	_	_	ADV	RB	Degree=Pos	3	advmod	3:advmod	Lem=_|Len=8|MSeg=probabl-y
 3-4	__	_	_	_	_	_	_	_	Len=5
 3	_	_	AUX	MD	VerbForm=Fin	0	root	0:root	Lem=will|Len=2
 4	_	_	PART	RB	Polarity=Neg	3	advmod	3:advmod	Lem=not|Len=3|Negation=Yes
@@ -641,7 +643,7 @@
 37	_	_	NOUN	NN	Number=Sing	22	advcl	22:advcl:because	Entity=64)|Lem=_|Len=3
 38	_	_	CCONJ	CC	_	41	cc	41:cc	Discourse=joint-other_m:61->24:3:_|Lem=_|Len=3|PDTB=Explicit:Comparison.Contrast:but:380:343-379:381-397
 39	_	_	PRON	PRP	Case=Nom|Number=Sing|Person=2|PronType=Prs	41	nsubj	41:nsubj|45:nsubj:xsubj|48:nsubj:xsubj|52:nsubj:xsubj	Entity=(67-person-acc:com-nnnnn-cf3-1-ana)|Lem=_|Len=3
-40	_	_	ADV	RB	Degree=Pos	41	advmod	41:advmod	Lem=_|Len=5
+40	_	_	ADV	RB	_	41	advmod	41:advmod	Lem=_|Len=5
 41	_	_	VERB	VBP	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	22	conj	22:conj:but	Lem=_|Len=4
 42	_	_	PART	TO	_	45	mark	45:mark	Lem=_|Len=2
 43	_	_	ADP	IN	_	44	case	44:case	Lem=_|Len=2
@@ -855,7 +857,7 @@
 8-9	__	_	_	_	_	_	_	_	Len=7
 8	_	_	PRON	EX	PronType=Dem	9	expl	9:expl	Discourse=explanation-justify:83->78:2:_|Lem=_|Len=5
 9	_	_	VERB	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	0:root	Cxn=Existential-CopPred-ThereExpl|Lem=be|Len=2
-10	_	_	ADV	RB	Degree=Pos|Polarity=Neg	11	advmod	11:advmod	Lem=_|Len=2|Negation=Yes
+10	_	_	ADV	RB	Polarity=Neg|PronType=Neg	11	advmod	11:advmod	Lem=_|Len=2|Negation=Yes
 11	_	_	ADV	RBR	Degree=Cmp	9	advmod	9:advmod	Lem=long|Len=6|MSeg=long-er
 12	_	_	DET	DT	Definite=Ind|PronType=Art	13	det	13:det	Entity=(89-abstract-giv:act-nnnnn-cf1*-2-coref|Lem=_|Len=1
 13	_	_	NOUN	NN	Number=Sing	9	nsubj	9:nsubj	CxnElt=9:Existential-CopPred-ThereExpl.Pivot|Entity=89)|Lem=_|Len=4|SpaceAfter=No
@@ -1134,7 +1136,7 @@
 42-43	__	_	_	_	_	_	_	_	Len=4
 42	_	_	PRON	PRP	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	45	nsubj	45:nsubj	Discourse=explanation-justify:109->108:0:_|Lem=_|Len=2
 43	_	_	AUX	VBZ	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	45	cop	45:cop	Lem=be|Len=2
-44	_	_	ADV	RB	Degree=Pos	45	advmod	45:advmod	Lem=_|Len=3
+44	_	_	ADV	RB	_	45	advmod	45:advmod	Lem=_|Len=3
 45	_	_	ADJ	JJ	Degree=Pos	41	parataxis	41:parataxis	Lem=_|Len=4|SpaceAfter=No
 46	_	_	PUNCT	.	_	7	punct	7:punct	Lem=_|Len=1
 
