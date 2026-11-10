@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_English-GUMReddit:
-commit 732df6cbae7b4abf3b950e22ec58dc1e9ab9c32c
-Merge: c9fb66c cec04ae
+commit 77035ee55c0aa0c0e0a9da25a556229e420ae569
+Merge: b23cca5 d527de1
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'en_gumreddit'
@@ -19,7 +19,7 @@ Split: Did not find at least 10000 test words.
 Lemmas: '_' is the most frequent lemma.
 Universal POS tags: 17 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 0.8.
-Features: 11490 out of 16364 total words have one or more features.
+Features: 11464 out of 16364 total words have one or more features.
 Features: source of annotation (from README) factor is 0.8.
 Universal relations: 34 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
@@ -27,44 +27,44 @@ Genres: found 2 out of 18 known.
 Availability: README does not say Includes text: yes
 Availability: '_' is the most frequent form.
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUMReddit/en_gumreddit-ud-dev.conllu
-[Line 67 Sent GUM_reddit_macroeconomics-3]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 202 Sent GUM_reddit_macroeconomics-6]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 308 Sent GUM_reddit_macroeconomics-9]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 434 Sent GUM_reddit_macroeconomics-14]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 446 Sent GUM_reddit_macroeconomics-14]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 491 Sent GUM_reddit_macroeconomics-16]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 531 Sent GUM_reddit_macroeconomics-17]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 588 Sent GUM_reddit_macroeconomics-19]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 631 Sent GUM_reddit_macroeconomics-21]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 684 Sent GUM_reddit_macroeconomics-22]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 71 Sent GUM_reddit_macroeconomics-3]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 206 Sent GUM_reddit_macroeconomics-6]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 312 Sent GUM_reddit_macroeconomics-9]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 438 Sent GUM_reddit_macroeconomics-14]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 450 Sent GUM_reddit_macroeconomics-14]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 495 Sent GUM_reddit_macroeconomics-16]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 535 Sent GUM_reddit_macroeconomics-17]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 592 Sent GUM_reddit_macroeconomics-19]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 635 Sent GUM_reddit_macroeconomics-21]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 688 Sent GUM_reddit_macroeconomics-22]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 34
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUMReddit/en_gumreddit-ud-test.conllu
-[Line 102 Sent GUM_reddit_escape-3]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 266 Sent GUM_reddit_escape-8]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 302 Sent GUM_reddit_escape-9]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 338 Sent GUM_reddit_escape-10]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 106 Sent GUM_reddit_escape-3]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 270 Sent GUM_reddit_escape-8]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 306 Sent GUM_reddit_escape-9]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
 [Line 342 Sent GUM_reddit_escape-10]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 370 Sent GUM_reddit_escape-12]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 409 Sent GUM_reddit_escape-14]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 813 Sent GUM_reddit_escape-33]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 1041 Sent GUM_reddit_escape-41]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 1175 Sent GUM_reddit_escape-44]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 346 Sent GUM_reddit_escape-10]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 374 Sent GUM_reddit_escape-12]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 413 Sent GUM_reddit_escape-14]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 817 Sent GUM_reddit_escape-33]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 1045 Sent GUM_reddit_escape-41]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 1179 Sent GUM_reddit_escape-44]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 34
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang en --max-err=10 UD_English-GUMReddit/en_gumreddit-ud-train.conllu
-[Line 338 Sent GUM_reddit_bobby-10]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 577 Sent GUM_reddit_bobby-17]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 667 Sent GUM_reddit_bobby-20]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 744 Sent GUM_reddit_bobby-22]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 756 Sent GUM_reddit_bobby-22]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 813 Sent GUM_reddit_bobby-23]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 877 Sent GUM_reddit_bobby-25]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 894 Sent GUM_reddit_bobby-26]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 1007 Sent GUM_reddit_bobby-30]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
-[Line 1277 Sent GUM_reddit_bobby-40]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 342 Sent GUM_reddit_bobby-10]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 581 Sent GUM_reddit_bobby-17]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 671 Sent GUM_reddit_bobby-20]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 748 Sent GUM_reddit_bobby-22]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 760 Sent GUM_reddit_bobby-22]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 817 Sent GUM_reddit_bobby-23]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 881 Sent GUM_reddit_bobby-25]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 898 Sent GUM_reddit_bobby-26]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 1011 Sent GUM_reddit_bobby-30]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
+[Line 1281 Sent GUM_reddit_bobby-40]: [L3 WARNING verbform-fin-without-mood] Finite verb '_' lacks the 'Mood' feature
 ...suppressing further messages regarding WARNING/MORPHO
 Warnings: 185
 *** PASSED ***
